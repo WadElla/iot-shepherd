@@ -43,6 +43,8 @@ IoT-Shepherd/
 
 ## ⚙️ Installation
 
+> **Note:** This project requires [Ollama](https://ollama.com) for running local LLMs and embedding models. To install Ollama, follow the official guide here: [https://ollama.com/download](https://ollama.com/download). It supports macOS, Linux, and Windows (via WSL).
+
 1. **Clone the repository**
 ```bash
 git clone https://github.com/yourusername/iot-shepherd.git
@@ -60,11 +62,22 @@ conda activate shepherd
 pip install -r requirements.txt
 ```
 
-4. **Start Ollama models**
+4. **Start Ollama Server and Pull Required Models**
+
+First, start the Ollama server (must be running in the background):
+
 ```bash
-ollama run llama3.2
-ollama run nomic-embed-text
+ollama serve
 ```
+
+Then, in a separate terminal, pull the required models:
+
+```bash
+ollama pull llama3:2
+ollama pull nomic-embed-text
+```
+
+✅ Once the server is running and models are pulled, you're ready to run the project. The Python code will automatically connect to the local Ollama API.
 
 ---
 
@@ -97,17 +110,28 @@ python bert_multiclass_train.py
 python bert_multiclass_test.py
 ```
 
-### 6. Generate Remediation Advice from Detected Threats
+### 6. **Generate Remediation Advice from Detected Threats**
 
-**Interactive mode:**
+The system supports two modes of remediation guidance, both powered by context-aware retrieval from IoT manuals:
+
+* **Interactive Mode**: You will be prompted to manually select from the list of detected attacks. For each selected threat, the system uses a Retrieval-Augmented Generation (RAG) pipeline to provide actionable remediation instructions based on the detected metadata.
+
+* **Automated Mode**: The system analyzes the `bert_traffic_report.txt` file, identifies all detected attack types, ranks them by their percentage of total traffic, and auto-generates remediation guidance for each in descending order of urgency.
+
+#### Interactive Mode:
+
 ```bash
 cd ../integration/
 python remediation_orchestrator.py
 ```
 
-**Automated mode:**
+#### Automated Mode:
+
 ```bash
+cd ../integration/
 python remediation_orchestrator.py --auto
 ```
+
+> ✅ Use `--auto` to automatically process all detected threats based on priority, or run without flags to choose interactively at runtime.
 
 ---
