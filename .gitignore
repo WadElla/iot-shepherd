@@ -1,0 +1,16 @@
+# System/editor files
+.DS_Store
+.vscode/
+.idea/
+
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.env
+.venv/
+*.egg-info/
+

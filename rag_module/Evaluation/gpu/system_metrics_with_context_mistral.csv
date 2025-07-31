@@ -1,0 +1,1249 @@
+question,response,average_gpu_utilization_nvml,average_gpu_utilization_smi
+"""Why is Amazon Echo not connecting to Bluetooth speakers?"""," The reason why your Amazon Echo may not be connecting to Bluetooth speakers is because the Bluetooth speaker might not be in pairing mode. To resolve this issue, ensure that your Bluetooth speaker is in pairing mode, open the Alexa app, go to Devices, select your Echo, and try pairing again under Bluetooth Devices. Restarting both devices may also help.",1.2209302325581395,1.2209302325581395
+"""Why is my Amazon Echo not responding to routines?""", The Amazon Echo may not be responding to routines due to incorrect configuration of the routine in the Alexa app. Ensure that all devices involved are powered on and connected to the same network. Try editing and re-saving the routine to resolve the issue.,0.0,0.0
+"""What if Amazon Echo keeps saying Im having trouble understanding?"""," This usually indicates connectivity issues. Ensure your Echo is connected to a stable internet connection. If the issue persists, unplug it for 30 seconds, then plug it back in. If the problem continues, perform a factory reset and set up the device again using the Alexa app.",0.0,0.0
+"""How do I fix Amazon Echo not syncing calendars?"""," To fix Amazon Echo not syncing calendars, open the Alexa app, go to 'Settings,' select 'Calendar & Email,' and follow the prompts to link your calendar account. You may need to unlink and re-link the account. Ensure that the Echo is connected to the internet.",0.0,0.0
+"""How to resolve Amazon Echo network congestion issues?"""," Open the Alexa app, go to Settings, and verify that your network settings are correct. If your Echo is experiencing network congestion, try switching to a different Wi-Fi channel in your router settings. You may also want to disconnect some devices from the network or upgrade your router for better performance.",0.0,0.0
+"""What to do if Amazon Echo does not respond after a recent update?"""," To address the issue of Amazon Echo not responding after a recent update, you should first try unplugging the device for 10 seconds and plug it back in. This step should usually resolve unresponsiveness during updates. If the problem persists, perform a factory reset and set up the device again using the Alexa app as a last resort.",0.0,0.0
+"""How to fix issues with Amazon Echo connected to multiple Alexa accounts?"""," To fix issues with Amazon Echo connected to multiple Alexa accounts, you should unlink and re-link the correct account in the Alexa app. Set up voice profiles for each user to minimize errors and provide personalized responses.",0.0,0.0
+"""Why is my Amazon Echo not discovering my smart home devices?"""," The issue of an Amazon Echo not discovering smart home devices can be due to a few reasons. First, ensure that the smart devices are powered on and connected to the same network as your Echo. Second, use the Alexa app to manually add the devices and check for compatibility issues. Lastly, restart your Echo and the smart devices if needed.",0.0,0.0
+"""Why is my Amazon Echo unable to send messages?"""," The issue with your Amazon Echo not being able to send messages may be due to messaging not being enabled in the Alexa app or incorrect syncing of contacts. Additionally, ensure that the device has internet access and that the Alexa app is updated to the latest version.",0.0,0.0
+"""How to fix Amazon Echos inability to play podcasts?"""," To fix the issue of your Amazon Echo being unable to play podcasts, follow these steps:
+
+1. Verify that the podcast service is properly linked in the Alexa app under Music & Podcasts.
+2. Restart your Echo device.
+3. Try requesting the podcast using a different phrase or service name.",0.0,0.0
+"""How to troubleshoot Amazon Echo failing to connect to a new smart camera?"""," To troubleshoot an Amazon Echo that is failing to connect to a new smart camera, follow these steps:
+
+   1. Make sure the smart camera is compatible with Alexa and properly set up in its respective app.
+   2. Use the Alexa app to add the camera.
+   3. Ensure both the Echo and camera are on the same Wi-Fi network.
+   4. If the issue persists, try restarting both devices.
+   5. If necessary, reset your smart camera to its factory settings and set it up again using the manufacturer's app before adding it to the Alexa app.
+
+These steps should help resolve the issue of your Amazon Echo failing to connect to a new smart camera.",0.0,0.0
+"""How to prevent Amazon Echo from connecting to unknown Bluetooth devices?"""," The answer is: ""Disable Bluetooth pairing when not needed. Open the Alexa app, go to Devices, select your Echo, and manage Bluetooth settings to ensure only recognized devices can connect.""",0.0,0.0
+"""What if Amazon Echo is sharing my calendar information?"""," To stop Amazon Echo from sharing your calendar information, open the Alexa app, go to Settings, then Calendar & Email, and adjust permissions or unlink your calendar to stop sharing sensitive information.",0.0,0.0
+"""How to block Amazon Echo from connecting to new devices without approval?"""," To block Amazon Echo from connecting to new devices without approval, you should disable Automatic Device Detection in the Alexa app by navigating to Devices and adjusting the settings. This will ensure that new devices require manual approval before connecting.",0.0,0.0
+"""How to fix Apple HomePod not playing music?""", The answer is: Make sure the HomePod is connected to Wi-Fi and that your Apple Music subscription is active. Restart the HomePod and ensure the music service is properly linked in the Home app.,0.0,0.0
+"""What if Apple HomePod is not pairing with my iPhone?"""," Answer: Ensure Bluetooth is enabled on your iPhone and that both devices are on the same Wi-Fi network. Restart both the HomePod and your iPhone, and try pairing again.",0.0,0.0
+"""How to resolve Apple HomePod not recognizing voice commands for HomeKit devices?"""," The solution given in the context is: ""Make sure the HomePod is connected to Wi-Fi and that the HomeKit devices are properly linked. Restart the HomePod and retrain the voice recognition settings if necessary.""",0.0,0.0
+"""Why is Apple HomePod not making calls?"""," The reason why the Apple HomePod is not making calls is because it might not be linked to the same Wi-Fi network as your iPhone, and Personal Requests might not be enabled in the Home app. To resolve this issue, restart the HomePod and try making the call again after ensuring both conditions are met.",0.0,0.0
+"""How to resolve Apple HomePod not detecting Apple TV?"""," To resolve the issue of Apple HomePod not detecting Apple TV, you should follow these steps:
+
+1. Ensure both the Apple TV and the HomePod are on the same Wi-Fi network.
+2. Restart both devices.
+3. Use the Home app to re-establish the connection between the Apple TV and the HomePod.",0.0,0.0
+"""How to fix Apple HomePod failing to send messages?""","1. Ensure your iPhone is linked to the same Apple ID and Wi-Fi network as the HomePod.
+2. Enable Personal Requests in the Home app.
+3. Restart the HomePod.
+4. Try sending messages again.",0.0,0.0
+"""What if Apple HomePod is not pausing music on command?"""," If the Apple HomePod is not pausing music on command, ensure that the microphone is not muted and that the HomePod is connected to the internet. Restart the device, and try using a different phrasing for the voice command.",0.0,0.0
+"""What if Apple HomePod is not recognizing commands for multi-room audio?"""," Answer: Ensure all HomePods are on the same Wi-Fi network and logged in with the same Apple ID. Restart all devices, and reconfigure the multi-room setup in the Home app.",0.0,0.0
+"""What if Apple HomePod does not show up in the AirPlay list?"""," Answer: Ensure the HomePod is connected to the same Wi-Fi network as your device. Restart the HomePod, and make sure AirPlay is enabled in the Home app.",0.0,0.0
+"""Why is Apple HomePod not showing song titles while playing music?"""," The issue of Apple HomePod not showing song titles while playing music could be due to the music service not supporting the display of song information or the HomePod not being connected to Wi-Fi. To troubleshoot, ensure that the HomePod is connected to Wi-Fi and that the music service supports displaying song information. Additionally, restart the device and ensure the latest software update is installed.",0.0,0.0
+"""How to fix Apple HomePod not detecting nearby Bluetooth devices?"""," To fix Apple HomePod not detecting nearby Bluetooth devices, follow these steps:
+
+1. Ensure that Bluetooth is enabled on the other device and it is in pairing mode.
+2. Restart both the HomePod and the Bluetooth device.
+3. Try connecting again.",0.0,0.0
+"""How to fix Apple HomePods AirPlay connection dropping frequently?"""," Answer: Ensure the HomePod and AirPlay source are on the same Wi-Fi network with a strong signal. Restart both devices, and reduce network congestion by limiting the number of active devices.",0.0,0.0
+"""Why is Apple HomePod not recognizing commands for multi-room audio?"""," Answer: Ensure all HomePods are on the same Wi-Fi network and logged in with the same Apple ID. Restart all devices, and reconfigure the multi-room setup in the Home app.",0.0,0.0
+"""What if Apple HomePod is not displaying correct location-based updates?"""," Answer: Ensure that location services are enabled in the Home app and that the HomePod is on the correct Wi-Fi network. Restart the device, and verify the location settings.",0.0,0.0
+"""How to disable the drop-in feature on Apple HomePod?"""," To disable the drop-in feature on Apple HomePod, you need to follow these steps:
+
+1. Open the Home app on your iOS device.
+2. Go to Device Settings.
+3. Find the device that is your HomePod.
+4. Disable the Intercom Drop In feature to prevent unexpected access to your HomePod from other linked devices.",0.0,0.0
+"""How to disable third-party app integrations for privacy on Apple HomePod?"""," To disable third-party app integrations for privacy on Apple HomePod, go to the Home app and review your current integrations. For any untrusted apps, you can manage permissions and revoke access. This helps maintain your privacy by preventing unwanted data sharing with third parties.",0.0,0.0
+"""How to disable third-party skill integrations on Apple HomePod?"""," To disable third-party skill integrations on Apple HomePod, open the Home app, navigate to the details of your HomePod device, find the section for third-party services, and toggle off the switch for each integration you want to disable. This helps maintain privacy by preventing unnecessary access to your personal data.",0.0,0.0
+"""How to fix ecobee SmartThermostat not connecting to Wi-Fi?""","1. Ensure the thermostat is connected to the correct Wi-Fi network.
+2. Restart both the thermostat and your phone.
+3. Check if your phone has Bluetooth enabled.",0.0,0.0
+"""How to fix ecobee SmartThermostat that keeps restarting?"""," To fix an Ecobee SmartThermostat that keeps restarting, you should first check if the C-wire is securely connected and power is being supplied from the HVAC system. If necessary, also check the circuit breaker. After verifying the power supply, try resetting the thermostat by holding down the power button for about 10 seconds until it restarts.
+
+If the issue persists, you can try removing and reinstalling the Ecobee SmartThermostat from your Wi-Fi network in the ecobee app. Then, connect back to the Wi-Fi network once again. If the problem still remains, consider contacting Ecobee Support for further assistance.",0.0,0.0
+"""Why is the ecobee SmartThermostat not responding to app commands?"""," The ecobee SmartThermostat might not be responding to app commands if it's not connected to Wi-Fi or if the ecobee app is outdated. To resolve this issue, ensure the thermostat is connected to Wi-Fi and that the ecobee app is updated. Restart both the thermostat and the app.",0.0,0.0
+"""How to fix ecobee SmartThermostat that wont connect to the ecobee app?"""," To fix an ecobee SmartThermostat that won't connect to the ecobee app, ensure the thermostat is connected to Wi-Fi and that your phone has Bluetooth enabled. Restart both the thermostat and the app to resolve the issue.",0.0,0.0
+"""How to fix ecobee SmartThermostat that is showing No Signal?""", Answer: Check that the Wi-Fi network is stable and that the thermostat is within range. Restart the thermostat and reconnect to the network.,0.0,0.0
+"""What if ecobee SmartThermostat is not detecting occupancy?""", Answer: Ensure the thermostat is installed in an area where it can easily detect movement. Increase occupancy sensitivity settings in the ecobee app.,0.0,0.0
+"""How to fix ecobee SmartThermostat that wont power on after a reset?"""," To fix an Ecobee SmartThermostat that won't power on after a reset, you should verify that the C-wire is securely connected and that power is being supplied from the HVAC system. Check the circuit breaker if necessary.",0.0,0.0
+"""How to troubleshoot ecobee SmartThermostat displaying inaccurate humidity readings?"""," To troubleshoot an ecobee SmartThermostat displaying inaccurate humidity readings, verify the thermostat is installed in an area with good airflow, away from moisture sources. Recalibrate the humidity sensor in the ecobee app if needed.",0.0,0.0
+"""How to fix ecobee SmartThermostat that is stuck in Calibrating mode?""", The answer is: Ensure the thermostat is level and securely installed. Restart the thermostat and wait for calibration to complete.,0.0,0.0
+"""What if ecobee SmartThermostat is not connecting to Google Assistant?""", Answer: Ensure both devices are on the same Wi-Fi network. Unlink and relink the thermostat in the Google Home app to establish the connection.,0.0,0.0
+"""What if ecobee SmartThermostat is not connecting to Alexa after Wi-Fi update?"""," ""Unlink and relink the thermostat in the Alexa app, and ensure both devices are connected to the same Wi-Fi network.""",0.0,0.0
+"""How to fix ecobee SmartThermostat that keeps entering Test mode?"""," Answer: Ensure that there are no loose wires, and that all connections are secure. Restart the thermostat to exit Test mode.",0.0,0.0
+"""What if ecobee SmartThermostat is not updating location settings?"""," Answer: Ensure the thermostat is connected to Wi-Fi, and that the mobile app has permission to access location services.",0.0,0.0
+"""Why is ecobee SmartThermostat not sending alerts to the app?"""," Ensure notifications are enabled in the ecobee app, and that the thermostat is connected to a stable Wi-Fi network.",0.0,0.0
+"""How to limit data sharing between ecobee SmartThermostat and other smart devices?"""," To limit data sharing between the ecobee SmartThermostat and other smart devices, manage linked devices in the ecobee app and disable unnecessary data sharing to maintain privacy.",0.0,0.0
+"""How to ensure data privacy when linking ecobee SmartThermostat with new smart devices?"""," To ensure data privacy when linking the ecobee SmartThermostat with new smart devices, review data sharing permissions in the ecobee app and limit access to only necessary information when linking new devices.",0.0,0.0
+"""How to protect ecobee SmartThermostat during a network transition?"""," During a network transition, ensure that the thermostat is only connected to a secure network, and verify Wi-Fi credentials in the app.",0.0,0.0
+"""How to avoid unauthorized ecobee SmartThermostat control via deprecated integrations?"""," To avoid unauthorized ecobee SmartThermostat control via deprecated integrations, periodically review linked integrations in the ecobee app and remove any deprecated systems.",0.0,0.0
+"""How to control linked voice assistants for ecobee SmartThermostat security?"""," To control linked voice assistants for ecobee SmartThermostat security, review linked voice assistants in the ecobee app and remove any that are not secure or no longer in use.",0.0,0.0
+"""How to revoke access for unauthorized mobile devices from ecobee SmartThermostat?"""," The context provided suggests that to revoke access for unauthorized mobile devices from the ecobee SmartThermostat, you should go to ""Connected Devices"" in the ecobee app and remove any untrusted mobile devices that have access to your thermostat.",0.0,0.0
+"""How to ensure secure pairing of ecobee SmartThermostat with smart home devices?"""," To ensure secure pairing of ecobee SmartThermostat with smart home devices, only pair the thermostat with trusted devices. Use the ecobee app to review and confirm that only authorized devices are connected. Also, make sure the Wi-Fi network used for connecting the devices is secured with WPA2 or WPA3 encryption.",0.0,0.0
+"""How to restrict ecobee SmartThermostat pairing to trusted devices only?"""," To restrict ecobee SmartThermostat pairing to trusted devices only, disable pairing mode after setup and review connected devices periodically to ensure only trusted devices are linked.",0.0,0.0
+"""How to prevent unauthorized control of ecobee SmartThermostat via smart hubs?"""," To prevent unauthorized control of the ecobee SmartThermostat via smart hubs, regularly review the integrated systems in the ecobee app and remove any deprecated or suspicious systems. Additionally, ensure that only trusted devices are paired with the thermostat, and disable pairing mode after setup to restrict pairing with unknown devices. Regularly review connected devices to ensure only authorized ones have access to your thermostat.",0.0,0.0
+"""How to ensure ecobee SmartThermostat firmware is updated securely?"""," To ensure that the ecobee SmartThermostat firmware is updated securely, follow these steps:
+
+   1. Connect the thermostat to a secure network. Avoid public networks to prevent potential security risks during the update process.
+
+   2. Before starting the update, make sure your Wi-Fi network has WPA2 or WPA3 encryption for added security.
+
+   3. Use the ecobee app to initiate the firmware update on your thermostat if needed.
+
+   4. During the update process, ensure that no unauthorized devices have access to your thermostat by managing remote access settings on the app. Disable remote access when it is not needed to enhance security.
+
+By following these steps, you can help secure your ecobee SmartThermostat during a firmware update and protect your device from potential threats.",0.0,0.0
+"""What if Google Nest Hub is not showing calendar events?"""," To resolve the issue of Google Nest Hub not showing calendar events, verify that your Google Calendar is linked in the Google Home app. Ensure calendar permissions are enabled. If the problem persists, restart the Nest Hub.",0.0,0.0
+"""How to resolve Google Nest Hub not detecting my phone?"""," Answer: Ensure Bluetooth is enabled on your phone and that both devices are on the same Wi-Fi network. Restart the phone and the Nest Hub, and try pairing them again in the Google Home app.",0.0,0.0
+"""How to fix Google Nest Hub not connecting to Chromecast?"""," To fix Google Nest Hub not connecting to Chromecast, follow these steps:
+
+1. Ensure both the Nest Hub and Chromecast are on the same Wi-Fi network.
+2. Restart both devices.
+3. Make sure the Google Home app is updated.
+4. Re-link the Chromecast to your Google account if necessary.",0.0,0.0
+"""What if Google Nest Hub is not showing upcoming events?""", Answer: Verify that your Google Calendar is linked in the Google Home app. Ensure calendar permissions are enabled.,0.0,0.0
+"""How to resolve Google Nest Hub freezing during video playback?"""," ""If the device freezes during video playback, restart the Nest Hub by unplugging it for 10 seconds. Ensure your internet connection is stable, and try lowering the video quality to reduce buffering issues.""",0.0,0.0
+"""Why is Google Nest Hub not connecting to my TV?"""," The reason why your Google Nest Hub is not connecting to your TV could be due to incompatibility between the two devices, or they might not be on the same Wi-Fi network. To resolve this issue, ensure that both your TV and the Google Nest Hub are on the same Wi-Fi network. Additionally, make sure that your TV is compatible with Google Assistant. Use the Google Home app to link the TV, and restart both devices if they fail to connect.",0.0,0.0
+"""What if Google Nest Hub is not responding to broadcast messages?"""," ""Make sure the Nest Hub is connected to the internet and that broadcast functionality is enabled in the Google Home app. Restart the device if it still doesn't respond to broadcasts.""",0.0,0.0
+"""Why is Google Nest Hub not connecting to smart locks?"""," The given context does not directly answer why Google Nest Hub might not be connecting to smart locks. However, it suggests that the issue could be due to the smart lock being incompatible with Google Assistant or both devices not being on the same Wi-Fi network. To troubleshoot this issue, you should check if your smart lock is compatible with Google Assistant and ensure both devices are connected to the same network. If the problem persists, try re-linking the lock in the Google Home app and restarting both devices.",0.0,0.0
+"""What if Google Nest Hub is not connecting to my printer?"""," Answer: ""Ensure your printer is compatible with Google Assistant and on the same Wi-Fi network. Use the Google Home app to link the printer, and restart both devices if they fail to connect.""",0.0,0.0
+"""Why is Google Nest Hub showing the wrong location?"""," Based on the provided context, it appears that if a Google Nest Hub is showing the wrong location, the user should open the Google Home app, go to Device Settings, and update the location information. Restarting the Nest Hub is also recommended to refresh location-based features such as weather and traffic.",0.0,0.0
+"""Why is Google Nest Hub not playing audio from Google Podcasts?"""," Answer: Ensure Google Podcasts is linked in the Google Home app. Restart the device, and verify that the Nest Hub is connected to the same Wi-Fi network as your phone.",0.0,0.0
+"""How to disable Google Nest Hubs ability to remember connected Bluetooth devices?"""," To disable Google Nest Hub's ability to remember connected Bluetooth devices, follow these steps:
+
+1. Open the Google Home app on your smartphone or tablet.
+2. Select your device (Google Nest Hub).
+3. Navigate to 'Device Settings'.
+4. Remove connected Bluetooth devices from the list to prevent automatic reconnections.",0.0,0.0
+"""How to manage device access logs on Google Nest Hub for security?"""," To manage device access logs on Google Nest Hub for security, use the Google Home app to review access logs and manage connected devices. This helps identify unauthorized devices and maintain security.",0.0,0.0
+"""How to prevent Google Nest Hub from accessing linked payment methods?"""," To prevent Google Nest Hub from accessing linked payment methods, open the Google Home app, go to Payments, and unlink any payment methods to prevent unauthorized purchases via Google Assistant.",0.0,0.0
+"""Why should I regularly check linked devices on Google Nest Hub?"""," Regularly checking linked devices on Google Nest Hub ensures that only authorized devices have access, helping to identify and remove unauthorized connections. This practice enhances the security of your device by maintaining a list of trusted users and devices.",0.0,0.0
+"""Why is Honeywell thermostat not detecting the HVAC system?"""," The Honeywell thermostat may not be detecting the HVAC system if the connections are improper or the thermostat is not compatible with the HVAC system. Ensure that all connections are properly installed and that the thermostat is configured for the correct system type (heat pump, conventional, etc.). If necessary, run the system setup in the Honeywell app again to reconfigure it for your specific HVAC system.",0.0,0.0
+"""Why is Honeywell thermostat not updating firmware?"""," The Honeywell thermostat may not update its firmware because it's not connected to Wi-Fi, or the firmware updates are not being pushed automatically. You can restart the thermostat to prompt the update.",0.0,0.0
+"""How to fix Honeywell thermostat not showing outdoor temperature?"""," The Honeywell thermostat may not be showing the outdoor temperature because it requires internet access to display this information. To troubleshoot this issue, ensure that your thermostat is connected to Wi-Fi. If it's already connected and you're still experiencing problems, try restarting the thermostat by removing it from the wall and reconnecting it.",0.0,0.0
+"""Why is Honeywell thermostat showing no power to the RH wire?"""," The Honeywell thermostat might be showing no power to the RH wire because there could be an issue with its connection or the HVAC systems circuit breaker might have been tripped. To troubleshoot, you should check the RH wire connection and ensure the HVAC systems circuit breaker is not tripped. Additionally, use a multimeter to check for voltage on the wire.",0.0,0.0
+"""How to troubleshoot Honeywell thermostat that is unresponsive after a firmware update?"""," The given context does not provide a specific solution for a thermostat that becomes unresponsive after a firmware update, but it suggests some general troubleshooting steps. Here's how you can approach this issue:
+
+1. Restart the thermostat: Remove it from the wall and reconnect it following the installation instructions to ensure connections are properly installed. After reconnection, leave it for a few minutes before checking if it responds.
+2. Check firmware update status: Ensure the Firmware update was successfully applied. In some cases, the thermostat may need a restart to complete the process or to prompt another attempt at updating the firmware.",0.0,0.0
+"""What if Honeywell thermostat is not detecting a C-wire?""", Solution: Ensure the C-wire is properly connected to the thermostat and providing power. Use a multimeter to check the wire for voltage.,0.0,0.0
+"""How to troubleshoot Honeywell thermostat that is not saving schedule changes?"""," Answer: Ensure that the thermostat is connected to Wi-Fi and that changes are saved in the Honeywell app. Make sure that the thermostat is compatible with the HVAC system, and check connections to ensure they are properly installed.",0.0,0.0
+"""What if Honeywell thermostat is not displaying fan control options?"""," Answer: Check the wiring to ensure the G-wire is properly connected. If the fan control option is still missing, restart the thermostat.",0.0,0.0
+"""How to troubleshoot Honeywell thermostat that is not recognizing system type?"""," Answer: Ensure the thermostat is configured for the correct system type (heat pump, conventional, etc.). Re-run the system setup in the Honeywell app.",0.0,0.0
+"""How to protect Honeywell thermostat from unauthorized app updates?"""," Answer: ""Only download Honeywell app updates from official app stores to prevent unauthorized software installations.""",0.0,0.0
+"""How to avoid unauthorized Honeywell thermostat control via deprecated integrations?"""," To avoid unauthorized Honeywell thermostat control via deprecated integrations, you should periodically review the linked integrations in the Honeywell app and remove any deprecated systems to maintain security. Only keep and use the current, supported integrations for control of your Honeywell thermostat.",0.0,0.0
+"""How to secure Honeywell thermostat firmware updates?"""," To secure Honeywell thermostat firmware updates, keep the thermostat connected to a secure, password-protected Wi-Fi network to prevent unauthorized interference during updates. The firmware updates are automatically enabled by default in most cases, but you can prompt an update by restarting the thermostat and ensuring it is connected to Wi-Fi.",0.0,0.0
+"""How to prevent unauthorized mobile devices from accessing Honeywell thermostat?"""," To prevent unauthorized mobile devices from accessing the Honeywell thermostat, review the list of connected devices in the Honeywell app and remove any unauthorized devices. Additionally, disable pairing mode after setup to prevent unwanted device connections.",0.0,0.0
+"""How to secure Honeywell thermostat after updating Wi-Fi credentials?"""," To secure Honeywell thermostat after updating Wi-Fi credentials, reconfigure the thermostat to connect to the new secure network and verify all linked devices are still authorized.",0.0,0.0
+"""How to protect Honeywell thermostat from being controlled by unauthorized apps?"""," To protect the Honeywell thermostat from being controlled by unauthorized apps, you should review the list of linked devices in the Honeywell app and remove any that are unrecognized or not trusted. This will help ensure data privacy and prevent unauthorized access to your thermostat settings.",0.0,0.0
+"""How to resolve Kasa Smart Bulb not responding to Google Assistant?""", Ensure that Google Assistant is linked to your TP-Link account. Restart both the smart bulb and the Google Assistant device.,0.0,0.0
+"""Why is Kasa Smart Bulb flickering?"""," The Kasa Smart Bulb may be flickering due to instability in power or if it's connected to a dimmer switch. To troubleshoot, check if the bulb is receiving stable power and ensure that it isn't connected to a dimmer switch. Also, update the firmware through the Kasa app.",0.0,0.0
+"""How to fix Kasa Smart Bulb not working with Alexa after an update?"""," To fix a Kasa Smart Bulb not working with Alexa after an update, follow these steps:
+
+   1. Re-link the Kasa skill in the Alexa app.
+
+   2. Ensure the bulb is connected to Wi-Fi.
+
+   3. Restart the Alexa device and the Kasa Smart Bulb.
+
+   4. After restarting, try controlling the bulb using voice commands through Alexa again.",0.0,0.0
+"""What if Kasa Smart Bulb is not changing colors when using voice commands?"""," To troubleshoot a Kasa Smart Bulb that's not changing colors when using voice commands, follow these steps:
+
+1. Ensure the voice assistant (such as Google Home or Amazon Alexa) is linked correctly and the bulb is named appropriately.
+2. Restart the voice assistant device and the smart bulb.
+3. Verify that the voice assistant has the correct control over the bulb, and it's set to change colors when receiving voice commands.",0.0,0.0
+"""How to troubleshoot Kasa Smart Bulb that is not updating firmware?""","1. Ensure the bulb is connected to a stable Wi-Fi network and that the Kasa app is up to date.
+2. Restart the bulb and try the update again.",0.0,0.0
+"""How to fix Kasa Smart Bulb that wont link with Google Home?""", Answer: Ensure the TP-Link account is linked to Google Home and that the bulb is connected to the Wi-Fi network. Restart both devices and try again.,0.0,0.0
+"""Why is Kasa Smart Bulb not responding after a Wi-Fi extender is removed?"""," The Kasa Smart Bulb may not respond after a Wi-Fi extender is removed because it was previously connected to the extended network, and now it needs to be within range of the main router. Ensure the bulb is within range of the main router, restart the bulb, and reconnect it through the Kasa app if needed.",0.0,0.0
+"""Why is Kasa Smart Bulb not following automation schedules after firmware update?"""," The Kasa Smart Bulb may not be following automation schedules after a firmware update due to incorrect configuration of the automation schedules in the Kasa app. Restart the bulb and verify that the firmware update completed successfully. If needed, ensure the automation schedules are correctly configured in the Kasa app.",0.0,0.0
+"""How to troubleshoot Kasa Smart Bulb that wont turn on after a firmware rollback?"""," To troubleshoot a Kasa Smart Bulb that won't turn on after a firmware rollback, follow these steps:
+
+1. Ensure the bulb is connected to a stable power source and not connected to a dimmer switch.
+2. Perform a factory reset by turning the bulb on and off three times until it blinks rapidly, indicating a successful reset.
+3. Open the Kasa app, tap 'Add Device,' and follow the prompts to connect the bulb to your Wi-Fi network again.
+4. After reconnection, verify if the firmware update completed successfully. If not, try updating the Firmware through the Kasa app.",0.0,0.0
+"""How to protect Kasa Smart Bulb from cyber attacks?"""," To protect the Kasa Smart Bulb from cyber attacks, it is recommended to regularly update your Kasa Smart Bulb Firmware and app to patch any security vulnerabilities. Additionally, keep your Firmware updated, use a strong password, enable WPA3 encryption on your Wi-Fi, and activate two-factor authentication for your TP-Link account.",0.0,0.0
+"""How to restrict Kasa app access to specific devices?"""," To restrict Kasa app access to specific devices, you can manage the device sharing settings within the Kasa app. Here's how:
+
+1. Open the Kasa app on your device.
+2. Navigate to the Device List.
+3. Select the device for which you want to restrict access.
+4. Go to 'Device Settings.'
+5. Tap on 'Device Sharing.'
+6. Enter the email address of the person who should have access to this specific device.
+7. Save the changes to complete the process.
+
+By doing so, you are ensuring that only the specified email addresses can control the selected devices through the Kasa app.",0.0,0.0
+"""How to ensure Kasa system is secure after adding new devices?"""," To ensure Kasa system is secure after adding new devices, you should update the Firmware on newly added devices and adjust privacy settings in the Kasa app to ensure system security.",0.0,0.0
+"""How to prevent Kasa Smart Bulb from being hacked?"""," To prevent Kasa Smart Bulb from being hacked, follow these steps:
+
+1. Keep your Firmware updated. TP-Link releases patches to fix security vulnerabilities, so regularly check for Firmware updates in the Kasa app and update whenever a new version is available.
+2. Use a strong password for your TP-Link account.
+3. Enable WPA3 encryption on your Wi-Fi network.
+4. Activate two-factor authentication for your TP-Link account.
+5. Keep your device's privacy settings in check by reviewing the permissions granted to smart hubs in the Kasa app and disabling any that seem excessive or unnecessary.",0.0,0.0
+"""How to protect Kasa Smart Bulb firmware updates from unauthorized changes?""", Update Firmware via the Kasa app while connected to a secure network to prevent unauthorized changes.,0.0,0.0
+"""How to prevent unauthorized smart hubs from controlling Kasa Smart Bulb?"""," The question asks for a way to prevent unauthorized smart hubs from controlling the Kasa Smart Bulb. According to the given context, one way is to disable auto-pairing and only manually add trusted hubs to your Kasa system.",0.0,0.0
+"""How to maintain Kasa system integrity after network changes?"""," To maintain Kasa system integrity after network changes, you should reconFigure all bulbs in the Kasa app after the network changes to ensure they are connected to a secure network.",0.0,0.0
+"""How to manage privacy when linking Kasa Smart Bulb with smart hubs?"""," To manage privacy when linking a Kasa Smart Bulb with smart hubs, review the permissions granted to smart hubs in the Kasa app and disable any that seem excessive or unnecessary.",0.0,0.0
+"""How to check for vulnerabilities in Kasa Smart Bulb firmware?"""," To check for vulnerabilities in Kasa Smart Bulb Firmware, regularly check for Firmware updates in the Kasa app as TP-Link releases patches to fix security vulnerabilities. Update the Firmware whenever a new version is available.",0.0,0.0
+"""How to revoke voice assistant access to Kasa Smart Bulbs for privacy?"""," To revoke voice assistant access to Kasa Smart Bulbs for privacy, you can adjust the settings in the Kasa app. Although the provided context does not explicitly mention this action, a similar approach is suggested in the context of Philips Hue:
+
+   ""How to control what information is shared between Philips Hue and other smart devices?""
+   ""Use the Hue app to manage linked devices and adjust privacy settings to limit the information shared between Philips Hue and other smart devices.""
+
+Following a similar approach, you can use the Kasa app to manage your linked devices and adjust privacy settings to control what information is shared between your Kasa Smart Bulbs and other devices.",0.0,0.0
+"""Why is LIFX bulb not reconnecting automatically after a network drop?"""," The reason why the LIFX bulb may not be reconnecting automatically after a network drop could be due to a weak and unstable Wi-Fi signal. To troubleshoot, ensure the Wi-Fi signal is strong and stable. Additionally, restart the LIFX bulb and consider assigning a static IP to the bulb for a more reliable connection.",0.0,0.0
+"""How to fix LIFX bulb that is not appearing in HomeKit?""", Answer: Ensure the LIFX bulb is HomeKit compatible and that it is connected to the same Wi-Fi network as your iOS device. Restart the Home app and try adding the bulb again.,0.0,0.0
+"""How to resolve LIFX bulb that is not working with IFTTT?"""," To resolve a LIFX bulb that is not working with IFTTT, ensure the LIFX service is linked to IFTTT and that the applets are configured properly. Restart the bulb and re-authorize the IFTTT applets if necessary.",0.0,0.0
+"""How to resolve LIFX bulb that is not syncing with motion sensor commands?""","1. Ensure the motion sensor is compatible with LIFX and that it is properly linked.
+2. Restart both the sensor and the LIFX bulb if syncing issues persist.",0.0,0.0
+"""How to resolve LIFX bulb that wont change brightness via Google Home?""", Ensure the Google Home app is linked to the LIFX account and that the bulb is connected to Wi-Fi. Restart both devices and try adjusting the brightness again.,0.0,0.0
+"""How to troubleshoot LIFX bulb that is not following app automations?""","1. Verify that the automation is correctly configured in the LIFX app and that the bulb is connected to Wi-Fi.
+2. Restart the bulb if it is not responding.",0.0,0.0
+"""How to prevent unauthorized pairing of LIFX bulbs?""", Use the LIFX app to disable pairing mode after setup to prevent unauthorized devices from connecting to your bulbs.,0.0,0.0
+"""How to manage linked accounts in the LIFX app for security?"""," The answer is: ""Regularly review linked accounts under Settings in the LIFX app and remove any accounts that are no longer in use or trusted.""",0.0,0.0
+"""How to restrict LIFX app access to specific devices?"""," To restrict LIFX app access to specific devices, only install the LIFX app on trusted devices and regularly review connected devices under Settings in the LIFX app.",0.0,0.0
+"""How to prevent LIFX bulb from being controlled by unauthorized smart speakers?"""," To prevent a LIFX bulb from being controlled by unauthorized smart speakers, you should unlink any smart speakers that are not authorized to control your LIFX bulb through the LIFX app or the respective voice assistant app.",0.0,0.0
+"""How to prevent unauthorized voice commands from controlling LIFX bulbs?"""," To prevent unauthorized voice commands from controlling LIFX bulbs, ensure that only trusted voice assistants are linked to your LIFX account, and review linked devices in the app.",0.0,0.0
+"""How to maintain LIFX system integrity after network changes?"""," To maintain LIFX system integrity after network changes, you should perform a factory reset on the lights and then reconnect them using the LIFX app to the new Wi-Fi network. After the reset, ensure that the firmware of all your lights is up to date. This will help in restoring the system's functionality and ensuring it operates smoothly on the new network.",0.0,0.0
+"""How to fix Nest Thermostat not detecting the HVAC system?"""," ""Verify that the G wire is properly connected, and ensure the HVAC system is compatible. Use the Nest app to run a system test.""",0.0,0.0
+"""How to fix Nest Thermostat Wi-Fi disconnecting frequently?"""," To fix a Nest Thermostat that is frequently disconnecting from Wi-Fi, you should try the following steps:
+
+1. Ensure your Wi-Fi network is functioning properly and within range of the thermostat.
+2. Restart both the router and thermostat to restore connectivity.
+3. If the issue persists, consider resetting the thermostat's network settings and reconnect it to the Wi-Fi using updated credentials. Ensure the network is a 2.4GHz band.
+4. Verify that there are no interferences near the thermostat or router that might be causing disruptions in the Wi-Fi signal.
+5. Check if any software updates are available for the Nest Thermostat and update it accordingly.",0.0,0.0
+"""What if the Nest Thermostat is not recognizing the heating system?"""," In case the Nest Thermostat is not recognizing the heating system, you should verify that the Rc (Red) wire is properly connected. Additionally, ensure that the heating settings are enabled in the Nest app.",0.0,0.0
+"""How to fix Nest Thermostat that is showing Low Battery?""", Check the C-wire connection or use a Nest Power Connector to ensure the thermostat is receiving enough power to charge the battery.,0.0,0.0
+"""What if Nest Thermostat is not triggering the fan when needed?""", Answer: Verify that the fan settings are configured properly in the Nest app and ensure that all wiring connections are secure.,0.0,0.0
+"""How to fix Nest Thermostat that wont power on after installation?""", Answer: Ensure all wiring connections are secure and that power is being supplied. Check the circuit breaker and C-wire connection if necessary.,0.0,0.0
+"""How to fix Nest Thermostat that keeps losing power?"""," The issue of a Nest Thermostat keeping losing power can be resolved by verifying that the C-wire is properly connected and that the HVAC system is providing consistent power. If necessary, use a Nest Power Connector to ensure proper power supply.",0.0,0.0
+"""How to troubleshoot Nest Thermostat not recognizing the fan system?"""," Answer: Verify that the G wire is properly connected, and ensure the fan settings are enabled in the Nest app.",0.0,0.0
+"""What if Nest Thermostat is not displaying the correct humidity level?""", Answer: Verify that the thermostat is installed in a location with good airflow. Restart the thermostat or recalibrate the humidity sensor in the Nest app.,0.0,0.0
+"""How to fix Nest Thermostat that wont connect after changing the Wi-Fi password?"""," To fix a Nest Thermostat that won't connect after changing the Wi-Fi password, you need to reset the thermostat's network settings and reconnect to the Wi-Fi using the updated credentials. Ensure the network is a 2.4GHz band.",0.0,0.0
+"""Why is Nest Thermostat not connecting to Wi-Fi after a power outage?"""," The Nest Thermostat may not connect to Wi-Fi after a power outage because the Wi-Fi network might not be functioning or the thermostat could be out of range. To restore connectivity, ensure the Wi-Fi network is working, restart both the thermostat and router, and check if the thermostat is within range.",0.0,0.0
+"""How to prevent unauthorized pairing of Nest Thermostat?"""," To prevent unauthorized pairing of a Nest Thermostat, you should disable pairing mode after setup. Periodically review the list of linked accounts in the Nest app to ensure security.",0.0,0.0
+"""How to restrict Nest Thermostat integration with deprecated systems?"""," To restrict Nest Thermostat integration with deprecated systems, go to Linked Apps in the Nest app and disable integration with any deprecated or untrusted systems to enhance security.",0.0,0.0
+"""How to protect Nest Thermostat from unauthorized smart hub integration?"""," To protect the Nest Thermostat from unauthorized smart hub integration, only integrate your Nest Thermostat with trusted smart hubs and review linked accounts periodically to ensure security.",0.0,0.0
+"""How to secure Nest Thermostat after network security updates?""", Answer: Reconfigure the Nest Thermostat after applying network security updates to ensure it remains securely connected.,0.0,0.0
+"""How to restrict guest network access to Nest Thermostat?"""," To restrict guest network access to your Nest Thermostat, keep the thermostat on a non-guest network. This means it should be connected to the main network that is password protected and not accessible by guests. In cases where you wish to allow limited access, consider creating a separate, restricted network for smart devices.",0.0,0.0
+"""How to avoid phishing attempts targeting Nest Thermostat users?"""," To avoid phishing attempts targeting Nest Thermostat users, only update account information and settings via the official Nest app or website. Avoid clicking on suspicious links related to Nest.",0.0,0.0
+"""How to manage Nest Thermostat user access after an account change?"""," Answer: Use the Nest app to update user access after changing the main account, ensuring only trusted users have permissions.",0.0,0.0
+"""How to revoke third-party permissions after unlinking Nest Thermostat from smart home systems?"""," To revoke third-party permissions after unlinking your Google Nest Thermostat from a smart home system, you should:
+
+   1. Unlink the device from the smart home system following the instructions provided by the respective platform (e.g., Amazon Alexa, Apple HomeKit, etc.)
+
+   2. Review the connected apps or services in your Google Home app to identify any third-party connections related to the Nest Thermostat.
+
+   3. Remove the third-party connection(s) by disabling or deleting each of them as appropriate. This process will help ensure that no unwanted permissions are granted to unauthorized applications.
+
+   4. For added security, you may want to change your Wi-Fi password, review your activity logs, and update your device's firmware regularly to maintain the best possible protection for your Google Nest Thermostat.",0.0,0.0
+"""How to protect Nest Thermostat from unauthorized app updates?"""," To protect the Nest Thermostat from unauthorized app updates, you should only download and install updates through the official Nest app. This ensures that the updates are authorized and safe.",0.0,0.0
+"""How to prevent unauthorized firmware updates on Nest Thermostat?"""," To prevent unauthorized firmware updates on a Nest Thermostat, update the thermostat Firmware only through the official Nest app as updates from other sources may not be authorized or safe.",0.0,0.0
+"""How to ensure that Nest Thermostat software is up to date with security patches?""", Answer: Enable automatic updates in the Nest app to ensure the thermostat always has the latest security patches installed.,0.0,0.0
+"""How to manage Nest Thermostat linked devices after upgrading your router?""", Answer: Reconnect the thermostat to the new router and review linked devices in the Nest app to ensure security is maintained.,0.0,0.0
+"""How to prevent Nest Thermostat from being controlled by deprecated mobile devices?"""," To prevent the Nest Thermostat from being controlled by deprecated mobile devices, use the Nest app to remove any deprecated mobile devices from the Connected Devices list.",0.0,0.0
+"""Why are my Philips Hue lights unreachable in the app?"""," ""Check the connection of your Philips Hue Bridge and ensure it is properly connected to the network. Also, verify that all your lights are within range of the bridge and check their status in the Hue app.""",0.0,0.0
+"""How to resolve Philips Hue lights not syncing with music?""", Answer: Make sure the Sync feature is enabled in the Hue app. Ensure all devices are on the same Wi-Fi network and update the Hue Sync software if needed.,0.0,0.0
+"""How to fix delayed response from Philips Hue lights?""", Answer: Ensure the lights are within range of the Hue Bridge and that the network connection is stable. Reduce network congestion by limiting connected devices.,0.0,0.0
+"""Why is the Philips Hue Bridge light flashing?"""," The Philips Hue Bridge light may be flashing due to a network issue. To resolve this, restart the bridge and the router, and ensure that the bridge is properly connected via ethernet.",0.0,0.0
+"""How to resolve Philips Hue lights not responding to motion sensors?""", Answer: Ensure the motion sensor is linked to the Hue Bridge and within range of the lights. Replace the sensor batteries and check the configuration in the Hue app.,0.0,0.0
+"""How to resolve Philips Hue lights not working after a firmware update?"""," Restart the Hue Bridge and the affected lights. If the problem persists, perform a factory reset on the lights and re-add them through the Hue app.",0.0,0.0
+"""What if Philips Hue lights are not pairing with the new bridge?""", Solution: Reset the lights manually and add them to the new Philips Hue Bridge through the app. Ensure the bridge is properly connected to the network.,0.0,0.0
+"""What if Philips Hue lights are not grouping correctly in the app?""", Answer: Use the Hue app to delete the existing group and recreate it. Ensure all the lights are within range and properly linked to the bridge.,0.0,0.0
+"""Why are Philips Hue lights not turning on after a power cycle?""", Answer: Check that the Power On Behavior setting is configured correctly in the Hue app. Restart the bridge and ensure the lights are properly connected.,0.0,0.0
+"""What if Philips Hue lights are not responding to Siri commands after a firmware update?""", Response: Restart both the Hue Bridge and your HomeKit device. Make sure the Firmware update was successful and verify the Siri setup in the Home app.,0.0,0.0
+"""How to fix Philips Hue lights that are not turning on with motion detection?"""," To fix Philips Hue lights that are not turning on with motion detection, ensure the motion sensor is correctly linked to the Hue Bridge and that the lights are within range. Update the Hue app and replace the motion sensor batteries if needed.",0.0,0.0
+"""What if Philips Hue lights are not dimming when using the Hue Dimmer Switch?""", Restart both the Hue Bridge and your Hue Dimmer Switch. Ensure the Dimmer Switch is properly linked to the Hue Bridge and within range of the lights. Replace the batteries and update the Hue app.,0.0,0.0
+"""Why are Philips Hue lights not reconnecting after a power outage?"""," ""Restart the Hue Bridge and check the Power On Behavior setting in the Hue app. Ensure the bridge and lights are connected to the same network.""",0.0,0.0
+"""How to fix Philips Hue lights that are not turning on with smart button commands?""", Answer: Ensure the smart button is properly linked to the Hue Bridge and that the lights are within range. Replace the buttons batteries if needed and update the Hue app.,0.0,0.0
+"""How to fix Philips Hue lights that are not responding after being reset?""", Use the Hue app to re-add the lights after resetting them. Ensure the Hue Bridge is updated and that the lights are within range.,0.0,0.0
+"""How to unlink Philips Hue from smart speakers for privacy reasons?"""," Use the Hue app to go to Settings > Voice Assistants and unlink any smart speakers, such as Amazon Echo or Google Nest.",0.0,0.0
+"""How to prevent Philips Hue from sharing usage data with connected services?"""," To prevent Philips Hue from sharing usage data with connected services, go to Privacy Settings in the Hue app and turn off data sharing with connected services.",0.0,0.0
+"""How to ensure Philips Hue firmware updates are secure?""", Always perform Firmware updates through the official Hue app while connected to a secure network to avoid compromised updates.,0.0,0.0
+"""How to prevent Philips Hue from automatically connecting to new devices?"""," To prevent Philips Hue from automatically connecting to new devices, use the Hue app to disable automatic discovery of new devices and add only trusted devices manually.",0.0,0.0
+"""How to limit voice assistant integration with Philips Hue for security?"""," To limit voice assistant integration with Philips Hue for security reasons, use the Hue app to unlink any voice assistants that you do not use. This reduces exposure to potential security risks.",0.0,0.0
+"""How to prevent Philips Hue from being added to unauthorized smart hubs?""", Disable automatic pairing in the Hue app and manually authorize any new smart hub connections.,0.0,0.0
+"""How to control what information is shared between Philips Hue and other smart devices?""", Use the Philips Hue app to manage linked devices and adjust privacy settings to limit the information shared between Philips Hue and other smart devices.,0.0,0.0
+"""How to ensure Philips Hue system integrity after a network change?"""," To ensure Philips Hue system integrity after a network change, update your Hue Bridge and reconnect all devices through a secure network.",0.0,0.0
+"""How to manage security settings after adding new Philips Hue lights?""", Use the Philips Hue app to immediately update the Firmware for any new lights and review user permissions to maintain consistent security across your system.,0.0,0.0
+"""How to ensure that Philips Hue system is not controlled via unauthorized voice assistants?"""," To ensure that the Philips Hue system is not controlled via unauthorized voice assistants, follow these steps:
+
+1. Use the Hue app to unlink any voice assistants that you do not use, as this will reduce exposure to potential security risks.
+2. Enable manual authorization for new smart hub connections in the Hue app to prevent Philips Hue from being added to unauthorized smart hubs.
+3. In the Hue app, review and manage third-party integrations, disabling any that are not necessary or are from untrusted sources to maintain security.
+4. Use the Hue app to review all linked devices and remove any unfamiliar connections to maintain control over your smart lighting system.",0.0,0.0
+"""Why is TP-Link smart plug not appearing in Google Home?"""," The TP-Link smart plug might not appear in Google Home due to a few reasons, such as the device not being linked to your Google account or the plug not being connected to Wi-Fi. To resolve this issue, ensure that the plug is connected to Wi-Fi and reconnect it with your Google Home device by following the steps outlined in the initial context:
+
+1. Restart both the Google Home device and the plug.
+2. After restarting, check if the TP-Link smart plug appears in the Google Home app. If not, link the TP-Link account with the Google Home app as necessary.
+
+If the problem still persists, it could be due to compatibility issues or other factors specific to your network setup, which are beyond the provided context. In such cases, you may need to consult additional resources or contact TP-Link support for further assistance.",0.0,0.0
+"""What if TP-Link smart plug is not connecting after a firmware update?"""," ""Restart the plug and ensure it is within range of the router. If the issue persists, reset the plug and reconnect it to the Kasa app.""",0.0,0.0
+"""How to fix TP-Link smart plug that is not syncing with group settings?""", Answer: Ensure all plugs are assigned to the correct group in the Kasa app. Restart the plugs and re-sync the group settings if the issue persists.,0.0,0.0
+"""How to fix TP-Link smart bulb that is not following HomeKit automations?""", Answer: Ensure the bulb is correctly linked to HomeKit and that the automation settings are configured properly. Restart the bulb and try reapplying the automation.,0.0,0.0
+"""What if TP-Link smart bulb is not updating its status in the app?""", Answer: Ensure the Kasa app is up to date and that the bulb is connected to the network. Restart the app and refresh the bulb status.,0.0,0.0
+"""Why is TP-Link smart plug flashing rapidly?"""," This may indicate a connection issue. Reset the plug by toggling it off and on several times, and reconnect it using the Kasa app.",0.0,0.0
+"""How to troubleshoot TP-Link smart plug that wont change colors with scenes?""","1. Verify that the scene settings include color changes and that the plug is assigned to the scene.
+2. Restart the smart plug if it does not respond properly.",0.0,0.0
+"""Why is TP-Link smart plug not showing status changes in real-time?"""," This may indicate a connection issue. Ensure the Wi-Fi network is stable, and try restarting your router. Additionally, ensure the Kasa app is up to date, and refresh the smart plug's status within the app.",0.0,0.0
+"""What if TP-Link smart bulb is not connecting after router firmware update?"""," Answer: ""Ensure the TP-Link account is linked to the router and that the bulb is connected to the Wi-Fi network. Restart both devices and reconnect it through the Kasa app with the new network credentials.""",0.0,0.0
+"""What if TP-Link smart bulb is not syncing with Apple Shortcuts?""", Answer: Ensure the Kasa app is linked to Apple Shortcuts and that the bulb is connected to the same Wi-Fi network. Restart the bulb and reapply the shortcuts.,0.0,0.0
+"""What if TP-Link smart bulb is not adjusting color temperature correctly?"""," Answer: Ensure the bulb model supports color temperature adjustments. Restart the bulb and use the Kasa app to manually set the desired temperature. If it still does not adjust properly, try reapplying the automation.",0.0,0.0
+"""How to resolve TP-Link smart plug that is not syncing with motion sensor commands?"""," To resolve a TP-Link Smart Plug that is not syncing with motion sensor commands, ensure the motion sensor is compatible with TP-Link and that it is properly linked. Restart both the sensor and the smart plug if syncing issues persist.",0.0,0.0
+"""How to resolve TP-Link smart plug that wont change brightness via Google Home?""", Answer: Ensure the Google Home app is linked to the TP-Link account and that the plug is connected to Wi-Fi. Restart both devices and try adjusting the brightness again.,0.0,0.0
+"""How to secure TP-Link smart plug from unauthorized access?"""," Use a strong password for your Wi-Fi network and ensure that your TP-Link account uses two-factor authentication for added security. Additionally, use the Kasa app to enable two-factor authentication on the TP-Link smart plug.",0.0,0.0
+"""How to prevent unauthorized changes to TP-Link plug settings?"""," To prevent unauthorized changes to TP-Link plug settings, use the Kasa app to enable two-factor authentication and set strong passwords.",0.0,0.0
+"""How to ensure TP-Link device data is not shared with third parties?"""," To ensure that TP-Link device data is not shared with third parties, manage linked devices in the Kasa app and disable unnecessary data sharing to maintain control over shared information. Additionally, review the linked third-party services in the Kasa app and disconnect any that are not essential or trusted.",0.0,0.0
+"""How to prevent unauthorized smart hubs from controlling TP-Link plugs?"""," To prevent unauthorized smart hubs from controlling TP-Link plugs, disable auto-pairing and only manually add trusted hubs to your TP-Link system.",0.0,0.0
+"""How to verify security settings after adding a new TP-Link plug?"""," To verify the security settings after adding a new TP-Link plug, review and adjust the security settings for newly added plugs in the Kasa app to ensure consistent privacy protection.",0.0,0.0
+"""How to control TP-Link data shared with other smart devices?"""," To control the data shared with other smart devices by a TP-Link device, you can manage and adjust the privacy settings within the Kasa app. Here's how:
+
+  1. Open the Kasa app on your device.
+
+  2. Navigate to the specific TP-Link device you want to modify.
+
+  3. Go to 'Device Settings.'
+
+  4. Look for privacy-related options, such as 'Data Sharing' or 'Account Integration.'
+
+  5. Adjust the settings according to your preferences, ensuring that you control what data is shared with other smart devices.
+
+  6. Save any changes made to the settings.",0.0,0.0
+"""How to maintain TP-Link system integrity after network changes?"""," To maintain the integrity of your TP-Link system during network changes, you should follow these steps:
+
+   1. Ensure that the network to which you are connecting is secure and private, avoiding open or public Wi-Fi networks.
+   2. Regularly review permissions for TP-Link Kasa Smart Plug to ensure only trusted users and services have access, reducing the risk of unauthorized control over your smart plug.
+   3. Network encryption helps protect data transmitted over your Wi-Fi, ensuring that your TP-Link Kasa Smart Plug's activities are secure from unauthorized access. Make sure this is enabled in your network settings.
+   4. If data is being shared with an unrecognized service, disable the integration immediately using the Kasa app and review the app's settings to ensure data privacy.
+   5. Monitor your TP-Link system for any signs of unauthorized access or changes. If such issues arise, take immediate action to secure your network by changing passwords, disabling remote management, and updating security settings as needed.",0.0,0.0
+"""How to disable data sharing with TP-Link cloud services?"""," To disable data sharing with TP-Link cloud services, you need to adjust the privacy settings in the Kasa app. This can typically be found under the app's security or privacy settings menu. Look for options related to data sharing, and ensure these are set to off or disabled. By doing this, you minimize the amount of data shared with TP-Link cloud services.",0.0,0.0
+"""How to protect TP-Link smart plug from potential hacking attempts?"""," To protect your TP-Link Kasa Smart Plug from potential hacking attempts, follow these steps:
+
+1. Set a strong password for your Wi-Fi network and ensure that your TP-Link account uses two-factor authentication for added security. This will make it harder for unauthorized users to gain access to your smart plug.
+
+2. Use the Kasa app to enable two-factor authentication and set strong passwords. Two-factor authentication adds an extra layer of protection, requiring a second verification method in addition to the password. Strong passwords make it more difficult for potential hackers to guess your credentials.
+
+3. Go to Privacy Settings in the Kasa app and opt out of data sharing with third parties. This will help protect your sensitive information from being accessed or misused by unauthorized individuals.
+
+4. Disable auto-pairing and only manually add trusted hubs to your TP-Link system. This ensures that only devices you trust can control your smart plug, preventing potential hacking attempts from unauthorized smart hubs.
+
+5. Regularly check for firmware updates, ensure the plug is in good condition, and avoid exposing it to extreme temperatures or moisture. Keeping your device updated helps protect against known vulnerabilities, while maintaining it in proper conditions helps prevent physical damage that could potentially lead to security issues.",0.0,0.0
+"""How to limit TP-Link integration to only essential third-party services?"""," To limit TP-Link integration to only essential third-party services, you should review the linked third-party services in the Kasa app and disconnect any that are not essential or trusted.",0.0,0.0
+"""How to protect TP-Link plugs from rogue firmware installations?"""," To protect TP-Link plugs from rogue firmware installations, only update the Firmware through the Kasa app while connected to a secure, encrypted Wi-Fi network. This will ensure that you are getting official updates directly from TP-Link and not any potentially harmful unauthorized versions of the firmware.",0.0,0.0
+"""How to disable Kasa integration with old or unused systems?"""," To disable Kasa integration with old or unused systems, follow these steps:
+
+   1. Open the Kasa app on your device.
+
+   2. Navigate to the Linked Apps section within the app.
+
+   3. In the Linked Apps section, find and disable integration with any systems that are no longer in use.",0.0,0.0
+"""How to secure TP-Link system when using public Wi-Fi?"""," To secure your TP-Link system when using public Wi-Fi, it is recommended to enable a Virtual Private Network (VPN) on your device. This will encrypt the data transmitted over the network and help protect your devices from unauthorized access. Additionally, avoid logging into your TP-Link account or managing your smart plug settings while connected to public Wi-Fi. If possible, disable auto-pairing of new devices to your TP-Link system, and manually add only trusted devices when you are on a secure network.",0.0,0.0
+"""How to delete account-related data from TP-Link system?""", Use the Kasa app to navigate to Account Settings and request deletion of personal data related to your account.,0.0,0.0
+"""How to prevent unauthorized pairing of TP-Link devices?"""," To prevent unauthorized pairing of TP-Link devices, use the Kasa app to disable pairing mode when not in use and configure the network to allow connections only from trusted devices. Additionally, ensure that auto-pairing is disabled and only manually add trusted hubs to your TP-Link system.",0.0,0.0
+"""How to manage access control settings for TP-Link devices?"""," The answer is: Use the Access Control settings in the Kasa app to grant or revoke permissions for each device, limiting access to trusted users only.",0.0,0.0
+"""How to secure TP-Link devices in case of stolen mobile device?"""," To secure TP-Link devices in case of a stolen mobile device, you should revoke access for the stolen device from the Connected Devices section in the Kasa app and change your account passwords immediately.",0.0,0.0
+"""How to prevent unauthorized modifications to TP-Link schedules?"""," To prevent unauthorized modifications to TP-Link schedules, set up strong passwords and enable two-factor authentication to restrict who can modify schedules for TP-Link devices.",0.0,0.0
+"""How to prevent data leaks from TP-Link devices?"""," To prevent data leaks from TP-Link devices, you should use WPA3 encryption on your Wi-Fi network and disable unnecessary data sharing settings in the Kasa app.",0.0,0.0
+"""How to check which devices are linked to my TP-Link account?"""," Go to Connected Devices in the Kasa app to view and manage all devices linked to your account, ensuring only authorized devices have access.",0.0,0.0
+"""How to secure TP-Link devices when moving to a new location?"""," The answer is: ""Reset each TP-Link device and set them up again using a new secure Wi-Fi network after relocating.""",0.0,0.0
+"""How to protect TP-Link plugs from being accessed through a compromised router?"""," To protect TP-Link plugs from being accessed through a compromised router, regularly update your routers Firmware and change the Wi-Fi password periodically. This ensures that only authorized devices have access to the network. Additionally, enabling two-factor authentication on your TP-Link account can also provide an extra layer of security.",0.0,0.0
+"""What to do if TP-Link Kasa Smart Plug does not power on?"""," ""Check for any physical damage to the plug. If the outlet works fine and the plug still doesn't power on, consider replacing the plug as it may be defective.""",0.0,0.0
+"""How to reset the TP-Link Kasa Smart Plug to factory settings?"""," To reset the TP-Link Kasa Smart Plug to its factory settings, press and hold the power button on the smart plug for 10 seconds until the LED blinks rapidly. Once reset, open the Kasa app and follow the instructions to reconfigure the plug.",0.0,0.0
+"""How to fix TP-Link Kasa Smart Plug losing connection intermittently?"""," To fix a TP-Link Kasa Smart Plug that is losing connection intermittently, ensure that the plug is within range of the Wi-Fi router and that the signal strength is strong. Avoid placing the plug near other electronic devices that may cause interference. Restart both the router and the smart plug. Update the Kasa app and Firmware if available.",0.0,0.0
+"""What to do if TP-Link Kasa Smart Plug fails to respond after a power outage?"""," To fix the issue of a TP-Link Kasa Smart Plug failing to respond after a power outage, you should unplug the smart plug and plug it back in. Restart your Wi-Fi router and ensure that the plug is powered on. Then, check the Kasa app to see if the plug needs to be reconnected.",0.0,0.0
+"""How to disable remote control for TP-Link Kasa Smart Plug?"""," To disable remote control for the TP-Link Kasa Smart Plug, open the Kasa app, select the smart plug, and navigate to the device settings. Disable the Remote Control option. Alternatively, you can say: In the Kasa app, go to 'Device Settings,' and select 'Device Sharing.' Enter the email address of the person you want to share control with. Here, disable remote control by toggling off the 'Remote Control' option.",0.0,0.0
+"""How to enable local-only control for TP-Link Kasa Smart Plug?"""," To enable local-only control for the TP-Link Kasa Smart Plug, you should follow these steps:
+
+   1. Ensure your Smart Plug is connected to Wi-Fi.
+   2. Open the Kasa app on your mobile device.
+   3. Navigate to the 'Device Settings' of your Smart Plug.
+   4. Locate and toggle off the 'Remote Control' option, which will disable remote access.
+   5. Now, your Kasa Smart Plug can only be controlled locally through the Kasa app while it is connected to your home network.",0.0,0.0
+"""How to fix Wemo Mini Smart Plug not responding to voice commands via Google Home?"""," To fix the Wemo Mini Smart Plug not responding to voice commands via Google Home, follow these steps:
+   1. Verify that the Wemo plug is connected and visible in the Google Home app.
+   2. Restart both the Wemo plug and your Google Home device.
+   3. Re-link your Wemo account in the Google Home app if the problem persists.",0.0,0.0
+"""How to fix Wemo Mini Smart Plug not showing in Alexa Routines?"""," To fix a Wemo Mini Smart Plug not showing in Alexa Routines, follow these steps:
+
+1. Ensure the Wemo skill is enabled and linked in the Alexa app.
+2. Restart both the plug and your Alexa device.
+3. Update the Wemo app and check if the plug appears in the list of available devices for routines.",0.0,0.0
+"""How to fix Wemo Mini Smart Plug that is unresponsive after a power outage?"""," To fix a Wemo Mini Smart Plug that is unresponsive after a power outage, follow these steps:
+   1. Unplug the Wemo Mini Smart Plug and plug it back in.
+   2. Restart your Wi-Fi router.
+   3. If the plug is still unresponsive, reset it by pressing and holding the reset button for 10 seconds to reset and reconnect it.",0.0,0.0
+"""How to group multiple Wemo Mini Smart Plugs for simultaneous control?"""," Answer: Open the Wemo app, tap on 'Group', and select the plugs you want to include. Assign a group name to control all the selected plugs simultaneously.",0.0,0.0
+"""How to fix Wemo Mini Smart Plug not showing in the Home app on iOS?"""," Answer: Ensure the Wemo Mini Smart Plug is compatible with HomeKit and connected to the same network as your iOS device. Restart both the plug and your iOS device, and try adding it again in the Home app.",0.0,0.0
+"""How to fix Wemo Mini Smart Plug that is stuck on blinking orange?"""," Answer: A blinking orange light indicates setup mode. Reset the plug by holding the power button for 10 seconds, then set it up again using the Wemo app.",0.0,0.0
+"""How to fix Wemo Mini Smart Plug if Away Mode is not working?"""," Answer: Ensure that the time zone is correctly set in the Wemo app. Restart the plug, and delete and recreate the Away Mode rule if the issue persists.",0.0,0.0
+"""How to fix Wemo Mini Smart Plug if rules are not executing correctly?"""," To fix a Wemo Mini Smart Plug if the rules are not executing correctly, follow these steps:
+
+1. Verify that the rules are set correctly in the Wemo app and that the time zone is accurate.
+2. Delete and recreate the rules.
+3. Restart the plug.",0.0,0.0
+"""How to fix Wemo Mini Smart Plug that wont work after firmware update?"""," To fix a Wemo Mini Smart Plug that won't work after a firmware update, follow these steps:
+   1. Unplug the Wemo Mini Smart Plug for 30 seconds.
+   2. Plug it back in and check if it reconnects.
+   3. If it doesn't connect automatically, press and hold the reset button for 10 seconds to reset and reconnect the device.",0.0,0.0
+"""What if Wemo Mini Smart Plug turns off shortly after being turned on?"""," ""This may be caused by an auto-off rule in the Wemo app. Check the app for any active auto-off settings and disable them if needed. Restart the plug to ensure stability.""",0.0,0.0
+"""How to reset Amazon Smart Plug to factory settings?"""," The answer is: ""Press and hold the button on the Amazon Smart Plug for 12 seconds until the LED blinks red. This will reset the plug to its factory settings.""",0.0,0.0
+"""How to schedule Amazon Smart Plug to turn on/off automatically?"""," Open the Alexa app, select the Amazon Smart Plug, and navigate to the Routines section. Set the desired on/off times to automate the plugs operation.",0.0,0.0
+"""How to fix Amazon Smart Plug if its not turning on manually?"""," Ensure that the plug is securely connected to a working power outlet. If manual control still doesn't work, reset the plug by holding the button for 12 seconds.",0.0,0.0
+"""Why does Amazon Smart Plug have a delayed response to Alexa commands?"""," A delayed response may be caused by network latency or high network traffic. Ensure the Wi-Fi network is stable, and reduce the number of devices connected to improve performance.",0.0,0.0
+"""How to fix Amazon Smart Plug not appearing in Alexa routines?"""," Answer: Ensure the plug is properly set up in the Alexa app. Restart the plug, update the Alexa app, and try adding the smart plug again to Alexa routines.",0.0,0.0
+"""Why does Amazon Smart Plug lose connection during peak hours?""", Network congestion during peak hours can cause connectivity issues. Reduce the number of connected devices or try moving the plug closer to the router to improve the Wi-Fi signal.,0.0,0.0
+"""How to fix Amazon Smart Plug that only works intermittently?""","1. Ensure the plug is within range of your Wi-Fi router and that there are no network interferences.
+2. Restart both the router and the plug to improve the connection.",0.0,0.0
+"""What if Amazon Smart Plug is blinking rapidly in white?"""," Answer: A rapidly blinking white LED indicates an error state. Unplug the plug for 30 seconds, plug it back in, and retry the setup. If the issue persists, reset the plug.",0.0,0.0
+"""Why does Amazon Smart Plug take a long time to respond to commands?"""," A delay in the response of an Amazon Smart Plug to commands may be caused by network latency or high network traffic. Ensuring the Wi-Fi network is stable, and reducing the number of devices connected can improve performance. Additionally, it could be due to a weak Wi-Fi signal or network congestion. Placing the plug close to the router and minimizing network congestion might resolve this issue.",0.0,0.0
+"""Why does August Smart Lock keep disconnecting from Wi-Fi?""", The August Smart Lock may be disconnecting from Wi-Fi because it is out of range of the Wi-Fi bridge or router. Ensure it is within range and restart both the bridge and the router.,0.0,0.0
+"""How to use August Smart Lock with Apple HomeKit?"""," To use the August Smart Lock with Apple HomeKit, open the August app and link the lock to HomeKit under Lock Settings. Follow the prompts to add the lock to the Apple Home app for control with Siri.",0.0,0.0
+"""Why does August Smart Lock show offline in the app?""", The lock may be disconnected from the Wi-Fi network or have low batteries. Replace the batteries and restart the Wi-Fi bridge and router.,0.0,0.0
+"""What if August Smart Lock wont lock after door is closed?"""," The answer is: ""Ensure the door is properly aligned and the lock is calibrated. Recalibrate the lock using the August app if it fails to lock after the door is closed.""",0.0,0.0
+"""How to enable notifications for August Smart Lock?"""," To enable notifications, open the August app, go to 'Settings,' select 'Notifications,' and toggle on the notifications you want to receive, such as lock status changes or guest access.",0.0,0.0
+"""How to remove a user from August Smart Lock access?"""," To remove a user from August Smart Lock access, open the August app, select the lock, and navigate to Guest Settings. Select the user you want to remove and revoke their access.",0.0,0.0
+"""Why does August Smart Lock take longer to respond to commands?"""," A delayed response from the August Smart Lock when using commands may be caused by weak Wi-Fi or Bluetooth signals. Ensure that the lock is within range of the Wi-Fi bridge and your phone, and reduce any potential interference.",0.0,0.0
+"""What if August Smart Lock doesnt lock when using HomeKit automation?"""," Answer: ""Ensure that the HomeKit automation is correctly configured and that the lock is connected to the same Wi-Fi network. If the issue persists, try resetting both the August Smart Lock and the HomeKit system and then reconfigure the automation.""",0.0,0.0
+"""How to reset Yale Assure Lock to factory settings?"""," To reset Yale Assure Lock to factory settings, follow these steps:
+
+1. Remove the battery cover.
+2. Take out the batteries.
+3. Press and hold the reset button while reinserting the batteries back into the lock.
+4. Continue holding the reset button until you hear the lock beep, which indicates it has been reset.",0.0,0.0
+"""How to fix Yale Assure Lock that wont unlock remotely?"""," To fix a Yale Assure Lock that won't unlock remotely, ensure that the lock is connected to Wi-Fi via the Yale Connect bridge or a compatible smart hub. Restart the router, bridge, and the lock if remote unlocking is not working.",0.0,0.0
+"""Why does Yale Assure Lock drain batteries quickly?"""," The Yale Assure Lock can drain batteries quickly due to frequent use, poor Wi-Fi signal, or using non-alkaline batteries. Use high-quality alkaline batteries to prevent rapid battery drain.",0.0,0.0
+"""How to connect Yale Assure Lock to a new Wi-Fi network?"""," Open the Yale app, go to Lock Settings, and select Connect to Wi-Fi. Follow the prompts to connect the lock to the new network.",0.0,0.0
+"""How to enable auto-unlock for Yale Assure Lock?"""," Answer: Open the Yale app, go to Lock Settings, and enable the Auto-Unlock feature. Ensure location services are enabled on your phone for this feature to work.",0.0,0.0
+"""How to fix Yale Assure Lock if the LED indicator doesnt light up?"""," The question asks about how to fix a Yale Assure Lock when the LED indicator doesn't light up. The provided context suggests two possible solutions:
+
+1. Replace the batteries to ensure the lock is powered.
+2. If the LED still doesn't light up after replacing the batteries, reset the lock by removing the batteries for 10 seconds.",0.0,0.0
+"""How to fix Schlage Sense that wont connect to Bluetooth?"""," Answer: Ensure that Bluetooth is enabled on your phone and that you are within range. Restart both your phone and the lock, and retry the connection using the Schlage app.",0.0,0.0
+"""What if Schlage Sense is not responding to app commands?"""," If Schlage Sense is not responding to app commands, ensure the lock has sufficient battery power. Restart the app and the lock. If the problem persists, try removing and re-adding the lock in the Schlage app.",0.0,0.0
+"""Why is Schlage Sense blinking red?""", A blinking red LED on a Schlage Sense indicates low battery. Replace the batteries to resolve this issue.,0.0,0.0
+"""How to fix Schlage Sense that wont unlock remotely?"""," Answer: Ensure that the lock is connected to Wi-Fi via the Schlage Sense Wi-Fi Adapter or a compatible smart hub. Restart the router, bridge, and the lock if remote unlocking is not working.",0.0,0.0
+"""What if Schlage Sense disconnects frequently from the Wi-Fi bridge?""", Answer: Ensure that the Wi-Fi bridge is close enough to the lock and the Wi-Fi router. Restart both the bridge and the router to improve connectivity.,0.0,0.0
+"""What if Schlage Sense wont lock after door is closed?""", Answer: Ensure the door is properly aligned and the lock is installed correctly. Recalibrate the lock using the Schlage app if it fails to lock after the door is closed.,0.0,0.0
+"""How to fix Schlage Sense if it wont connect to the Wi-Fi bridge?"""," Ensure the Wi-Fi bridge is within range of the lock. Restart both the lock and the bridge, and reattempt the connection using the Schlage app.",0.0,0.0
+"""Why does Schlage Sense not follow the set schedule?"""," The Schlage Sense lock may not follow the set schedule if it is not connected to Wi-Fi or if the schedule is incorrectly set in the Schlage app. If this issue persists, delete and recreate the schedule as needed.",0.0,0.0
+"""What if Schlage Sense doesnt lock when using HomeKit automation?""", Ensure that the HomeKit automation is correctly configured and that the lock is connected to the same Wi-Fi network as your HomeKit hub. Restart the lock and the hub if needed.,0.0,0.0
+"""How to fix Arlo Pro camera that wont sync with the base station?"""," To fix an Arlo Pro camera that won't sync with the base station, press the sync button on the base station, then press the sync button on the camera. Ensure both devices are within range during the sync process.",0.0,0.0
+"""How to fix Arlo Pro camera that wont charge?"""," To fix an Arlo Pro camera that won't charge, ensure you are using the original charging cable and adapter. Inspect the charging port for debris and clean it if necessary. Try charging the battery in a different outlet.",0.0,0.0
+"""Why does Arlo Pro take longer to respond to commands?"""," The given context suggests that a delayed response from the Arlo Pro camera to commands may be due to weak Wi-Fi signals or network congestion. To fix this issue, ensure that the camera is within range of the router and reduce any potential interference.",0.0,0.0
+"""What if Arlo Pro doesnt record video when motion is detected?""", Answer: Ensure that the camera is set to Armed mode in the Arlo app and that recording is enabled for motion detection. Restart the camera and the base station if the issue persists.,0.0,0.0
+"""How to fix Nest Cam that wont connect to Wi-Fi?"""," Ensure the camera is within range of your Wi-Fi router and that the Wi-Fi network is 2.4GHz or 5GHz. Restart the camera and the router, and try reconnecting using the Nest app.",0.0,0.0
+"""Why does Nest Cam have delayed notifications?""", Delayed notifications may be due to network latency or high activity on the Wi-Fi network. Ensure that your internet connection is stable and reduce network congestion.,0.0,0.0
+"""How to fix Nest Cam that stops recording clips?"""," ""Ensure the camera is set to Armed mode in the Nest app. Check the storage settings and subscription plan to ensure there is enough space for new recordings.""",0.0,0.0
+"""What if Nest Cam keeps disconnecting from Wi-Fi?""", The camera may be out of range or experiencing interference. Move the camera closer to the router and ensure that there are no obstacles blocking the signal.,0.0,0.0
+"""Why does Nest Cam have poor video quality?"""," The poor video quality of the Nest Cam may be due to weak Wi-Fi signals or high network congestion. To improve the video quality, ensure that the camera is within range of the router and reduce the number of devices on the network.",0.0,0.0
+"""How to fix Ring Stick Up Cam that stops recording events?"""," To fix a Ring Stick Up Cam that stops recording events, ensure the camera is set to Armed mode in the Ring app. Check your Ring Protect Plan and make sure it is active to store event recordings.",0.0,0.0
+"""How to fix Ring Stick Up Cam if night vision is not working?"""," To fix a Ring Stick Up Cam if the night vision is not working, ensure that night vision is enabled in the Ring app. Clean the camera lens and make sure there is no obstruction. If the issue persists, restart the camera.",0.0,0.0
+"""How to fix Ring Stick Up Cam that wont charge?""", Answer: Ensure the charging cable and adapter are working properly. Clean the charging contacts on the camera and try using a different power source if the camera still won't charge.,0.0,0.0
+"""What if Ring Stick Up Cam fails to detect people or animals?"""," To fix a Ring Stick Up Cam that fails to detect people or animals, adjust the positioning of the camera to cover the desired area and increase the motion sensitivity in the Ring app. Ensure the Person Detection feature is enabled if available.",0.0,0.0
+"""How to integrate Ring Stick Up Cam with Google Home?"""," Answer: Open the Google Home app, go to Add Device, and select Works with Google. Search for Ring and link your Ring account to integrate the camera with Google Home.",0.0,0.0
+"""How to remove a user from Ring Stick Up Cam access?"""," Answer: Open the Ring app, select the camera, and navigate to Shared Users. Select the user you want to remove and revoke their access.",0.0,0.0
+"""How to fix Ring Video Doorbell that wont charge?"""," To fix a Ring Video Doorbell that won't charge, ensure the charging cable and adapter are working properly. Clean the charging contacts on the doorbell and try using a different power source if the doorbell still won't charge.",0.0,0.0
+"""What if Ring Video Doorbell fails to detect people or animals?""", Answer: Adjust the positioning of the doorbell to cover the desired area and increase the motion sensitivity in the Ring app. Ensure the Person Detection feature is enabled if available.,0.0,0.0
+"""Why does Ring Video Doorbell take longer to respond to commands?""", The response time delay for a Ring Video Doorbell may be due to weak Wi-Fi signals or network congestion. Ensure the camera is within range of the router and reduce any potential interference.,0.0,0.0
+"""How to change Wi-Fi network for Nest Hello?"""," To change the Wi-Fi network for Nest Hello, open the Google Home app, select your doorbell, and go to 'Settings.' Tap 'Wi-Fi,' and follow the prompts to connect to a new network.",0.0,0.0
+"""Why does Nest Hello have delayed notifications?""", Answer: Delayed notifications on the Nest Hello may be due to network latency or high activity on the Wi-Fi network. Ensure that your internet connection is stable and reduce network congestion.,0.0,0.0
+"""How to add Nest Hello to Google Home?"""," To add Nest Hello to Google Home, open the Google Home app, select 'Add' or '+', then select 'Have something already set up?' followed by 'Nest.' Follow the prompts to connect your Nest Hello doorbell to your Google Home.",0.0,0.0
+"""How to enable motion detection notifications for Nest Hello?"""," To enable motion detection notifications for Nest Hello, follow these steps:
+
+1. Open the Nest app on your device.
+2. Select the doorbell from the home screen or menu.
+3. Navigate to Device Settings.
+4. Enable notifications for motion events to receive alerts when motion is detected.",0.0,0.0
+"""How to fix Nest Hello that wont sync with the app?"""," To fix a Google Nest Hello doorbell that won't sync with the app, ensure Bluetooth is enabled on your phone and that the doorbell is in pairing mode. Restart both the doorbell and the app, then try syncing again.",0.0,0.0
+"""How to fix Nest Hello if the motion sensor is not working?"""," Open the Nest app, select the doorbell, and navigate to Device Settings. Check the motion sensitivity settings and increase the level if needed. Ensure there are no obstructions blocking the doorbells view.",0.0,0.0
+"""Why does Nest Hello take longer to respond to commands?"""," ""A delayed response may be caused by network latency or high activity on the Wi-Fi network. Ensure that your internet connection is stable and reduce network congestion.""",0.0,0.0
+"""How to fix Nest Hello if it fails to send motion alerts?"""," To fix Nest Hello if it fails to send motion alerts, ensure motion alerts are enabled in the Nest app and that the doorbell is connected to a stable Wi-Fi network. Restart both the doorbell and the app if needed.",0.0,0.0
+"""How to disable specific motion zones for Nest Hello?"""," The answer is: Open the Nest app, select the doorbell, and navigate to Activity Zones. Select the zone you want to disable, and save the changes to reduce alerts from that area.",0.0,0.0
+"""Why is Eufy Video Doorbell battery draining quickly?"""," The Eufy Video Doorbell battery may drain quickly due to high activity zones, poor Wi-Fi signal, or extreme temperatures. Adjust motion settings, ensure a strong Wi-Fi signal, and use battery-saving modes to extend battery life.",0.0,0.0
+"""How to change Wi-Fi network for Eufy Video Doorbell?"""," To change the Wi-Fi network for your Eufy Video Doorbell, you need to follow these steps:
+
+1. Open the Eufy Security app on your mobile device.
+2. Select your doorbell from the list of devices.
+3. Navigate to Device Settings.
+4. Follow the prompts to change the Wi-Fi network.",0.0,0.0
+"""Why does Eufy Video Doorbell have delayed notifications?"""," Delayed notifications on the Eufy Video Doorbell may be due to network latency or congestion. Ensuring your internet connection is stable and reducing Wi-Fi network congestion if possible, can help resolve this issue.",0.0,0.0
+"""How to fix Eufy Video Doorbell that wont sync with the app?"""," Restart both the doorbell and the Eufy Security app, then try syncing again. If the issue persists, perform a factory reset on the doorbell by pressing and holding the reset button on the back of the doorbell for 10 seconds until the LED starts flashing to reset the doorbell to factory settings. After the factory reset, follow the setup process in the app to sync the doorbell again.",0.0,0.0
+"""How to fix Eufy Video Doorbell if the motion sensor is not working?"""," To fix an Eufy Video Doorbell if the motion sensor is not working, check the motion sensitivity settings in the Eufy Security app and increase the level if needed. Ensure there are no obstructions blocking the doorbell's view.",0.0,0.0
+"""How to fix Eufy Video Doorbell that has audio delay issues?"""," Answer: Audio delay issues with the Eufy Video Doorbell may be caused by weak Wi-Fi or network congestion. Ensure the doorbell has a strong Wi-Fi connection, and restart the router to improve performance.",0.0,0.0
+"""How to add family profiles to Samsung Family Hub Refrigerator?"""," To add family members to the Samsung Family Hub account, open the Family Hub app, go to 'Settings,' select 'Users,' and add a new family member by entering their email address.",0.0,0.0
+"""Why is Samsung Family Hub Refrigerators water dispenser leaking?""", The context provided does not contain information about why a Samsung Family Hub Refrigerator's water dispenser might be leaking. It would be best to consult the user manual or contact Samsung customer service for specific troubleshooting advice related to this issue.,0.0,0.0
+"""How to reset LG ThinQ Washer/Dryer to factory settings?"""," To reset an LG ThinQ Washer/Dryer to its factory settings, press and hold the Power and Start buttons simultaneously for about 5-10 seconds until the display shows a reset confirmation.",0.0,0.0
+"""How to update firmware on LG ThinQ Washer/Dryer?"""," To update the firmware on your LG ThinQ Washer/Dryer, follow these steps:
+
+1. Open the LG ThinQ app on your device.
+2. Navigate to your device within the app.
+3. Check for available firmware updates.
+4. Follow the on-screen instructions to update the firmware.",0.0,0.0
+"""How to connect LG ThinQ Washer/Dryer to Google Assistant?"""," To connect LG ThinQ Washer/Dryer to Google Assistant, open the Google Home app, follow these steps:
+
+1. Tap the '+' icon (top left corner of the screen) to add a new device.
+2. Select 'Have something already set up?' and then choose 'No, it's not on this list.'
+3. Choose the LG ThinQ Washer/Dryer from the list of devices that appears. If it is not listed, select 'Don't see your device' and search for LG ThinQ.
+4. Follow the on-screen instructions to connect your LG account to Google Assistant. This step may involve entering credentials or using a QR code scan if available.
+5. Once connected, you will be able to control your washer/dryer with voice commands through Google Assistant.",0.0,0.0
+"""How to add family members to control LG ThinQ Washer/Dryer?"""," Answer: Open the LG ThinQ app, go to Settings, and select Shared Devices. Add family members by entering their email addresses, allowing them to control the washer/dryer.",0.0,0.0
+"""How to reset Apple Watch to factory settings?"""," The question asks for instructions on how to reset an Apple Watch to its factory settings. The answer provided in the context is: ""To reset your Apple Watch, go to 'Settings' on the watch, select 'General,' then 'Reset,' and choose 'Erase All Content and Settings.'""",0.0,0.0
+"""How to update the Apple Watch firmware?"""," The answer is: ""Open the Watch app on your iPhone, go to General, and select Software Update. If an update is available, follow the on-screen instructions to install it.""",0.0,0.0
+"""What if the Apple Watch screen is unresponsive?"""," If the Apple Watch screen is unresponsive, force restart the Apple Watch by pressing and holding both the Side button and Digital Crown for at least 10 seconds until the Apple logo appears.",0.0,0.0
+"""How to enable Fall Detection on Apple Watch?"""," To enable Fall Detection on your Apple Watch, open the Watch app on your iPhone, go to 'Emergency SOS,' and toggle on 'Fall Detection.' This feature will alert emergency services if a fall is detected.",0.0,0.0
+"""How to fix Apple Watch that wont turn on?"""," To fix an Apple Watch that won't turn on, ensure the Apple Watch is charged. If it still won't turn on, force restart it by pressing and holding both the Side button and Digital Crown for at least 10 seconds until the Apple logo appears.",0.0,0.0
+"""How to enable always-on display on Apple Watch?"""," To enable Always-On Display on your Apple Watch, follow these steps:
+
+1. Open Settings on the Apple Watch.
+2. Go to Display & Brightness.
+3. Toggle on Always On. This feature keeps the watch face visible at all times.",0.0,0.0
+"""How to use Siri on Apple Watch?"""," To use Siri on your Apple Watch, you can either raise your wrist and say 'Hey Siri,' or press and hold the Digital Crown to activate Siri. You can ask Siri to send messages, set reminders, or answer questions.",0.0,0.0
+"""How to enable sleep tracking on Apple Watch?"""," To enable sleep tracking on Apple Watch, open the 'Sleep' app on your Apple Watch, set your sleep schedule, and wear the watch to bed to monitor your sleep.",0.0,0.0
+"""How to fix Samsung Galaxy Watch that wont connect to a phone?"""," Answer: Ensure Bluetooth is enabled on both the watch and phone, and that they are within range. Restart both devices and try reconnecting using the Galaxy Wearable app.",0.0,0.0
+"""What if the Samsung Galaxy Watch screen is unresponsive?""", Force restart the Galaxy Watch by pressing and holding both the Home and Back buttons for at least 10 seconds until the watch restarts.,0.0,0.0
+"""How to fix Samsung Galaxy Watch that wont charge?""", Ensure the charging dock is properly connected to power and that the watch is positioned correctly. Clean the charging contacts and try using a different power source if needed.,0.0,0.0
+"""How to share activity data with friends on Samsung Galaxy Watch?"""," To share activity data with friends on a Samsung Galaxy Watch, follow these steps:
+  1. Open the Samsung Health app on your phone.
+  2. Go to the 'Together' section.
+  3. Invite friends to share your activity progress and compete in challenges by tapping on their names or using the provided sharing options within the app.",0.0,0.0
+"""How to reset Fitbit Versa to factory settings?"""," To reset your Fitbit Versa to factory settings, follow these steps:
+
+1. Swipe left on the screen until you find the Settings option.
+2. Tap on Settings.
+3. Select About > Factory Reset.
+4. Confirm to reset the watch to factory settings.",0.0,0.0
+"""How to share activity data with friends on Fitbit Versa?"""," To share activity data with friends on a Fitbit Versa, open the Fitbit app on your phone, tap the Community tab, and select Friends. You can add friends and share activity progress to compete in challenges.",0.0,0.0
+"""How to manage notifications on Fitbit Versa?"""," To manage notifications on Fitbit Versa, open the Fitbit app on your phone, tap your profile picture, then select your Fitbit Versa. Tap Notifications and customize which apps can send notifications to your Fitbit Versa.",0.0,0.0
+"""How to enable swim tracking on Fitbit Versa?"""," To enable swim tracking on Fitbit Versa, open the Exercise app on your Fitbit.",0.0,0.0
+"""What if the Fitbit Charge screen is unresponsive?"""," If your Fitbit Charge screen is unresponsive, try restarting it by pressing and holding the button on the side of the tracker until the Fitbit logo appears. If the issue persists after a restart, you may need to consult Fitbit's customer support for further assistance.",0.0,0.0
+"""How to use Fitbit Charge to find your phone?"""," To use Fitbit Charge to find your phone, open the Find Phone app on your Fitbit Charge, and tap Find Phone. Your phone will emit a sound to help you locate it. Ensure Bluetooth is enabled and that both devices are within range.",0.0,0.0
+"""How to set reminders to move on Fitbit Charge?"""," To set reminders to move on Fitbit Charge, open the Fitbit app, tap on your profile picture, select your Fitbit Charge, and toggle on 'Reminders to Move.'",0.0,0.0
+"""How to track workouts using Xiaomi Mi Band?"""," To track workouts using the Xiaomi Mi Band, follow these steps:
+
+1. Open the Mi Fit app on your smartphone.
+2. Tap on Workout.
+3. Select the type of exercise you want to do.
+
+You can also use the Mi Band to start a workout by swiping to the Exercise option and selecting the type of workout.",0.0,0.0
+"""How to fix Xiaomi Mi Band that wont turn on?"""," To fix a Xiaomi Mi Band that won't turn on, ensure the band is charged. If it still won't turn on, try restarting it by pressing the touch button while connected to the charger.",0.0,0.0
+"""How to enable GPS tracking on Xiaomi Mi Band?"""," The Xiaomi Mi Band itself does not have built-in GPS. However, it can use your phone's GPS. Open the Mi Fit app, start an outdoor activity, and keep your phone with you to track the route.",0.0,0.0
+"""How to update firmware on Withings Body+ Smart Scale?"""," ""Open the Withings Health Mate app on your phone, go to Devices, select your scale, and check if a Firmware update is available. Follow the prompts to complete the update.""",0.0,0.0
+"""How to replace batteries on Withings Body+ Smart Scale?"""," To replace batteries on the Withings Body+ Smart Scale, turn the scale over, open the battery compartment, and replace all four AAA batteries. Ensure they are inserted correctly, then close the compartment.",0.0,0.0
+"""How to troubleshoot Withings Body+ Smart Scale showing inconsistent measurements?"""," Answer: Ensure the scale is on a flat, hard surface and weigh yourself at the same time each day. Recalibrate the scale if measurements are inconsistent.",0.0,0.0
+"""How to update personal information on Withings Body+ Smart Scale?"""," To update personal information on the Withings Body+ Smart Scale, you would typically need to do this through the Health Mate app. Here are the general steps:
+
+1. Open the Health Mate app on your smartphone.
+2. Navigate to your profile or account settings. This is usually represented by an icon that looks like a person or head and shoulders.
+3. Look for an option that says ""Edit Profile"" or something similar, where you can update details such as name, age, gender, etc.
+4. Make the necessary changes and save them. The updated information should then be synchronized with your Withings Body+ Smart Scale.",0.0,0.0
+"""How to reset Kinsa Smart Thermometer to factory settings?"""," To reset Kinsa Smart Thermometer to factory settings, navigate to 'Settings' within the Kinsa app on your phone and select 'Factory Reset'.",0.0,0.0
+"""How to fix Oura Ring showing incorrect readings?"""," To fix Oura Ring showing incorrect readings, you can try the following steps:
+
+1. Check if the ring is properly aligned on the charging dock and that the dock is connected to a power source. If it's not charged properly, it may affect the readings.
+2. Ensure the firmware of your Oura Ring is updated. To check the current firmware version, open the Oura app on your phone, select your ring, and navigate to 'Settings' > 'A b o u t'. If an update is available, follow the instructions to manually update the firmware as described in the context: ""How to manually update Oura Ring firmware?""
+3. Clean the ring regularly as dust or dirt might interfere with the readings. Use a soft cloth dampened with water and mild soap if needed. Avoid using alcohol or other harsh chemicals.
+4. If you're experiencing issues related to sleep tracking, wear the ring overnight consistently to collect accurate data. Make sure it is properly fitted on your finger for optimal performance.
+5. If the problem persists, try restarting both the ring and your phone, and re-pair the ring if necessary as described in ""How to handle Oura Ring connectivity issues?"".
+6. Lastly, check if there are any known software or hardware issues affecting your specific device model by visiting the official Oura support website or forum for more information.",0.0,0.0
+"""How to change temperature units on Oura Ring?"""," To change the temperature units on Oura Ring, you need to follow these steps:
+
+1. Open the Oura app on your smartphone.
+2. Navigate to 'Settings' within the app.
+3. Select 'Temperature Units.'
+4. Choose between Celsius and Fahrenheit as your preferred unit.",0.0,0.0
+"""How to view historical health data on Oura Ring?"""," To view historical health data on the Oura Ring, follow these steps:
+
+   1. Open the Oura app on your phone.
+   2. Navigate to Timeline in the app.
+   3. Select the desired metric (e.g., Sleep, Activity, Temperature) to view your historical health data and trends over time.",0.0,0.0
+"""How to delete data from Oura Ring?"""," Answer: Open the Oura app, go to Settings, select Account, and choose Delete Data to remove your personal data from the app and ring.",0.0,0.0
+"""How to enable bedtime reminders on Oura Ring?"""," To enable bedtime reminders on Oura Ring, open the Oura app, go to Settings, and enable Bedtime Reminders. Set your preferred bedtime, and the app will notify you accordingly.",0.0,0.0
+"""How to enable readiness notifications on Oura Ring?"""," To enable readiness notifications on Oura Ring, open the Oura app on your phone, navigate to 'Settings,' and enable 'Readiness Notifications.' Set your preferred time for these notifications. The ring will then notify you based on your set preferences.",0.0,0.0
+"""How to reset Arlo Ultra to factory settings?""", Press and hold the sync button on the Arlo Ultra camera for about 10 seconds until the LED blinks amber. This will reset the camera to factory settings.,0.0,0.0
+"""How to change video resolution on Arlo Ultra?"""," To change the video resolution on Arlo Ultra, follow these steps:
+
+   1. Open the Arlo app.
+   2. Go to Settings.
+   3. Select your Arlo Ultra camera.
+   4. Tap Video Settings.
+   5. Choose the desired video resolution (e.g., 4K, 1080p).",0.0,0.0
+"""How to add a new user to Arlo Ultra?"""," To add a new user to Arlo Ultra, follow these steps:
+
+1. Open the Arlo app on your device.
+2. Go to 'Settings.'
+3. Select 'Users & Accounts.'
+4. Choose 'Add User.'
+5. Follow the on-screen instructions to create and add a new user profile, allowing them access to the camera and notifications.",0.0,0.0
+"""How to view recorded footage on Arlo Ultra?"""," Answer: Open the Arlo app, go to Library, and select the desired date to view recorded footage. You can filter recordings by type (e.g., motion, audio).",0.0,0.0
+"""How to delete recordings from Arlo Ultra?"""," To delete recordings from Arlo Ultra, follow these steps:
+
+1. Open the Arlo app on your device.
+2. Go to Library.
+3. Select the recordings you want to delete.
+4. Tap the trash icon to remove them.",0.0,0.0
+"""How to use Arlo Ultra in low power mode?"""," Answer: Open the Arlo app, go to Settings, select your camera, and enable Power Management to reduce power consumption and extend battery life.",0.0,0.0
+"""How to share Arlo Ultra footage with the police?"""," To share Arlo Ultra footage with the police, follow these steps:
+
+1. Open the Arlo app on your device.
+2. Go to Library in the app.
+3. Select the desired footage you wish to share.
+4. Tap Share.
+5. You can send the footage via email or save it for later use.",0.0,0.0
+"""What if Blink Outdoor camera is not recording at night?"""," Answer: To troubleshoot a Blink Outdoor camera that is not recording at night, ensure that night vision is enabled in the Blink app. Check for obstructions that might block the infrared LEDs, and verify that the camera's positioning allows it to properly capture activity at night.",0.0,0.0
+"""How to set activity zones on Blink Outdoor?"""," To set activity zones on the Blink Outdoor, you can use the Blink app on your phone. However, please note that as of now, Blink Outdoor does not directly support activity zone creation within its device settings. The closest functionality is motion detection sensitivity adjustment which covers a wider area rather than specific zones.
+
+Here's how to customize recording settings using the Blink app:
+1. Open the Blink app on your phone.
+2. Navigate to the desired camera settings by clicking on the corresponding camera icon.
+3. Find and click on 'Motion Detection'.
+4. Adjust the motion sensitivity level according to your needs.
+5. Save the changes.",0.0,0.0
+"""In case of frequent false alerts, how to adjust Blink Outdoor settings?"""," To adjust Blink Outdoor settings in case of frequent false alerts, you can customize the motion detection sensitivity in the Blink app on your phone. This will help minimize the number of triggers when there is no actual activity detected. Additionally, you may also need to check if any nearby objects are causing false triggers and adjust their position if possible.",0.0,0.0
+"""How to update firmware on Logitech Circle?"""," To update the firmware on a Logitech Circle, follow these steps:
+   1. Open the Logitech Circle app on your phone.
+   2. Select your camera from the list of devices in the app.
+   3. Navigate to 'Settings' for your selected device.
+   4. Check for available Firmware updates.
+   5. Follow the prompts to update the Firmware.",0.0,0.0
+"""Why does Logitech Circle keep disconnecting from Wi-Fi?"""," The issue of your Logitech Circle device frequently disconnecting from Wi-Fi might be due to a weak or intermittent signal, or it could be connecting to an insecure network. To ensure security and maintain a stable connection, you should forget the insecure network in the Circle View app settings, and manually reconnect to a secure network with WPA2 or WPA3 encryption. You might also consider moving the router closer to the camera for a better signal. Additionally, make sure your device is not too far from other electronic devices that could potentially interfere with the Wi-Fi signal.",0.0,0.0
+"""How to enable 2-way audio on Logitech Circle?"""," To enable 2-way audio on Logitech Circle, open the Logitech Circle app, go to the live view of your camera, and tap the microphone icon to start a 2-way audio conversation.",0.0,0.0
+"""What if Logitech Circle is recording too frequently?"""," If Logitech Circle is recording too frequently, it may be due to high motion sensitivity or frequent activity in the area. Lower the motion sensitivity in the Logitech Circle app or adjust activity zones to limit recordings to essential areas.",0.0,0.0
+"""How to activate privacy mode on Logitech Circle?"""," Open the Logitech Circle app, go to Settings, select your camera, and enable Privacy Mode to temporarily disable video and audio permissions and disable remote access to secure the doorbell.",0.0,0.0
+"""How to fix Logitech Circle if the LED indicator is solid red?"""," Answer: A solid red LED indicates a connection issue. Restart the camera, check the Wi-Fi network, and ensure that the Wi-Fi credentials are correct in the Logitech Circle app.",0.0,0.0
+"""How to recalibrate motion detection on SimpliSafe camera?"""," To recalibrate motion detection on a SimpliSafe camera, you should open the SimpliSafe app, go to Settings, select your camera, and adjust the Motion Sensitivity slider until the desired level of detection is achieved.",0.0,0.0
+"""How to connect SimpliSafe to Amazon Alexa?"""," To connect SimpliSafe to Amazon Alexa, you need to follow these steps:
+
+1. Open the Alexa app on your smartphone or tablet.
+2. Go to Skills & Games.
+3. Search for SimpliSafe and enable the skill.
+4. Link your SimpliSafe account to control the system with voice commands.",0.0,0.0
+"""How to fix SimpliSafe showing poor night vision?""", Answer: Ensure there are no obstructions near the infrared LEDs and that the camera is positioned correctly. Adjust the night vision settings in the SimpliSafe app if needed. Make sure the camera is in an area with minimal ambient light to improve infrared visibility.,0.0,0.0
+"""How to update firmware on Ring Alarm Security Kit?"""," To update the firmware on your Ring Alarm Security Kit, you should follow these steps:
+
+1. Open the Ring app on your phone.
+2. Select your system from the list of devices.
+3. Navigate to 'Device Settings'.
+4. Look for the 'Firmware Update' option and check if any updates are available. If an update is available, it will automatically begin downloading and installing. You can monitor the progress within the app.
+
+Always ensure that your security system is connected to a secure, password-protected Wi-Fi network during updates to prevent unauthorized interference.",0.0,0.0
+"""How to fix Ring Alarm showing poor night vision on cameras?"""," To fix the issue of poor night vision on Ring Alarm cameras, ensure there are no obstructions near the cameras' infrared LEDs and that the camera is positioned correctly. Adjust the night vision settings in the Ring app if needed.",0.0,0.0
+"""How to extend battery life of Ring Alarm sensors?"""," Answer: Reduce the sensitivity settings, limit unnecessary alerts, and replace batteries with high-quality ones to extend the battery life of Ring Alarm sensors.",0.0,0.0
+"""How to delete ADT Smart Home event history?"""," To delete the ADT Smart Home event history, follow these steps:
+
+1. Open the ADT Control app.
+2. Go to History.
+3. Select the events you want to delete.
+4. Tap the trash icon to remove them from the history.",0.0,0.0
+"""What if the ADT Control app is crashing frequently?"""," To troubleshoot frequent crashes of the ADT Control app, you can try clearing the app cache or reinstalling the app. This might help resolve any software issues causing it to crash. Additionally, ensure your phone's operating system and Wi-Fi connection are up-to-date to provide a stable environment for the app.",0.0,0.0
+"""Why is ADT Smart Home camera not recording audio?"""," Answer: Ensure that audio recording is enabled in the ADT Control app settings. Also, verify that the camera is placed within a suitable range to capture sound effectively.",0.0,0.0
+"""How to silence an alarm on Nest Protect?"""," In the provided context, there is no information about silencing an alarm on Nest Protect. However, generally speaking, if you want to silence a Nest Protect alarm, you would typically do so through the Nest app on your smartphone by following these steps:
+
+1. Open the Google Home or Nest app on your phone.
+2. Tap on the device card for your Nest Protect smoke detector.
+3. Tap the Silence button in the top right corner of the screen (if available). If you don't see a Silence button, follow the steps provided to resolve the alarm issue according to the app's guidance.
+4. Confirm that you want to silence the alarm by tapping ""Silence"" or ""OK"".
+
+Remember, it is essential to address the root cause of the alarm if possible to ensure your safety and prevent false alarms in the future.",0.0,0.0
+"""How to replace Nest Protect if its faulty?"""," To replace a faulty Nest Protect, you would need to follow these steps:
+
+1. Uninstall the current device from your Nest account using the Nest app or website.
+2. Purchase a new Nest Protect device. Make sure it is compatible with your system.
+3. Install the new device by following the instructions provided in the user manual or on the Nest website/app. This usually involves placing the device in its designated location, connecting it to Wi-Fi, and setting it up through the Nest app or website.
+4. If you are reusing the same power source (wired connection), ensure that the wiring is correctly connected before turning on the power source. If using batteries, install them properly in the device.
+5. Once installed and powered on, follow the on-screen instructions to complete the setup process and connect the device to your Wi-Fi network.
+6. After setup, test the device to ensure it's functioning correctly.",0.0,0.0
+"""How to check the manufacturing date of Nest Protect?""", The manufacturing date of Nest Protect can be found on the back of the device. It is recommended to replace the device every 10 years from this date.,0.0,0.0
+"""How to silence Nest Protect during cooking?"""," To silence Nest Protect during cooking, you can either press the Nest button on the device or use the Google Home app to silence the alarm. If false alarms frequently occur while cooking, consider relocating the device.",0.0,0.0
+"""How to replace batteries in First Alert Onelink?"""," To replace batteries in a First Alert Onelink, slide open the battery compartment, remove the old batteries, and replace them with new AA batteries. Ensure they are inserted correctly before closing the compartment.",0.0,0.0
+"""How to silence an alarm on First Alert Onelink?"""," To silence an alarm on a First Alert Onelink, you can press the test button on the device or use the Onelink Home app to mute the alert. Ensure the cause of the alert has been identified before silencing.",0.0,0.0
+"""How to change Wi-Fi network on First Alert Onelink?"""," The answer is: Open the Onelink app, select your First Alert Onelink, and go to Settings. Follow the prompts to update the Wi-Fi network settings.",0.0,0.0
+"""How to enable Nightly Promise on First Alert Onelink?"""," ""To enable the Nightly Promise feature on your First Alert Onelink, open the Onelink app, select your device, and log in with the same account or use the 'Invite' feature to share access. Then, go to Settings.""",0.0,0.0
+"""How to fix First Alert Onelink if it wont turn on?"""," To fix a First Alert Onelink that won't turn on, replace the batteries for battery models by sliding open the battery compartment, removing the old batteries, and replacing them with new AA batteries. For wired models, check the power connection. If the issue persists, contact First Alert Support for further assistance.",0.0,0.0
+"""How to troubleshoot First Alert Onelink if the alarm is too quiet?"""," To troubleshoot a First Alert Onelink if the alarm is too quiet, ensure that the volume settings are not reduced in the Onelink app. If the alarm volume is still low, it may be due to a hardware issue—contact First Alert Support for further help.",0.0,0.0
+"""How to silence an alarm on Kidde Smart Smoke Alarm?"""," To silence an alarm on the Kidde Smart Smoke Alarm, you can either press the test button on the device or use the Kidde app. However, ensure that you have identified the cause of the alert before silencing it.",0.0,0.0
+"""How to check sensor status on Kidde Smart Smoke Alarm?"""," To check the sensor status on a Kidde Smart Smoke Alarm, open the Kidde app, select your Kidde Smart Smoke Alarm, and go to Device Settings. You can view the status of the smoke and CO sensors as well as battery levels from there.",0.0,0.0
+"""How to enable Nightly Promise on Kidde Smart Smoke Alarm?"""," To enable Nightly Promise on your Kidde Smart Smoke Alarm, follow these steps:
+
+1. Open the Kidde app on your phone.
+2. Select your Kidde Smart Smoke Alarm.
+3. Go to Settings.
+4. Enable Nightly Promise under Settings.
+
+This feature ensures your device is working properly by showing a green glow at night.",0.0,0.0
+"""How to update firmware on Samsung SmartThings Hub?"""," To update the firmware on Samsung SmartThings Hub, you can follow these steps:
+   1. Ensure the Hub is connected to Wi-Fi.
+   2. Open the SmartThings app on your phone or tablet.
+   3. Go to 'Settings.'
+   4. Select 'Hub Information.'
+   If an update is available, you should see an option to install it. Otherwise, check for updates periodically as they are installed automatically.",0.0,0.0
+"""What if Samsung SmartThings Hub is not responsive?"""," If Samsung SmartThings Hub is not responsive, unplug the hub from power, wait for 10 seconds, and plug it back in. If it remains unresponsive, perform a factory reset by pressing the reset button for 30 seconds.",0.0,0.0
+"""How to test Samsung SmartThings Hub connectivity?"""," To test the connectivity of your Samsung SmartThings Hub, you should follow these steps:
+
+1. Open the SmartThings app on your mobile device.
+2. Go to Settings within the app.
+3. Select 'Hub Status' from the options.
+
+This action will display the current status of the hub and its connection to the network. If there are any issues with connectivity, this screen should indicate it to you.",0.0,0.0
+"""How to troubleshoot connectivity issues with Samsung SmartThings Hub?"""," To troubleshoot connectivity issues with Samsung SmartThings Hub, ensure the hub is connected to a stable internet source. Restart the router and hub, and check for any Firmware updates through the SmartThings app.",0.0,0.0
+"""How to enable SmartThings Energy feature on Samsung SmartThings Hub?"""," To enable the SmartThings Energy feature on Samsung SmartThings Hub, follow these steps:
+
+   1. Open the SmartThings app on your device.
+
+   2. Tap on 'Add Device'.
+
+   3. Select 'SmartThings Energy'.
+
+   4. Follow the prompts to set up the feature and track energy usage of compatible devices connected to the hub.",0.0,0.0
+"""What if Amazon Echo is giving incorrect responses?"""," ""If Amazon Echo is giving incorrect responses, it could be due to a misconfiguration or an error in the information provided. Here are some steps you can take to troubleshoot:
+
+    1. Check the skills and routines configured in the Alexa app to ensure they are correct. Make sure that all devices involved are powered on and connected to the same network.
+    2. Try editing and re-saving the skill or routine to see if this resolves the issue.
+    3. If the problem persists, perform a factory reset and set up the device again using the Alexa app.""",0.0,0.0
+"""How to create an automation with Apple HomeKit?"""," To create an automation with Apple HomeKit, follow these steps:
+
+1. Open the Home app on your iOS device.
+2. Tap the home icon located at the bottom left corner of the screen.
+3. Select 'Add Accessory' or 'Add Home' if you haven't already created a home profile.
+4. Once you have added your devices, tap on the 'Automation' tab.
+5. Tap 'Create Automation.'
+6. Set up triggers based on time of day, occupancy, or accessory status that will initiate the automation.
+7. Add actions to be performed when the trigger is activated. For example, if you want a light to turn on at sunset, set the trigger as 'Sunset' and the action as 'Turn On Light.'
+8. Tap 'Done' to save your new automation.",0.0,0.0
+"""What if an Apple HomeKit device is not responding?""", Answer: Ensure the device is powered on and within range of your Home Hub. Restart the device or reset your Home Hub if necessary.,0.0,0.0
+"""How to troubleshoot connectivity issues with Apple HomeKit?"""," Answer: Ensure your Home Hub is online and all devices are within range of your Wi-Fi network. Restart your router, Home Hub, and HomeKit devices to resolve connectivity issues.",0.0,0.0
+"""How to fix Apple HomeKit if an accessory is showing?""", Answer: Ensure that the accessory is powered on and connected to the same Wi-Fi network as your Home Hub. Restart both the accessory and the Home Hub if necessary.,0.0,0.0
+"""How to fix Apple HomeKit if automations are not running?"""," To fix Apple HomeKit when automations are not running, follow these steps:
+
+1. Ensure your Home Hub is online and that all accessories involved in the automation are connected and responsive.
+2. Update Firmware if needed, as outdated firmware might cause issues with automations.
+3. Restart the Home Hub to refresh its memory and potential temporary glitches.
+4. If the problem persists, try resetting your Home Hub (depending on the device, restart your Apple TV, HomePod, or iPad by powering it off and back on). This can help resolve issues with automations and remote access.",0.0,0.0
+"""How to reset Home Hub in Apple HomeKit?"""," Depending on the Home Hub device, restart your Apple TV, HomePod, or iPad by powering it off and back on. This can help resolve issues with automations and remote access. If this doesn't work, you may need to perform a factory reset. However, keep in mind that performing a factory reset will erase all data and settings on the device, so ensure you have backed up any necessary information before proceeding. For specific instructions on how to factory reset your particular Home Hub device, consult the user manual or contact Apple Support.",0.0,0.0
+"""How to fix Apple HomeKit if the app crashes frequently?"""," To fix Apple HomeKit if the app crashes frequently, ensure that your iOS device and the Home app are updated to the latest version. Restart your device and clear any background apps to improve performance.",0.0,0.0
+"""How to reset Wi-Fi settings on Logitech Harmony Hub?"""," Answer: Open the Harmony app, go to Settings, select Wi-Fi Settings, and follow the prompts to update the Wi-Fi network.",0.0,0.0
+"""How to enable push notifications on Logitech Harmony Hub?"""," Answer: Open the Harmony app, go to Settings and enable notifications to receive alerts about connectivity issues or updates for the Harmony Hub.",0.0,0.0
+"""How to troubleshoot connectivity issues with Logitech Harmony Hub?"""," To troubleshoot connectivity issues with the Logitech Harmony Hub, follow these steps:
+
+   1. Ensure your Wi-Fi network is stable and that the hub is within range.
+   2. Restart your router and Harmony Hub.
+   3. Make sure the Harmony app is updated to the latest version on your device.",0.0,0.0
+"""How to clean Logitech Harmony Hub?"""," Use a soft, dry cloth to gently clean the exterior of the Harmony Hub. Avoid using water, cleaners, or aerosol sprays.",0.0,0.0
+"""How to silence alerts on Logitech Harmony Hub?"""," To silence alerts on the Logitech Harmony Hub, follow these steps:
+
+   1. Open the Harmony app on your device.
+   2. Go to Settings.
+   3. Toggle off alerts that you do not wish to receive for specific activities or devices.",0.0,0.0
+"""What if BroadLink RM Pro+ is not responding?"""," Answer: ""Ensure the device is powered on and connected to your Wi-Fi network. Restart the RM Pro+ by unplugging it for 10 seconds, then plug it back in.""",0.0,0.0
+"""How to troubleshoot connectivity issues with BroadLink RM Pro+?"""," To troubleshoot connectivity issues with BroadLink RM Pro+, follow these steps:
+
+1. Ensure your Wi-Fi network is stable and that the RM Pro+ is within range.
+2. Restart your router and RM Pro+.
+3. Make sure the BroadLink app is updated to the latest version.",0.0,0.0
+"""How to clean BroadLink RM Pro+?"""," Use a soft, dry cloth to gently clean the exterior of the RM Pro+. Avoid using water, cleaners, or aerosol sprays.",0.0,0.0
+"""How to link BroadLink RM Pro+ to Amazon Alexa?"""," Answer: Open the Alexa app, go to Skills & Games, search for BroadLink, and enable the skill. Link your BroadLink account to control the RM Pro+ with voice commands.",0.0,0.0
+"""How to update personal information in BroadLink account?"""," To update your personal information in the BroadLink account, follow these steps:
+
+1. Open the BroadLink app on your phone.
+2. Go to Account Settings.
+3. Update your personal information, such as name, email, and preferences.",0.0,0.0
+"""How to fix BroadLink RM Pro+ if the LED indicator is blinking red?"""," ""Restart the BroadLink RM Pro+ device. If the issue persists, try resetting the device by pressing and holding the reset button for about 10 seconds until the LED indicator stops blinking and turns solid. After reset, reconfigure the device in your home automation system.""",0.0,0.0
+"""How to connect Caavo Control Center to Wi-Fi?"""," Answer: Open the Caavo app, go to Settings, select Network, and follow the prompts to connect the Control Center to your Wi-Fi network. Ensure you are using the correct Wi-Fi credentials and that the router is within range.",0.0,0.0
+"""How to deactivate Caavo Control Center during a move?"""," To deactivate the Caavo Control Center during a move, follow these steps:
+
+   1. Open the Caavo app on your phone.
+   2. Select the Control Center from the app's interface.
+   3. Choose Remove Device.
+
+By choosing ""Remove Device,"" you ensure that the new homeowner can set up the device on their account without any issues.",0.0,0.0
+"""How to set up Caavo Control Center after a power outage?"""," The answer is: ""After power is restored, the Control Center should reconnect automatically. If it does not, open the Caavo app and manually reconnect by going to Settings and selecting Reconnect Device.""",0.0,0.0
+"""How to silence alerts on Caavo Control Center?"""," Open the Caavo app, go to Settings, and toggle off alerts that you do not wish to receive for specific activities or devices.",0.0,0.0
+"""How to troubleshoot connectivity issues with Withings Body Cardio?"""," To troubleshoot connectivity issues with Withings Body Cardio, follow these steps:
+
+1. Restart both the router and the Body Cardio device.
+2. Ensure Wi-Fi credentials are correct on both devices (router and Body Cardio).
+3. If the scale is within range of a different network, make sure it is moved back to the intended network.
+4. Re-pair the device if necessary after restarting.",0.0,0.0
+"""How to change Wi-Fi network on Withings Body Cardio?"""," The question asks how to change the Wi-Fi network on a Withings Body Cardio. According to the provided context, to change the Wi-Fi network on Withings Body Cardio, follow these steps:
+
+  1. Open the Withings Health Mate app.
+
+  2. Select your Body Cardio from the list of devices.
+
+  3. Go to Settings.
+
+  4. Tap ""Wi-Fi Setup"" and follow the prompts to change the Wi-Fi network.",0.0,0.0
+"""How to fix Withings Body Cardio if heart rate is not being measured?"""," The answer is: ""Ensure that you are standing still with bare feet on the scale. If heart rate is still not measured, check that the feature is enabled in the Health Mate app and that the scale is clean and dry.""",0.0,0.0
+"""What if the Eufy Smart Scale doesnt detect multiple users accurately?"""," To address this issue, make sure each user profile is updated in the EufyLife app with accurate weight ranges and other personal details. Users should weigh themselves one at a time, and the scale will attempt to identify the correct profile based on weight and history.",0.0,0.0
+"""In case of inconsistent body composition readings on the Eufy Smart Scale, what should I do?"""," Ensure you are weighing yourself under similar conditions each time, such as at the same time of day and without any shoes. Keep the scale on a flat, hard surface and avoid shifting your weight during measurement.",0.0,0.0
+"""How to reset Fitbit Aria to factory settings?"""," ""Remove a battery from the Fitbit Aria for 10 seconds, then reinsert it. This will reset the device to factory settings.""",0.0,0.0
+"""Why is Fitbit Aria showing no readings on the app?"""," The Fitbit Aria might not be syncing properly with the app. Ensure that the app is open, Bluetooth is enabled, and that your phone is within range. Restart the Fitbit app if syncing issues persist.",0.0,0.0
+"""What if Fitbit Aria is stuck on a firmware update?""", Answer: Ensure the scale is within Wi-Fi range and has stable internet access. Restart the Fitbit app and check if the Firmware update completes after reconnecting the scale.,0.0,0.0
+"""In case of problems with weight history on Fitbit Aria, what should I do?"""," Answer: ""Open the Fitbit app, go to Timeline, and check for any discrepancies. If necessary, delete incorrect entries or resync the scale to update weight history.""",0.0,0.0
+"""Why is Fitbit Aria not showing heart rate?"""," ""Fitbit Aria does not measure heart rate. It is designed to measure weight, body fat percentage, and BMI.""",0.0,0.0
+"""How to reset Sleep Number 360 Smart Bed to factory settings?"""," Press and hold the reset button on the pump or hub until the LED indicator blinks, then release to reset the Sleep Number bed to factory settings.",0.0,0.0
+"""In case of a power outage, how to reset Sleep Number 360 Smart Bed?"""," To reset the Sleep Number 360 Smart Bed after a power outage, press and hold the power button on the SleepIQ module for 10 seconds. After this, verify that the bed is working correctly through the SleepIQ app.",0.0,0.0
+"""Why is Sleep Number 360 Smart Bed showing low responsiveness in the app?"""," This can be due to a poor Wi-Fi connection or outdated Firmware. Restart your router, ensure the app is updated, and check the bed's connectivity status.",0.0,0.0
+"""Why is Sleep Number 360 Smart Bed showing offline in the app?"""," This usually indicates a Wi-Fi disconnection. Restart your router and SleepIQ module, and reconnect the bed using the SleepIQ app.",0.0,0.0
+"""Why is Sleep Number 360 Smart Bed not recording partners sleep data?"""," The Sleep Number 360 Smart Bed might not be recording partners' sleep data because both sides of the bed are not properly calibrated, or each partner's profile is not correctly set up in the SleepIQ app. To resolve this issue, ensure that both sides of the bed are properly calibrated and that each partner's profile is correctly set up in the SleepIQ app.",0.0,0.0
+"""How to activate anti-snore feature on Sleep Number 360 Smart Bed?"""," To activate the anti-snore feature on the Sleep Number 360 Smart Bed, follow these steps:
+
+1. Open the SleepIQ app on your mobile device.
+2. Navigate to the Bed Settings section.
+3. Enable the anti-snore feature by toggling it on. This will automatically adjust the bed's position when snoring is detected.",0.0,0.0
+"""How to clean the SleepIQ sensor on Sleep Number 360 Smart Bed?"""," Gently wipe the SleepIQ sensor on the Sleep Number 360 Smart Bed by pressing the button on the SleepIQ module for 20 seconds until the light turns off, then release it. This will reset the Sleep Number 360 Smart Bed to factory settings.",0.0,0.0
+"""How to adjust ResMed S+ sensitivity?"""," To adjust the sensitivity of your ResMed S+, follow these steps:
+
+1. Open the ResMed app on your phone.
+2. Navigate to the Settings section.
+3. Within the Settings menu, you will find the sensitivity settings.
+4. Adjust these settings to improve breathing detection based on your comfort level.",0.0,0.0
+"""What if ResMed S+ is giving incorrect sleep scores?""", Answer: Ensure that the device is positioned correctly and that your sleeping environment is free of disturbances. Adjust sensitivity settings if needed for more accurate readings.,0.0,0.0
+"""Why is ResMed S+ showing inaccurate breathing patterns?"""," The provided context does not specify a reason for the ResMed S+ showing inaccurate breathing patterns. However, it suggests that checking if the device is aligned with your chest and within the recommended distance can help. Additionally, ensuring there are no obstructions or disturbances might also be helpful. If these steps do not resolve the issue, seeking further assistance from the manufacturer or a professional may be necessary.",0.0,0.0
+"""How to deactivate notifications from ResMed S+?"""," To deactivate notifications from ResMed S+, open the S+ by ResMed app, go to Settings, and disable notifications if you do not wish to receive sleep-related alerts.",0.0,0.0
+"""How to connect Withings Sleep Analyzer to Wi-Fi?"""," To connect the Withings Sleep Analyzer to Wi-Fi, open the Withings Health Mate app. Go to Devices, select Add a Device, and follow the prompts to connect the Sleep Analyzer to Wi-Fi. Ensure you are using a 2.4GHz Wi-Fi network and that the router is within range.",0.0,0.0
+"""How to deactivate Withings Sleep Analyzer temporarily?"""," To deactivate the Withings Sleep Analyzer temporarily, you can unplug the device from the power source. Alternatively, you can use the Health Mate app to deactivate sleep tracking without unplugging it.",0.0,0.0
+"""How to link Withings Sleep Analyzer to Apple Health?"""," To link Withings Sleep Analyzer to Apple Health, open the Withings Health Mate app, go to Profile, select Apple Health, and follow the prompts to link your sleep data to Apple Health for better tracking.",0.0,0.0
+"""What if Withings Sleep Analyzer data is inconsistent?""", Data inconsistencies can be due to improper placement of the Sleep Analyzer. Ensure it is placed properly under the mattress and that environmental conditions are consistent.,0.0,0.0
+"""How to fix Withings Sleep Analyzer if it fails to power on?"""," To fix a Withings Sleep Analyzer that fails to power on, you should check the power cable and ensure it is properly connected. Try using a different outlet or adapter. If it still does not power on, contact Withings support for further assistance.",0.0,0.0
+"""What if Withings Sleep Analyzer is not detecting snoring?""", Answer: Ensure that the sound analysis feature is enabled in the Health Mate app. The device must be placed correctly under the mattress for accurate detection.,0.0,0.0
+"""What if Omron Evolv is not turning on?"""," Answer: Ensure the batteries are installed correctly and have sufficient charge. Try replacing the batteries with new ones. If it still doesn't turn on, contact Omron support.",0.0,0.0
+"""How to set a measurement reminder in the Omron Connect app?"""," The answer is: Open the Omron Connect app, go to Reminders, and set a schedule for taking your blood pressure measurements.",0.0,0.0
+"""How to activate measurement history on Omron Connect for Omron Evolv?"""," To activate measurement history on Omron Connect for Omron Evolv, open the Omron Connect app, go to History, and enable measurement tracking. The app will display past readings for review and analysis.",0.0,0.0
+"""How to deactivate Omron Evolv before traveling?"""," To deactivate Omron Evolv before traveling, remove the batteries from the device to ensure it does not accidentally turn on during travel. Store it in a protective case if available.",0.0,0.0
+"""Why is Omron Evolv showing low battery even after replacing batteries?"""," Ensure that the batteries are inserted correctly and that they are fresh, high-quality alkaline batteries. If the issue persists, contact Omron support.",0.0,0.0
+"""How to change the units of measurement on Omron Evolv?"""," To change the units of measurement on Omron Evolv, follow these steps:
+
+   1. Open the Omron Connect app.
+
+   2. Go to Device Settings.
+
+   3. Select your preferred units of measurement for blood pressure (mmHg or kPa).",0.0,0.0
+"""How to fix Omron Evolv if it does not inflate?"""," To fix the Omron Evolv if it does not inflate, ensure the cuff is securely attached and correctly positioned. Then, check if the batteries are installed correctly and have sufficient charge. If the issue persists, try replacing the batteries with new ones. If it still does not turn on, contact Omron support for further assistance.",0.0,0.0
+"""Why does Omron Evolv display Err during measurement?"""," The reason for the Omron Evolv device displaying 'Err' during a measurement could be due to the following reasons:
+
+1. You are not sitting still while taking the measurement, causing movement that may interfere with the readings. Ensure you remain as still as possible during the measurement process.
+2. The cuff is improperly positioned, which can lead to inaccurate readings. Make sure the cuff is properly placed on your arm.
+3. You are speaking during the measurement, which may cause noise interference and affect the accuracy of the reading. Try to avoid speaking during the measurement process.",0.0,0.0
+"""Why is iHealth Track Bluetooth not pairing?""", Answer: Ensure Bluetooth is enabled on both the device and your smartphone. Restart the Bluetooth connection on your phone and reinitiate the pairing process.,0.0,0.0
+"""How to adjust settings on iHealth Track?"""," To adjust settings on iHealth Track, you would typically need to use the iHealth MyVitals app. However, the provided context does not contain specific instructions for adjusting settings. Here's a general guide on how you might do it:
+
+1. Open the iHealth MyVitals app on your phone.
+2. Navigate to the device (iHealth Track) in the app.
+3. Look for an option that says 'Settings' or similar, and navigate to it.
+4. In the settings menu, you should find various options to adjust according to your needs.",0.0,0.0
+"""How to fix data inconsistencies on iHealth Track?""", Answer: Ensure that the cuff is correctly placed and that you remain still during measurements. Data inconsistencies can be due to movement or improper usage of the device.,0.0,0.0
+"""How to activate measurement history on iHealth MyVitals for iHealth Track?"""," To activate the measurement history on iHealth MyVitals app for iHealth Track, you can navigate through the following steps:
+
+1. Open the iHealth MyVitals app on your phone.
+2. Locate and select your iHealth Track device within the app.
+3. Look for the settings or preferences menu, usually represented by a gear icon.
+4. Navigate to the 'Measurement History' or 'Data Log' option within the settings menu.
+5. Toggle on or activate the measurement history function following any prompts provided by the app.",0.0,0.0
+"""Why is Amazon Fire Stick not connecting to Wi-Fi?"""," The Amazon Fire Stick may not be connecting to Wi-Fi due to incorrect Wi-Fi password, the router being malfunctioning, or the device being outside of the Wi-Fi signal range. To troubleshoot this issue, ensure the Wi-Fi password is correct, the router is working properly, and the Fire Stick is within range of the Wi-Fi signal. If the problem persists, restart both the router and Fire Stick.",0.0,0.0
+"""Why is Amazon Fire Stick showing a black screen?""", The Amazon Fire Stick might be showing a black screen due to issues with the HDMI connection or the TV settings. Ensure that the HDMI cable is securely connected and that the TV is on the correct HDMI input. Try restarting the Fire Stick by unplugging it for 10 seconds.,0.0,0.0
+"""How to connect Amazon Fire Stick to a new Wi-Fi network without the remote?"""," To connect Amazon Fire Stick to a new Wi-Fi network without the remote, you can use the TV's built-in settings. Follow these steps:
+
+1. Turn on your TV and make sure it is on the correct HDMI input that your Fire Stick is connected to.
+2. Navigate to the TV's settings or options menu (this may be labeled as 'Menu', 'Settings', or similar depending on the TV model).
+3. Look for an option related to networks, wireless settings, or something similar.
+4. Select 'Wi-Fi Settings'.
+5. Your Fire Stick should appear in the list of available devices under the Network section.
+6. If it does not, try restarting your Fire Stick and TV. Once it appears, select it.
+7. Enter the new Wi-Fi network name (SSID) when prompted.
+8. Enter the password for the new network when prompted.
+9. Wait for the connection to complete and follow any additional prompts that may appear on your screen.",0.0,0.0
+"""Why is Amazon Fire Stick overheating?"""," Overheating can occur if the Fire Stick is in a confined space without adequate ventilation. Ensure it is placed in an open area, and consider using an HDMI extender to improve airflow.",0.0,0.0
+"""How to restart Google Chromecast?"""," To restart Google Chromecast, you can either press and hold the button on the Chromecast unit until the LED starts blinking (this will initiate a factory reset), or you can perform a soft reset through the Google Home app. Here's how to do it with the app:
+
+1. Open the Google Home app on your phone.
+2. Select your Chromecast device.
+3. Tap the settings icon for that device.
+4. Scroll down and tap on ""Reset"" or ""Factory Reset.""
+5. Confirm the action when prompted, and the Chromecast will reset itself.
+6. After the LED light stops blinking (indicating it's back online), you can reconnect to your Wi-Fi network and start using it again.",0.0,0.0
+"""How to factory reset Google Chromecast without using the app?"""," To factory reset Google Chromecast without using the app, press and hold the button on the Chromecast until the LED starts flashing. Release the button when it starts blinking, and the Chromecast will reset itself to factory settings.",0.0,0.0
+"""How to change the display resolution on Google Chromecast?"""," The Google Chromecast does not have a built-in option to manually change the display resolution. It automatically adjusts the resolution based on the TV and network conditions. To adjust settings, you can only adjust the streaming quality within the app you are casting from.",0.0,0.0
+"""How to fix Google Chromecast if there is no sound?"""," Answer: Ensure the volume is not muted on your TV and the casting device. Check the HDMI connection, and ensure the correct audio settings are selected in the Google Home app.",0.0,0.0
+"""How to fix Google Chromecast if the video quality is poor?"""," To fix Google Chromecast if the video quality is poor, ensure you have a strong and stable Wi-Fi connection. Reduce the streaming resolution in the app settings or move the Chromecast closer to the router.",0.0,0.0
+"""How to adjust the volume on Google Chromecast?"""," To adjust the volume on Google Chromecast, you can use the volume buttons on your smartphone while casting, or adjust the volume from the Google Home app. You can also use your TV remote if HDMI-CEC is enabled.",0.0,0.0
+"""How to enable ambient mode on Google Chromecast?"""," To enable ambient mode on Google Chromecast, follow these steps:
+
+   1. Open the Google Home app on your smartphone.
+   2. Select your Chromecast device from the list of devices.
+   3. Go to 'Settings.'
+   4. Choose 'Ambient Mode.'
+   5. Customize the content that appears when the Chromecast is idle by adjusting the settings according to your preference.",0.0,0.0
+"""How to disable notifications on Google Chromecast?"""," To disable notifications on Google Chromecast, open the Google Home app, select your Chromecast device, go to Settings, and disable 'Let others control your cast media' to stop notifications on other devices.",0.0,0.0
+"""How to add Apple TV to the Home app?"""," To add Apple TV to the Home app, go to Settings, select AirPlay and HomeKit, and follow the prompts to add your Apple TV to the Home app for control with other HomeKit accessories.",0.0,0.0
+"""How to disable automatic app updates on Apple TV?"""," The answer is: ""Go to Settings, select Apps, and turn off Automatically Update Apps to prevent apps from updating automatically.""",0.0,0.0
+"""How to fix Apple TV if it is overheating?"""," To fix an Apple TV that is overheating, ensure the device is placed in a well-ventilated area. Avoid stacking it with other electronic devices and ensure it is not confined to a small space.",0.0,0.0
+"""How to change the screensaver download frequency on Apple TV?"""," To change the screensaver download frequency on Apple TV, follow these steps: Go to Settings, select General, then Screensaver. Choose Download New Videos and set the frequency to daily, weekly, or monthly according to your preference.",0.0,0.0
+"""How to fix buffering issues on Samsung Smart TV?"""," To fix buffering issues on a Samsung Smart TV, ensure you have a strong and stable internet connection. Reduce the streaming quality, clear the app cache, or move the TV closer to the router to improve connection. Also, check if the correct audio output is selected.",0.0,0.0
+"""How to disable subtitles on Samsung Smart TV?"""," To disable subtitles on a Samsung Smart TV, follow these steps:
+
+  1. During playback, press the Options button on your remote control.
+
+  2. Go to the Subtitles option.
+
+  3. Select Off to disable subtitles.",0.0,0.0
+"""How to fix Samsung Smart TV if there is no sound?"""," Answer: ""Go to Settings > Sound > Sound Output and check that the correct audio output is selected. Try adjusting the Sound settings, especially the speaker settings, if necessary.""",0.0,0.0
+"""How to fix Samsung Smart TV if the screen is flickering?"""," Answer: Ensure the HDMI cable is securely connected, and try using a different HDMI port on your TV. Go to Settings > Picture > Expert Settings and adjust the Picture Clarity settings.",0.0,0.0
+"""How to use Samsung Smart TV with a VPN?"""," The answer is: ""Set up the VPN on your router, as Samsung Smart TVs do not have built-in VPN support. This will allow all devices on your network, including the TV, to use the VPN.""",0.0,0.0
+"""How to enable voice control on Samsung Smart TV?"""," To enable voice control on a Samsung Smart TV, follow these steps:
+
+1. Go to 'Settings'.
+2. Select 'General'.
+3. Then select 'Voice'.
+4. Enable Bixby or your preferred voice assistant to control the TV using voice commands.",0.0,0.0
+"""How to fix Samsung Smart TV if it is not recognized by the HDMI input?"""," To fix a Samsung Smart TV that is not being recognized by the HDMI input, ensure that the HDMI cable is securely connected. If the issue persists, try using a different HDMI port on your TV.",0.0,0.0
+"""How to restart LG OLED TV with webOS?"""," Press and hold the power button on the remote until the TV turns off and back on again. Alternatively, unplug the TV from the power source for 10 seconds, then plug it back in.",0.0,0.0
+"""How to change the picture resolution on LG OLED TV with webOS?"""," To change the picture resolution on an LG OLED TV with webOS, follow these steps:
+
+1. Go to Settings by using your remote control or the TV's menu interface.
+2. Select All Settings.
+3. Next, choose Picture.
+4. In the Picture settings menu, select Aspect Ratio Settings.
+5. Finally, choose the desired picture resolution or aspect ratio from the available options.",0.0,0.0
+"""How to connect LG OLED TV with webOS to a new Wi-Fi network?"""," Answer: Go to Settings, select Network, then Wi-Fi Connection. Choose the new Wi-Fi network and enter the password to connect.",0.0,0.0
+"""How to change the audio output on LG OLED TV with webOS?"""," To change the audio output on an LG OLED TV with webOS, follow these steps:
+
+   1. Go to Settings.
+   2. Select All Settings.
+   3. Then, select Sound.
+   4. Choose Sound Out.
+   5. Select the desired audio output, such as a Bluetooth speaker or soundbar.",0.0,0.0
+"""How to fix LG OLED TV with webOS if there is no sound?"""," Answer: Ensure the volume on your TV is not muted, and check the HDMI or audio cable connection. Go to Settings > Sound to ensure the correct audio output is selected.",0.0,0.0
+"""How to turn off autoplay on LG OLED TV with webOS?"""," Answer: Open the app (e.g., YouTube or Netflix) and disable the autoplay feature in the apps settings to stop autoplaying of suggested content.",0.0,0.0
+"""How to set a screensaver on LG OLED TV with webOS?"""," Go to Settings, select All Settings, then General, and choose Screen Saver to set or customize a screensaver.",0.0,0.0
+"""How to fix LG OLED TV with webOS if it keeps freezing?"""," To fix an LG OLED TV with webOS if it keeps freezing, you can try the following steps:
+
+   1. Restart your TV by unplugging it for 10 seconds, then plug it back in.
+
+   2. Ensure the software is up to date.
+
+   3. Try reducing the resolution if the issue persists.",0.0,0.0
+"""How to enable voice control on LG OLED TV with webOS?"""," To enable voice control on LG OLED TV with webOS, follow these steps:
+
+  1. Press the 'Settings' button on your remote control.
+
+2. Navigate and select 'All Settings'.
+
+3. In the list of options that appear, find and choose 'Sound'.
+
+4. From the new options presented, select 'Voice Command Settings' or 'Voice Control Settings', depending on the specific model of your TV.
+
+5. Enable the voice control feature by turning it on and following any additional instructions given on your screen for setting up the microphone, if necessary.",0.0,0.0
+"""How to change the picture resolution on Sony Bravia?"""," To change the picture resolution on Sony Bravia, follow these steps: Go to Settings, select Picture & Display, then Screen Settings. Choose the desired picture resolution or aspect ratio to adjust the display.",0.0,0.0
+"""How to enable Accessibility features on Sony Bravia?"""," Answer: Go to Settings, select Accessibility, and choose the feature you want to enable, such as Voice Guide or High Contrast.",0.0,0.0
+"""How to add Sony Bravia to the Google Home app?"""," Answer: Open the Google Home app, tap the + icon, select Set up device, and follow the prompts to add your Sony Bravia TV for integration with Google Home.",0.0,0.0
+"""How to reset Sony Bravia using a computer?"""," To reset Sony Bravia using a computer, you would need to access the TV's settings remotely. This can be done by connecting your computer to the same network as the TV and then navigating to the TV's IP address in a web browser. However, it's important to note that this method might vary depending on the exact model of your Sony Bravia TV.
+
+Here are the general steps for accessing the TV settings remotely:
+
+1. Connect your computer and TV to the same network.
+2. Find out the IP address of your Sony Bravia TV. You can usually do this by going to the network settings on the TV or checking the router's connected devices list.
+3. Open a web browser on your computer.
+4. Type the found IP address into the address bar and press Enter. This should bring up the TV's built-in web interface.
+5. Navigate to Settings > Storage & Reset > Factory Data Reset in the web interface, following any prompts or instructions provided by the TV to complete the reset process.",0.0,0.0
+"""How to use Sony Bravia with a VPN?"""," To use Sony Bravia with a VPN, set up the VPN on your router as Sony Bravia TVs do not have built-in VPN support. This will allow all devices on your network, including the TV, to use the VPN.",0.0,0.0
+"""How to check for software updates on Sony Bravia?"""," To check for software updates on a Sony Bravia TV, follow these steps: Press the 'Home' button, go to 'Settings', select 'Device Preferences', then 'About', and choose 'System Update'.",0.0,0.0
+"""How to pair a Bluetooth device with Sony Bravia?"""," To pair a Bluetooth device with Sony Bravia, follow these steps:
+
+1. Go to Settings.
+2. Select Remote & Accessories.
+3. Then select Bluetooth Settings.
+4. Turn on Bluetooth and select your device from the list to pair.",0.0,0.0
+"""How to fix Sony Bravia remote if it is not working?"""," To fix a Sony Bravia remote that is not working, replace the batteries and ensure they are inserted correctly. If the problem persists, try resetting the remote by holding the power button for 10 seconds and re-pairing it with the TV.",0.0,0.0
+"""How to fix buffering issues on Sony Bravia?"""," To fix buffering issues on Sony Bravia, ensure your internet connection is strong and stable. Reduce the video quality in the streaming app, clear the app cache, or move the TV closer to the router to improve connection.",0.0,0.0
+"""How to install apps on Sony Bravia?"""," The answer is: ""Open the Google Play Store from the home screen, browse or search for the app you want, and select Install to download and install it on your TV.""",0.0,0.0
+"""How to change the audio output on Sony Bravia?"""," To change the audio output on Sony Bravia TV, go to Settings, select Sound, then Sound Output. Choose the desired audio output such as a soundbar or Bluetooth speaker.",0.0,0.0
+"""How to use Sony Bravia as a Google Assistant hub?"""," To use your Sony Bravia TV as a Google Assistant hub, you need to set it up in the Google Home app and enable Google Assistant integration. Here are the steps:
+
+1. Open the Google Home app on your smartphone or tablet.
+2. Tap the ""+"" icon usually located at the upper right corner of the screen.
+3. Select ""Set up device.""
+4. Follow the prompts to add your Sony Bravia TV for integration with Google Home.",0.0,0.0
+"""How to change the screensaver download frequency on Sony Bravia?"""," To change the screensaver download frequency on a Sony Bravia, follow these steps:
+
+1. Go to Settings
+2. Select Device Preferences
+3. Then Screen Saver
+4. Adjust the download frequency if available",0.0,0.0
+"""How to fix PlayStation VR if there is no audio?"""," To fix PlayStation VR if there is no audio, ensure the headphones are securely plugged into the inline remote and the audio settings are correct in the PS4 menu. Restart the headset if the issue persists.",0.0,0.0
+"""How to change the screen brightness on PlayStation VR?"""," To adjust the screen brightness on PlayStation VR, go to 'Settings,' select 'Devices,' then 'PlayStation VR,' and choose 'Adjust Brightness.'",0.0,0.0
+"""How to fix PlayStation VR if the image is shaky?"""," To fix a shaky image in PlayStation VR, ensure that the PlayStation Camera has a clear view of the headset and controllers. Make sure there are no bright lights or reflective surfaces nearby. Adjust the angle for optimal tracking.",0.0,0.0
+"""How to set up PlayStation VR for multiple users?"""," To set up PlayStation VR for multiple users, each user needs their own PlayStation account. Log in with each account and follow the setup instructions for PlayStation VR to personalize settings. This allows each user to have a personalized PSVR experience while sharing the same device.",0.0,0.0
+"""How to update PlayStation VR Move controller firmware?"""," Connect the Move controllers to the PS4 using a USB cable, and the system will prompt you to update if a Firmware update is available.",0.0,0.0
+"""How to enable 3D audio on PlayStation VR?"""," To enable 3D audio on PlayStation VR, connect headphones to the inline remote on the PlayStation VR headset cable. 3D audio is automatically enabled for compatible games and experiences.",0.0,0.0
+"""How to change the screen brightness on Samsung Family Hub?"""," To change the screen brightness on Samsung Family Hub, open the Family Hub screen, go to 'Settings', select 'Display', and adjust the brightness level to your preference.",0.0,0.0
+"""How to connect Samsung Family Hub to Bluetooth speakers?"""," To connect Samsung Family Hub to Bluetooth speakers, open the Family Hub screen, go to 'Settings,' and pair with your Bluetooth speakers.",0.0,0.0
+"""How to disable Bixby on Samsung Family Hub?"""," To disable Bixby on Samsung Family Hub, go to Settings, select Bixby, and turn off the voice activation feature.",0.0,0.0
+"""How to adjust the ice maker settings on Samsung Family Hub?"""," Answer: Open the Fridge Manager app, select Ice Maker, and adjust the settings for ice production, including turning it on or off.",0.0,0.0
+"""How to add a note to Samsung Family Hub?"""," To add a note on Samsung Family Hub, go to the Family Hub screen, select 'Whiteboard,' and use your finger or stylus to write your note. The whiteboard also allows you to draw pictures or add stickers.",0.0,0.0
+"""How to descale Keurig K-Elite?"""," To descale the Keurig K-Elite, follow these steps:
+
+1. Gather a descaling solution, such as white vinegar or Keurig Descaling Solution. Mix the solution with water according to the manufacturer's instructions.
+2. Empty the water reservoir and fill it with the descaling solution.
+3. Select the largest cup size on your Keurig K-Elite machine.
+4. Start the descale process by pressing the button corresponding to the largest cup size you selected. Allow the entire reservoir of descaling solution to brew through the system.
+5. After the first brew cycle, discard the liquid. Repeat this step two more times for a total of three brew cycles with the descaling solution.
+6. For the fourth and final brew cycle, discard the liquid but do not refill the reservoir. Run an empty water brew cycle to rinse the system and remove any remaining descaling solution.
+7. Repeat these steps if your Keurig K-Elite has more than one pod holder or if the 'Descale' light does not turn off after following the process.",0.0,0.0
+"""How to fix Keurig K-Elite if it wont brew?"""," To fix a Keurig K-Elite that won't brew, ensure the water reservoir is filled and properly seated. Clean the needle and try running a cleansing brew without a K-Cup.",0.0,0.0
+"""How to use strong brew setting on Keurig K-Elite?"""," To use the strong brew setting on Keurig K-Elite, insert a K-Cup, press the Strong button, and then select your desired cup size to brew a stronger coffee.",0.0,0.0
+"""How to fix Keurig K-Elite if the brew size is incorrect?"""," To fix the incorrect brew size on a Keurig K-Elite, ensure that the correct cup size is selected before brewing. Clean the needle and descale the machine to ensure proper flow.",0.0,0.0
+"""How to use the hot water button on Keurig K-Elite?"""," To use the hot water button on a Keurig K-Elite, first ensure that the water reservoir is properly filled. Then, select the desired cup size and place your cup under the spout. Press the Hot Water button and use the arrow buttons to increase the temperature setting to the maximum level. Finally, press the Brew button to dispense hot water.",0.0,0.0
+"""How to fix Keurig K-Elite if it keeps shutting off?"""," To fix a Keurig K-Elite that keeps shutting off, disable the Energy Saver and Auto Off settings. This will keep the machine on for longer periods.",0.0,0.0
+"""How to fix Keurig K-Elite if coffee splashes out during brewing?"""," Answer: Ensure the K-Cup is properly placed, and use a larger cup to avoid splashes. Clean the needle to ensure proper flow.",0.0,0.0
+"""How to fix Smarter Coffee 2nd Generation if it is not connecting to Wi-Fi?"""," To fix the Smarter Coffee 2nd Generation if it's not connecting to Wi-Fi, ensure your Wi-Fi network is stable, restart the coffee machine, and try reconnecting via the Smarter app. Also, make sure the machine is within range of the router.",0.0,0.0
+"""How to fix Smarter Coffee 2nd Generation if the coffee tastes bad?"""," Answer: Clean and descale the machine, use fresh water, and ensure you are using high-quality coffee beans. Regular cleaning helps maintain the best flavor.",0.0,0.0
+"""How to reset Smarter Coffee 2nd Generation to factory settings?"""," Answer: Press and hold the Wi-Fi button on the machine for 10 seconds until the light flashes, indicating a factory reset.",0.0,0.0
+"""How to replace the Smarter Coffee 2nd Generation filter?"""," To replace the Smarter Coffee 2nd Generation Filter, you should follow these steps:
+
+1. Open the Filter compartment.
+2. Remove the old Filter.
+3. Insert a new one.
+4. Ensure it is seated correctly before closing the compartment.",0.0,0.0
+"""How to clean the Smarter Coffee 2nd Generation internal parts?"""," Cleaning the internal parts of the Smarter Coffee 2nd Generation can be achieved by descale regularity. This process helps in cleaning the internal components and prevents mineral buildup. To do this, fill the water tank with equal parts white vinegar and water. Run a descaling cycle, then flush with fresh water to remove any residue.",0.0,0.0
+"""How to fix Smarter Coffee 2nd Generation if water leaks from the bottom?"""," To fix a Smarter Coffee 2nd Generation machine that is leaking water from the bottom, inspect the water tank for cracks. Check the seals around the reservoir and ensure the carafe is correctly positioned. If necessary, replace any damaged parts or contact Smarter customer support for assistance.",0.0,0.0
+"""How to descale Smarter Coffee 2nd Generation using vinegar?"""," The answer is provided in the context under the heading, ""How to descale Smarter Coffee 2nd Generation using vinegar?"". The instruction given is to fill the water tank with equal parts white vinegar and water, run a descaling cycle, then flush with fresh water to remove any residue.",0.0,0.0
+"""How to fix Smarter Coffee 2nd Generation if the power button doesnt respond?"""," To fix a Smarter Coffee 2nd Generation machine if the power button does not respond, try the following steps:
+
+   1. Unplug the coffee maker from the power source.
+
+   2. Wait for about a minute to allow any residual electricity to dissipate.
+
+   3. Plug the coffee maker back in and wait for a few seconds.
+
+   4. If the problem persists, try resetting the machine by pressing and holding the Wi-Fi button on the machine for 10 seconds until the light flashes, which indicates a factory reset. This may help to reboot the system and possibly resolve the issue with the power button.",0.0,0.0
+"""How to set cooking schedules on June Oven?"""," The question asks about setting cooking schedules on a June Oven. The answer is found in the given context under the heading ""How to set cooking schedules on June Oven?"" It states, ""Use the June app to schedule cooking by selecting a recipe and setting the start time. The oven will automatically begin cooking at the scheduled time."" So, you can use the June app to schedule your cooking, select a recipe, and set the desired start time for the oven to cook automatically at the specified time.",0.0,0.0
+"""How to clean the June Oven crumb tray?"""," Slide out the crumb tray, wash it with warm, soapy water, and rinse thoroughly before reinserting it into the oven.",0.0,0.0
+"""How to use June Oven with Alexa?"""," To use June Oven with Alexa, you need to enable the June Oven skill in the Alexa app, link your June account, and use voice commands to control the oven.",0.0,0.0
+"""How to fix June Oven if it is not heating?"""," If the June Oven is not heating, first check that it is properly plugged in and the outlet is working. Then press the power button firmly. If the issue continues, try resetting it by unplugging for a few minutes. If the problem persists, contact Smarter support for further assistance.",0.0,0.0
+"""How to roast vegetables in June Oven?"""," To roast vegetables in a June Oven, follow these steps:
+  1. Select the Roast option on the touchscreen.
+  2. Set the desired temperature.
+  3. Place the vegetables on the wire rack.
+  4. Follow the on-screen cooking prompts for roasting the vegetables.",0.0,0.0
+"""How to set a custom cooking program on June Oven?""", Answer: Use the Custom Cook option on the touchscreen to set the desired temperature and time manually. Save the program for future use.,0.0,0.0
+"""How to use June Oven without the app?"""," To use the June Oven without the app, you can manually set cooking programs and control all functions using the touchscreen.",0.0,0.0
+"""How to fix June Oven if it leaks smoke?"""," If your June Oven is leaking smoke, ensure that the oven is clean and there's no food debris left inside. Use a lower temperature for cooking if smoke continues to appear. If the problem persists, you may want to consult the user manual or contact the manufacturer's customer service for further assistance.",0.0,0.0
+"""How to turn off June Oven?"""," To turn off the June Oven, press and hold the power button on the touchscreen until it turns off. Alternatively, you can unplug it from the power source.",0.0,0.0
+"""How to use June Ovens preset programs?"""," To use the preset programs on a June Oven, browse the preset programs on the touchscreen or the June app, select your desired recipe, and follow the on-screen cooking instructions.",0.0,0.0
+"""How to set up Whirlpool Smart Oven?"""," To set up Whirlpool Smart Oven, plug in the oven, connect it to Wi-Fi using the Whirlpool app, and follow the on-screen instructions to complete the setup.",0.0,0.0
+"""How to replace the Whirlpool Smart Oven light?"""," Answer: Contact Whirlpool support for replacement light instructions, as some lights are not user-replaceable.",0.0,0.0
+"""How to fix Whirlpool Smart Oven if the door wont close?"""," To fix a Whirlpool Smart Oven if the door won't close, check for any obstructions around the door seal, and ensure the oven racks or accessories are properly positioned inside the oven.",0.0,0.0
+"""How to clean the Cosori Smart Air Fryer basket?"""," To clean the Cosori Smart Air Fryer basket, wash it with warm, soapy water and rinse thoroughly. Make sure it is completely dry before replacing it in the air fryer.",0.0,0.0
+"""How to set the temperature on Cosori Smart Air Fryer?"""," To set the temperature on Cosori Smart Air Fryer, press the Temperature button. Use the + or - buttons to adjust the temperature, and then press Start to begin cooking.",0.0,0.0
+"""How to replace the air filter in Cosori Smart Air Fryer?""", The Cosori Smart Air Fryer does not have a replaceable air filter. Simply clean the basket and the inside of the air fryer regularly to prevent odors.,0.0,0.0
+"""How to fix Cosori Smart Air Fryer if the basket wont close?"""," Ensure the basket and tray are properly aligned, and there is no food obstructing the basket. Gently push until it clicks into place.",0.0,0.0
+"""How to fix Cosori Smart Air Fryer if it wont turn on?"""," Answer: Ensure the air fryer is properly plugged into a working outlet, and try pressing the power button again. Contact Cosori support if the air fryer still won't turn on.",0.0,0.0
+"""How to set up Cosori Smart Air Fryer?"""," To set up the Cosori Smart Air Fryer, you need to plug it in and connect it to Wi-Fi using the VeSync app. Follow the in-app instructions to complete the setup.",0.0,0.0
+"""How to fix Instant Vortex Plus if it wont turn on?"""," To fix the Instant Vortex Plus if it won't turn on, ensure that the air fryer is properly plugged into a working outlet, and press the power button. If it still doesn't work, check the circuit breaker or contact Instant support.",0.0,0.0
+"""How to fix Instant Vortex Plus if it makes a loud noise?"""," To fix the Instant Vortex Plus if it makes a loud noise, ensure that the basket and trays are properly seated, and check for any loose items inside the air fryer. Contact support if the noise persists.",0.0,0.0
+"""How to make french fries in Instant Vortex Plus?"""," To make French fries in Instant Vortex Plus, follow these steps:
+
+1. Cut potatoes into even slices.
+2. Soak the cut potatoes in water for 30 minutes.
+3. Drain the potatoes and pat them dry.
+4. Place the potatoes in the basket.
+5. Select 'Air Fry' on the device.
+6. Set the temperature according to your preference (typically between 375°F and 400°F).
+7. Set the cooking time, usually around 20 minutes for crispy French fries.
+8. Press 'Start'.
+9. Shake the basket halfway through the cooking process for even cooking.",0.0,0.0
+"""How to save a custom cooking program on Instant Vortex Plus?"""," To save a custom cooking program on Instant Vortex Plus, follow these steps:
+   1. Use the Instant app to set and adjust your favorite cooking settings by selecting the air fryer and making changes to the temperature and time presets.
+   2. Once you're satisfied with your settings, press and hold the Save button to store it as a preset for future use.",0.0,0.0
+"""How to use Instant Vortex Plus for toasting nuts?"""," To use Instant Vortex Plus for toasting nuts, spread the nuts evenly in the basket. Select Air Fry, set a low temperature, and press Start. Stir halfway through for even toasting.",0.0,0.0
+"""How to use Instant Vortex Plus for roasting chicken?"""," To use Instant Vortex Plus for roasting chicken, select Roast, set the temperature and time, place the chicken on the tray, and press Start. Use the rotisserie spit for an even roast.",0.0,0.0
+"""How to set up Instant Vortex Plus?"""," To set up Instant Vortex Plus, plug it in, place it on a Flat surface, and remove any packaging materials. Download the Instant Pot app to connect it for updates and recipes.",0.0,0.0
+"""How to replace a solenoid on Rachio Smart Sprinkler Controller?"""," In the given context, the steps to replace a solenoid on a Rachio Smart Sprinkler Controller are not explicitly provided. However, based on the information available, you can follow these general steps:
+
+1. Power off the controller. It is crucial to ensure that the power supply is disconnected before working on any electrical components.
+
+2. Remove the old solenoid. Carefully unscrew or unclip the old solenoid from its position in the irrigation valve.
+
+3. Replace it with a new one. Install the new solenoid by aligning it properly and screwing it securely into place.
+
+4. Reconnect the wiring. Refer to the user manual for the correct wiring diagram, and reconnect the wiring to the new solenoid. Ensure that all connections are secure and correctly made.
+
+5. Test the zone. After completing the replacement, test the irrigation system by running a short watering cycle in the zone where you replaced the solenoid. Check for proper operation and any leaks or issues.",0.0,0.0
+"""How to enable notifications for Rachio Smart Sprinkler Controller?"""," To enable notifications for the Rachio Smart Sprinkler Controller, follow these steps:
+
+   1. Open the Rachio app on your mobile device.
+   2. Go to the Settings section.
+   3. Select Notifications.
+   4. Enable alerts for watering schedules, weather skips, and water usage as required.",0.0,0.0
+"""How to fix Rachio Smart Sprinkler Controller if it keeps restarting?"""," To fix a Rachio Smart Sprinkler Controller that keeps restarting, follow these steps:
+
+   1. Check the power supply: Ensure the power adapter is functioning properly.
+   2. Update the Firmware: If prompted by the Rachio app, update the Firmware.",0.0,0.0
+"""How to disable freeze skip on Rachio Smart Sprinkler Controller?"""," Answer: In the Rachio app, navigate to Weather Intelligence, and disable Freeze Skip to allow watering even during near-freezing temperatures.",0.0,0.0
+"""How to fix Rachio Smart Sprinkler Controller if watering is skipped unexpectedly?"""," To fix a Rachio Smart Sprinkler Controller if watering is skipped unexpectedly, review the weather data and Weather Intelligence settings in the Rachio app to determine why watering was skipped and adjust the settings as needed.",0.0,0.0
+"""How to use weather intelligence with Netro Smart Sprinkler?"""," To use Weather Intelligence with a Netro Smart Sprinkler, you need to enable this feature in the Netro app. By doing so, your watering schedule will be adjusted based on real-time weather data, including rain, wind, and temperature. This helps conserve water and promote healthier plants by adapting to local climate conditions.",0.0,0.0
+"""How to fix Netro Smart Sprinkler if it wont connect to Wi-Fi?"""," To fix a Netro Smart Sprinkler that won't connect to Wi-Fi, follow these steps:
+
+   1. Ensure the Wi-Fi network is functioning properly.
+   2. Restart the controller.
+   3. Try reconnecting through the Netro app.
+   4. Make sure it is within range of the router.",0.0,0.0
+"""How to update firmware on Netro Smart Sprinkler?"""," To update the Firmware on Netro Smart Sprinkler, you should follow these steps:
+
+   1. Open the Netro app on your smartphone or tablet.
+
+   2. Go to Settings in the app.
+
+   3. Check for Firmware updates by navigating through the settings menu.
+
+   4. If an update is available, follow the prompts to update the controller's Firmware.",0.0,0.0
+"""How to use the water delay feature on Netro Smart Sprinkler?"""," To use the water delay feature on Netro Smart Sprinkler, open the Netro app, navigate to Schedule, and use the Water Delay feature to pause all watering schedules for a set number of days.",0.0,0.0
+"""How to fix Netro Smart Sprinkler if zones are watering at incorrect times?"""," To fix a Netro Smart Sprinkler if the zones are watering at incorrect times, you should verify the schedule settings in the Netro app. Here's how:
+
+1. Open the Netro app on your smartphone or tablet.
+2. Navigate to the Schedule section of the app.
+3. Check each zone's scheduled time and make sure it corresponds with the desired watering schedule.
+4. If necessary, adjust the watering times for individual zones by selecting them and modifying their respective schedules as needed.
+5. Save your changes once you've made any adjustments.
+6. After saving, the Netro Smart Sprinkler should begin watering according to the revised schedule.
+
+If the problem persists even after adjusting the schedule, it may be a good idea to restart the controller and try reconnecting through the Netro app to ensure proper communication between your device and the sprinkler system.",0.0,0.0
+"""How to set up Husqvarna Automower?"""," To set up Husqvarna Automower, place the charging station in a suitable location, connect it to power, and position the boundary wire around your lawn. Place the Automower on the charging station, connect it to Wi-Fi using the Automower Connect app, and follow the in-app instructions.",0.0,0.0
+"""How to connect Husqvarna Automower to Wi-Fi?"""," To connect Husqvarna Automower to Wi-Fi, open the Automower Connect app, go to 'Settings,' select 'Wi-Fi,' and follow the prompts to connect the mower to your network.",0.0,0.0
+"""How to set mowing schedule on Husqvarna Automower?"""," To set a mowing schedule on Husqvarna Automower, open the Automower Connect app, navigate to Schedule, and create a new schedule by selecting your preferred mowing days and times.",0.0,0.0
+"""How to fix Husqvarna Automower if it wont connect to Wi-Fi?"""," To fix Husqvarna Automower if it won't connect to Wi-Fi, ensure the Wi-Fi network is functioning properly, restart the mower, and try reconnecting through the Automower Connect app. Make sure it is within range of the router.",0.0,0.0
+"""How to disable rain sensor on Husqvarna Automower?"""," Answer: Open the Automower Connect app, go to Settings, and disable the rain sensor to allow mowing regardless of rain conditions.",0.0,0.0
+"""How to adjust boundary wire settings for Husqvarna Automower?"""," To adjust the boundary wire settings for Husqvarna Automower, open the Automower Connect app, select Boundary Wire, and adjust the distance and settings for optimal coverage of your lawn.",0.0,0.0
+"""How to fix Robomow RS630 if it wont connect to Wi-Fi?"""," To fix the Robomow RS630 if it won't connect to Wi-Fi, ensure that the Wi-Fi network is functioning properly. Restart the mower and try reconnecting through the Robomow app. Make sure it is within range of the router.",0.0,0.0
+"""How to disable a zone on Robomow RS630?"""," To disable a zone on Robomow RS630, follow these steps:
+
+1. Open the Robomow app on your mobile device.
+2. Navigate to the Zones section of the app.
+3. Select the zone you wish to disable.
+4. Toggle the zone off by following the instructions provided within the app interface.",0.0,0.0
+"""How to check battery status on Robomow RS630?"""," To check the battery status on a Robomow RS630, open the Robomow app, go to Status, and review the detailed battery status including charge level and estimated runtime.",0.0,0.0
+"""How to troubleshoot Robomow RS630 not mowing?"""," To troubleshoot a Robomow RS630 that is not mowing, follow these steps:
+
+   1. Check if the mower is properly charged: Make sure the battery is fully charged before trying to use the mower.
+
+   2. Ensure the perimeter wire is intact: Inspect the boundary wire for any damage and repair or replace it if necessary.
+
+   3. Verify schedule settings in the Robomow app: Check that the schedule settings are configured correctly in the Robomow app.
+
+   4. Run a calibration cycle (if needed): Use the Robomow app to run a calibration cycle, adjusting sensor settings as necessary to ensure accurate readings.
+
+   5. Enable GPS tracking: Make sure GPS tracking is enabled in the Robomow app to help prevent the mower from getting lost during operation.
+
+   6. Monitor the mower's movements using the app: Keep an eye on the mower’s location and progress through the app while it’s running.
+
+   7. Clean the mower regularly: Regular cleaning of the mower can improve its overall performance and extend battery life.
+
+   8. Avoid extreme temperatures: Try to keep the mower away from extreme temperatures as they may affect its battery life and performance.
+
+   9. Charge it fully before storing during the off-season: Ensure the mower is fully charged before storage during the off-season to maintain its battery health.",0.0,0.0
+"""How to disable rain sensor on Robomow RS630?"""," Answer: Open the Robomow app, go to Settings, and disable the rain sensor to allow mowing regardless of rain conditions.",0.0,0.0
+"""How to connect Robomow RS630 to a GPS module?"""," To connect the Robomow RS630 to a GPS module, the context provided does not mention any steps for connecting to a GPS module. However, it is suggested that you use the app to enable GPS tracking and to monitor the mower's movements, which may be a part of the process to connect a GPS module. For more specific instructions on connecting a GPS module to your Robomow RS630, I recommend referring to the user manual or contacting Robomow customer support for assistance.",0.0,0.0
+"""How to fix Parrot Flower Power if it keeps disconnecting?"""," To fix a Parrot Flower Power that keeps disconnecting, you should check the Bluetooth connection on your device. Ensure it is enabled and within range of your smartphone. Restart the Flower Power app and try reconnecting to the sensor again. If the problem persists, try resetting the sensor by removing the battery for a few minutes before replacing it and reconnecting.",0.0,0.0
+"""How to set temperature alerts with Parrot Flower Power?"""," To set temperature alerts with Parrot Flower Power, open the Parrot Flower Power app, go to Alerts, and set temperature thresholds to receive notifications if the plants' environment becomes too hot or cold.",0.0,0.0
+"""How to use Parrot Flower Power with multiple devices?"""," Open the Parrot Flower Power app on each device, log in with the same account, and sync the data across all devices for seamless monitoring.",0.0,0.0
+"""How to change plant type on Parrot Flower Power?"""," To change the plant type on Parrot Flower Power, open the Parrot Flower Power app, select the plant you want to update, and choose a new plant type from the list.",0.0,0.0
+"""How to reset Parrot Flower Power to factory settings?"""," The context provided does not explicitly mention how to reset the Parrot Flower Power sensor to factory settings. However, it does provide information about a reset button on the back of the sensor. To find out how to perform a factory reset, you should refer to the user manual or official support resources for detailed instructions on the process.
+
+In general, a factory reset involves holding down a specific button for a certain duration (as in this case, 10 seconds) until an LED light indicates that the reset is complete. Always ensure to follow the manufacturer's guidelines when performing a factory reset to avoid damaging your device.",0.0,0.0
+"""How to clean Parrot Flower Power sensor?"""," To clean the Parrot Flower Power sensor, follow these steps:
+
+1. Remove the sensor from the soil.
+2. Wipe it clean with a damp cloth.
+3. Ensure there is no soil residue on the sensor tips.
+4. Do not immerse the sensor in water.",0.0,0.0
+"""How to fix Parrot Flower Power if it keeps giving low battery alerts?"""," The solution provided in the context is as follows:
+
+    Replace the CR2032 coin cell battery with a new one, and ensure the battery compartment is properly closed.",0.0,0.0
+"""How to share plant data with others using Parrot Flower Power?"""," To share plant data with others using Parrot Flower Power, open the app, go to Share, and select the contacts you wish to share the plant data with via email or messaging apps.",0.0,0.0
+"""How to use Parrot Flower Power to monitor indoor plants?"""," To use Parrot Flower Power to monitor indoor plants, you should insert the sensor into the soil of your indoor plant, and place the plant in a well-lit area. Use the app to track moisture, light, and temperature levels.",0.0,0.0
+"""How to enable energy-saving mode on Parrot Flower Power?"""," Open the Parrot Flower Power app, go to Settings, and enable Energy Saving Mode to extend battery life by reducing sensor activity.",0.0,0.0
+"""How to set up multiple plants with VegTrug Grow Care?"""," Answer: Open the Grow Care app, add each plant by selecting its type, and insert a VegTrug Grow Care sensor in each plants soil.",0.0,0.0
+"""How to enable notifications for VegTrug Grow Care?"""," To enable notifications for VegTrug Grow Care, follow these steps:
+
+   1. Open the Grow Care app on your device.
+   2. Go to 'Settings' in the app.
+   3. Enable notifications for watering, fertilizing, temperature changes, and other plant care reminders.",0.0,0.0
+"""How to replace the battery in VegTrug Grow Care?"""," To replace the battery in VegTrug Grow Care, you need to twist open the battery compartment, remove the old battery, and insert a new CR2032 coin cell battery. Ensure it is properly seated before closing the compartment.",0.0,0.0
+"""How to set fertilizer reminders with VegTrug Grow Care?"""," To set fertilizer reminders with VegTrug Grow Care, you should use the Grow Care app to create custom fertilizer reminders based on plant type and environmental conditions.",0.0,0.0
+"""How to fix VegTrug Grow Care if it wont update firmware?"""," Use the Grow Care app to ensure the sensor is properly connected via Bluetooth, move closer to the sensor, and retry the Firmware update through the Grow Care app.",0.0,0.0
+"""How to change plant type on VegTrug Grow Care?"""," Answer: To change the plant type in VegTrug Grow Care, open the Grow Care app, select your plant sensor, and go to 'Settings' to update the plant type and receive tailored care tips.",0.0,0.0
+"""How to fix VegTrug Grow Care if it is overheating?"""," Move the sensor to a shaded area to prevent overheating, and ensure the plant is not exposed to direct sunlight for extended periods.",0.0,0.0
+"""How to set up Bosch Connected Devices?"""," To set up Bosch Connected Devices, you should plug in the device, download the Bosch Smart Home app, and connect the device to your home Wi-Fi network by following the in-app instructions.",0.0,0.0
+"""How to enable data sharing for Bosch Connected Devices?"""," Answer: To enable data sharing for Bosch Connected Devices, open the Bosch Smart Home app, go to Settings, and enable Data Sharing to share device data with other integrated smart home systems.",0.0,0.0
+"""How to fix Bosch Connected Devices if the app cannot detect it?"""," Answer: Ensure the device is powered on, check the Wi-Fi connection, and restart both the device and the Bosch Smart Home app.",0.0,0.0
+"""How to fix Texas Instruments SensorTag if it wont connect to Bluetooth?"""," Answer: Ensure Bluetooth is enabled on your device, restart the SensorTag by pressing the power button, and try reconnecting using the SensorTag app.",0.0,0.0
+"""How to enable notifications for Texas Instruments SensorTag?"""," To enable notifications for Texas Instruments SensorTag, follow these steps:
+
+   1. Open the SensorTag app.
+
+   2. Go to Settings (you might find it under the device's name or within a menu).
+
+   3. Enable notifications for specific sensors to receive alerts when certain thresholds are reached.",0.0,0.0
+"""How to use Texas Instruments SensorTag to monitor temperature?"""," To use Texas Instruments SensorTag to monitor temperature, open the SensorTag app and select the temperature sensor to view real-time temperature data collected by the SensorTag.",0.0,0.0
+"""How to set up multiple SensorTags in the app?"""," To set up multiple SensorTags in the app, open the SensorTag app, select Add New Device, and follow the prompts to connect multiple SensorTags for simultaneous monitoring.",0.0,0.0
+"""How to fix Texas Instruments SensorTag if the LED is not working?"""," To fix a Texas Instruments SensorTag if the LED is not working, check the battery level. Replace the battery if needed and restart the SensorTag by pressing the power button.",0.0,0.0
+"""How to fix Texas Instruments SensorTag if it is not measuring temperature correctly?"""," To fix a Texas Instruments SensorTag if it's not measuring temperature correctly, you should recalibrate the temperature sensor using the SensorTag app, ensure it's not exposed to extreme conditions, and replace the battery if necessary.",0.0,0.0
+"""How to enable cloud storage for Texas Instruments SensorTag data?"""," To enable cloud storage for Texas Instruments SensorTag data, open the SensorTag app, go to Settings, and enable Cloud Storage to automatically back up sensor data for secure access and analysis.",0.0,0.0
+"""How to set up temperature logging on Texas Instruments SensorTag?"""," To set up temperature logging for Texas Instruments SensorTag, open the SensorTag app and navigate to 'Data Logging.' Enable logging to start recording sensor data.",0.0,0.0
+"""How to enable developer mode on Texas Instruments SensorTag?"""," To enable developer mode on Texas Instruments SensorTag, you would typically need to access the settings or configuration options within the SensorTag app or software tool. However, specific instructions for enabling developer mode might not be explicitly mentioned in the provided context. It's best to visit the official Texas Instruments website or consult the user manual for accurate and detailed instructions regarding this feature.",0.0,0.0
+"""How to enable power saving mode on Honeywell Smart Sensors?"""," The provided context does not provide information on how to enable power saving mode on Honeywell Smart Sensors. However, based on the pattern of instructions for similar devices, it can be inferred that one might go to the Settings section of the Honeywell Home app and look for an option related to power saving or battery life extension. If such an option is not present in the given context, it would indicate that Honeywell Smart Sensors do not have a built-in power saving mode.",0.0,0.0
+"""How to update the Honeywell Home app?"""," Answer: Go to your smartphone's app store, search for the Honeywell Home app, and select Update if a new version is available.",0.0,0.0
+"""How to fix Honeywell Smart Sensors if they are not measuring temperature correctly?"""," To fix Honeywell Smart Sensors that are not measuring temperature correctly, you should recalibrate the sensor using the Honeywell Home app, ensure it is not exposed to extreme conditions, and replace the battery if necessary.",0.0,0.0
+"""How to fix Honeywell Smart Sensors if they are not turning on?"""," Answer: Check the battery, replace it if needed, and ensure the battery compartment is properly closed. Press the power button to turn the sensor on.",0.0,0.0
+"""How to fix Honeywell Smart Sensors if the app cannot detect it?"""," Answer: Ensure the sensor is powered on, check the Wi-Fi connection, and restart both the sensor and the Honeywell Home app.",0.0,0.0
+"""How to set up custom alerts for Honeywell Smart Sensors?"""," To set up custom alerts for Honeywell Smart Sensors, open the Honeywell Home app, go to Alerts, and create custom alerts based on specific sensor readings like temperature, humidity, or motion.",0.0,0.0
+"""How to disable power saving mode on Samsara Asset IoT?"""," To disable power saving mode on Samsara Asset IoT, follow these steps:
+
+   1. Open the Samsara Fleet app.
+   2. Go to Settings.
+   3. In the settings menu, locate and disable Power Saving Mode. This will enable full sensor activity on your device.",0.0,0.0
+"""How to enable vacation mode for Samsara Asset IoT?"""," Answer: Open the Samsara Fleet app, go to Settings, and enable Vacation Mode to adjust monitoring activities while the asset is not in use.",0.0,0.0
+"""How to export data from Samsara Asset IoT to CSV?"""," Open the Samsara Fleet app, select Export Data, and choose CSV format to save data for further analysis.",0.0,0.0
+"""How to disable specific alerts on Samsara Asset IoT?"""," Open the Samsara Fleet app, go to Settings, and disable the specific alerts you no longer wish to receive.",0.0,0.0
+"""How to link Samsara Asset IoT with other smart devices?"""," To link Samsara Asset IoT with other smart devices, use the Samsara Fleet app. Go to the app and link your IoT device with other compatible smart devices for enhanced automation and control.",0.0,0.0
+"""How to update firmware on Teltonika TMT250?"""," ""Open the Teltonika mobile app, connect to the TMT250 device via USB, and check for Firmware updates. Follow the prompts to update the Firmware.""",0.0,0.0
+"""How to use Teltonika TMT250 to monitor location?"""," Answer: Open the Teltonika mobile app, connect to the TMT250, and view real-time location data on the map. Set alerts for specific geofences if needed.",0.0,0.0
+"""How to set up multiple Teltonika TMT250 devices in the app?"""," Open the Teltonika mobile app, select Add New Device, and follow the prompts to connect multiple TMT250 devices for simultaneous monitoring.",0.0,0.0
+"""How to fix Teltonika TMT250 if it is not turning on?"""," Open the Teltonika mobile app, check the battery, replace it if needed, and ensure the battery compartment is properly closed. Press the power button to turn the device on.",0.0,0.0
+"""How to set movement alerts for Teltonika TMT250?"""," Open the Teltonika mobile app, navigate to Alerts, and enable movement alerts to be notified when the device detects significant movement.",0.0,0.0
+"""How to set up custom alerts for Teltonika TMT250?"""," Answer: Open the Teltonika mobile app, go to Alerts, and create custom alerts based on specific sensor readings like speed, movement, or inactivity.",0.0,0.0
+"""How to enable eco mode for Teltonika TMT250?"""," To enable Eco Mode for Teltonika TMT250, follow these steps:
+
+   1. Open the Teltonika mobile app.
+   2. Select the device.
+   3. Enable Eco Mode to optimize energy consumption and extend battery life.",0.0,0.0
+"""How to fix GE Predix-powered Industrial Equipment if it keeps disconnecting?"""," To fix GE Predix-powered Industrial Equipment that keeps disconnecting, you should follow these steps:
+
+   1. Check the network connection and ensure that the equipment is properly connected to the correct network.
+
+   2. Review the device activity logs on the Predix platform for any issues or anomalies that may be causing the disconnection.
+
+   3. Check if there are any unstable third-party integrations linked to your equipment, which might cause connectivity problems. If so, disable them temporarily to see if it resolves the issue.
+
+   4. Review device permissions and update them as necessary to ensure optimal connection stability.
+
+   5. If the problem persists, consider rebooting the equipment or contacting GE Predix support for further assistance.",0.0,0.0
+"""How to replace faulty sensors on GE Predix-powered Industrial Equipment?"""," To replace faulty sensors on GE Predix-powered Industrial Equipment, follow these steps:
+
+   1. Power down the equipment, ensuring it is safely disconnected from any power sources.
+
+   2. Follow safety guidelines as required for your specific equipment and environment.
+
+   3. Locate and identify the faulty sensor based on the manual provided with your GE Predix-powered Industrial Equipment or according to its location in the system.
+
+   4. Replace the faulty sensor following the instructions provided in the equipment manual. Be sure to handle any new parts carefully, and ensure they are correctly installed and connected to the appropriate cables or interfaces.
+
+   5. Power on the equipment to verify that the replacement has been successful. Check if the new sensor is functioning properly by reviewing data output from the Predix platform, and address any issues that may arise during this process.",0.0,0.0
+Overall Average,,0.002058904270755716,0.002058904270755716
