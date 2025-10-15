@@ -47,7 +47,7 @@ IoT-Shepherd/
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/iot-shepherd.git
+git clone https://github.com/WadElla/iot-shepherd.git
 cd iot-shepherd
 ```
 
