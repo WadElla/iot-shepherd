@@ -23,7 +23,7 @@ IoT-Shepherd/
 │   ├── query.py
 │   ├── performance.py
 │   ├── get_embedding_function.py
-│   ├── data/
+│   ├── example_data/
 │   └── chroma/
 │
 ├── Bert/
