@@ -9,7 +9,7 @@ from langchain.vectorstores.chroma import Chroma
 
 
 CHROMA_PATH = "chroma"
-DATA_PATH = "data" # Specify the folder containing the IoT manuals (e.g, Manuals-Data)
+DATA_PATH = "example_data" # Specify the folder containing your IoT manuals (e.g, example_data). You can try with the example_data in the repo or use your own dataset
 
 
 def main():
