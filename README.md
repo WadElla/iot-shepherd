@@ -186,8 +186,8 @@ python performance.py
 ```
 
 **Generates:**
-- evaluation scores (e.g., BLEU/ROUGE/METEOR/BERTScore if enabled in your script)
-- system metrics and logs (depending on your `performance.py` implementation)
+- evaluation scores (e.g., BLEU/ROUGE/METEOR/BERTScore)
+- system metrics and logs
 
 ---
 
