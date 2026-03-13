@@ -160,7 +160,7 @@ python bert_multiclass_test.py
 **Generates:**
 - `saved_model/` (fine-tuned model artifacts)
 - `bert_traffic_report.txt`
-- evaluation plots/metrics (depending on your scripts)
+- evaluation metrics
 
 > **Note (model size):** The fine-tuned BERT model is **not committed** to the repository due to size.  
 > After running ADM evaluation/training, copy the generated `Bert/saved_model/` into:
