@@ -133,6 +133,42 @@ streamlit run app.py
 
 ---
 
+## 📸 IoT Shepherd UI Screenshots
+
+<details open>
+  <summary><b>📸 Click to view UI screenshots</b></summary>
+
+  <p align="center">
+    <a href="assets/screenshots/1.png"><img src="assets/screenshots/1.png" alt="UI screenshot 1" width="32%"></a>
+    <a href="assets/screenshots/2.png"><img src="assets/screenshots/2.png" alt="UI screenshot 2" width="32%"></a>
+    <a href="assets/screenshots/3.png"><img src="assets/screenshots/3.png" alt="UI screenshot 3" width="32%"></a>
+  </p>
+
+  <p align="center">
+    <a href="assets/screenshots/4.png"><img src="assets/screenshots/4.png" alt="UI screenshot 4" width="32%"></a>
+    <a href="assets/screenshots/5.png"><img src="assets/screenshots/5.png" alt="UI screenshot 5" width="32%"></a>
+    <a href="assets/screenshots/6.png"><img src="assets/screenshots/6.png" alt="UI screenshot 6" width="32%"></a>
+  </p>
+
+  <p align="center">
+    <a href="assets/screenshots/7.png"><img src="assets/screenshots/7.png" alt="UI screenshot 7" width="32%"></a>
+    <a href="assets/screenshots/agent_running.png"><img src="assets/screenshots/agent_running.png" alt="Agent running" width="32%"></a>
+    <a href="assets/screenshots/agentic_page.png"><img src="assets/screenshots/agentic_page.png" alt="Agentic page" width="32%"></a>
+  </p>
+
+  <p align="center">
+    <a href="assets/screenshots/incident_summary.png"><img src="assets/screenshots/incident_summary.png" alt="Incident summary" width="32%"></a>
+    <a href="assets/screenshots/pcap_analysis.png"><img src="assets/screenshots/pcap_analysis.png" alt="PCAP analysis" width="32%"></a>
+    <a href="assets/screenshots/settings.png"><img src="assets/screenshots/settings.png" alt="Settings" width="32%"></a>
+  </p>
+
+  <p align="center">
+    <a href="assets/screenshots/traffic_analysis.png"><img src="assets/screenshots/traffic_analysis.png" alt="Traffic analysis page" width="60%"></a>
+  </p>
+</details>
+
+---
+
 ## 🧪 Evaluation
 
 IoT Shepherd includes an evaluation workflow for both **ADM (BERT anomaly detection)** and **CGM (RAG)**.
@@ -191,37 +227,4 @@ python performance.py
 
 ---
 
-## 📸 IoT Shepherd UI Screenshots
-
-<details open>
-  <summary><b>📸 Click to view UI screenshots</b></summary>
-
-  <p align="center">
-    <a href="assets/screenshots/1.png"><img src="assets/screenshots/1.png" alt="UI screenshot 1" width="32%"></a>
-    <a href="assets/screenshots/2.png"><img src="assets/screenshots/2.png" alt="UI screenshot 2" width="32%"></a>
-    <a href="assets/screenshots/3.png"><img src="assets/screenshots/3.png" alt="UI screenshot 3" width="32%"></a>
-  </p>
-
-  <p align="center">
-    <a href="assets/screenshots/4.png"><img src="assets/screenshots/4.png" alt="UI screenshot 4" width="32%"></a>
-    <a href="assets/screenshots/5.png"><img src="assets/screenshots/5.png" alt="UI screenshot 5" width="32%"></a>
-    <a href="assets/screenshots/6.png"><img src="assets/screenshots/6.png" alt="UI screenshot 6" width="32%"></a>
-  </p>
-
-  <p align="center">
-    <a href="assets/screenshots/7.png"><img src="assets/screenshots/7.png" alt="UI screenshot 7" width="32%"></a>
-    <a href="assets/screenshots/agent_running.png"><img src="assets/screenshots/agent_running.png" alt="Agent running" width="32%"></a>
-    <a href="assets/screenshots/agentic_page.png"><img src="assets/screenshots/agentic_page.png" alt="Agentic page" width="32%"></a>
-  </p>
-
-  <p align="center">
-    <a href="assets/screenshots/incident_summary.png"><img src="assets/screenshots/incident_summary.png" alt="Incident summary" width="32%"></a>
-    <a href="assets/screenshots/pcap_analysis.png"><img src="assets/screenshots/pcap_analysis.png" alt="PCAP analysis" width="32%"></a>
-    <a href="assets/screenshots/settings.png"><img src="assets/screenshots/settings.png" alt="Settings" width="32%"></a>
-  </p>
-
-  <p align="center">
-    <a href="assets/screenshots/traffic_analysis.png"><img src="assets/screenshots/traffic_analysis.png" alt="Traffic analysis page" width="60%"></a>
-  </p>
-</details>
 
