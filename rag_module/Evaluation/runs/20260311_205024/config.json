@@ -1,0 +1,23 @@
+{
+  "models": [
+    "llama3.1:8b",
+    "llava:7b",
+    "gemma2:9b",
+    "mistral:7b"
+  ],
+  "use_case_files": {
+    "Troubleshooting": "Evaluation/troubleshoot.docx",
+    "Device Management": "Evaluation/device_management.docx",
+    "Maintenance": "Evaluation/maintenance.docx",
+    "Safety": "Evaluation/safety.docx",
+    "Setup": "Evaluation/setup.docx"
+  },
+  "chroma_path": "chroma",
+  "top_k": 5,
+  "score_scale_for_summaries": 100.0,
+  "nvml_available": true,
+  "nvidia_smi_available": true,
+  "torch_cuda_available": true,
+  "bert_score_available": true,
+  "started_at": "20260311_205024"
+}
