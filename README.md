@@ -212,7 +212,7 @@ python bert_multiclass_test.py
 ```text
 rag_module/
 ├── performance.py
-└── (evaluation inputs/output folders as defined in your setup)
+└── (evaluation inputs/output folders as defined in the script)
 ```
 
 **Run:**
