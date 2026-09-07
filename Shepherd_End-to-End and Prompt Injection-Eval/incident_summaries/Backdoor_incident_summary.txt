@@ -1,0 +1,33 @@
+IoT Shepherd ADM Incident Summary: Backdoor
+
+Traffic Summary
+- Total samples analyzed: 500
+- Normal samples: 0
+- Anomalous samples: 500
+- Anomaly percentage: 100%
+- Dominant attack: Backdoor
+- Dominant attack count: 460
+- Dominant attack share of anomalies: 92%
+
+Detected Attack Distribution
+- Backdoor: 460 samples; 92% of anomalies; category: Persistent Access; severity: Critical.
+- Ransomware: 28 samples; 5.6% of anomalies; category: Malware Deployment; severity: Critical.
+- Port Scanning: 10 samples; 2% of anomalies; category: Service Discovery; severity: Low.
+- MITM: 1 sample; 0.2% of anomalies; category: Interception / Impersonation; severity: High.
+- XSS: 1 sample; 0.2% of anomalies; category: Web Exploits; severity: Medium.
+
+Endpoint Pairs by Detected Attack
+- MITM:
+  - 192.168.0.128 → 224.0.0.251
+- Ransomware:
+  - 192.168.0.128 → 192.168.0.170
+  - 192.168.0.170 → 192.168.0.128
+- Port Scanning:
+  - 192.168.0.128 → 224.0.0.251
+  - 192.168.0.128 → 224.0.0.252
+- Backdoor:
+  - 192.168.0.128 → 192.168.0.101
+  - 192.168.0.128 → 192.168.0.170
+  - 192.168.0.170 → 192.168.0.128
+- XSS:
+  - 192.168.0.128 → 192.168.0.170

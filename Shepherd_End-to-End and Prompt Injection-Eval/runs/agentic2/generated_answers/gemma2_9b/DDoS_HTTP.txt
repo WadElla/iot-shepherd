@@ -1,0 +1,214 @@
+====================================================================================================
+Case: DDoS_HTTP
+Model: gemma2:9b
+QA Index: 1
+Planner Dominant Attack: DDoS_HTTP
+Retry Used: True
+Initial Retrieval Query: DDoS_HTTP Given an IoT incident dominated by DDoS HTTP activity, what is the first stabilization objective for the administrator?
+Retry Retrieval Query: DDoS_HTTP Given an IoT incident dominated by DDoS HTTP activity, what is the first stabilization objective for the administrator? **mitigation**
+
+Question:
+Given an IoT incident dominated by DDoS HTTP activity, what is the first stabilization objective for the administrator?
+
+Reference Answer:
+The first objective is to preserve service availability for legitimate administrators and devices. The administrator should identify the protected service, affected route, application endpoint, or management portal under load and confirm whether the traffic is public-facing, internal, device-originated, or passing through a gateway or proxy. Emergency rate limits should be enabled at the closest effective control point, such as the load balancer, reverse proxy, API gateway, web application firewall, or edge firewall, while mitigation is staged so aggressive filtering does not break required device operations.
+
+With Context Answer:
+The first goal during DDoS HTTP activity is to preserve service availability for legitimate administrators and devices.
+
+Incident Only Answer:
+The immediate stabilization objective is to mitigate the ongoing DDoS_HTTP attacks targeting 192.168.0.170 from 192.168.0.128 by implementing rate limiting, access controls, and potentially a CDN to absorb the traffic surge.  This will help restore normal service availability for the affected endpoint (192.168.0.170).
+
+====================================================================================================
+Case: DDoS_HTTP
+Model: gemma2:9b
+QA Index: 2
+Planner Dominant Attack: DDoS_HTTP
+Retry Used: True
+Initial Retrieval Query: DDoS_HTTP What traffic indicators should be examined to confirm an HTTP-based denial-of-service attack against IoT services?
+Retry Retrieval Query: DDoS_HTTP What traffic indicators should be examined to confirm an HTTP-based denial-of-service attack against IoT services? **including specific examples**
+
+Question:
+What traffic indicators should be examined to confirm an HTTP-based denial-of-service attack against IoT services?
+
+Reference Answer:
+The administrator should examine whether there is a sharp increase in HTTP requests to a small number of endpoints or routes, many requests with similar methods, paths, user agents, headers, or payload sizes, and repeated requests that trigger authentication, dynamic page generation, search, database lookup, device status polling, or firmware download. The administrator should also check for high request rates from many sources, a single local segment, compromised devices, or unexpected network locations, along with incomplete requests, abnormal connection resets, server errors, timeouts, or HTTP 4xx and 5xx responses.
+
+With Context Answer:
+DDoS HTTP detection should combine traffic volume, request patterns, application logs, resource utilization, and service health. Administrators should identify top requested paths, methods, response codes, user agents, request sizes, and error rates.  Compare traffic from legitimate devices with suspicious sources to avoid blocking required device communications. Determine whether the attack uses many external sources, a small number of local devices, compromised internal endpoints, or spoofed-looking headers. Check whether backend failures were caused by authentication, database queries, firmware downloads, API polling, or application worker exhaustion.
+
+Incident Only Answer:
+Focus on examining traffic originating from  `192.168.0.128` towards `192.168.0.170` as this pair exhibits the highest volume of DDoS_HTTP attacks (313 samples). Look for unusually high request rates, a disproportionate number of small GET requests targeting specific resources, and potentially malformed or oversized HTTP headers.  Additionally, examine traffic patterns to identify potential botnets by looking for synchronized bursts of activity from multiple sources.
+
+====================================================================================================
+Case: DDoS_HTTP
+Model: gemma2:9b
+QA Index: 3
+Planner Dominant Attack: DDoS_HTTP
+Retry Used: True
+Initial Retrieval Query: DDoS_HTTP Which service-health indicators are important during a DDoS HTTP incident affecting IoT infrastructure?
+Retry Retrieval Query: DDoS_HTTP Which service-health indicators are important during a DDoS HTTP incident affecting IoT infrastructure? **including specific examples**
+
+Question:
+Which service-health indicators are important during a DDoS HTTP incident affecting IoT infrastructure?
+
+Reference Answer:
+Important service indicators include high CPU usage on web servers, API gateways, reverse proxies, or application backends; exhausted worker pools, connection pools, database sessions, memory, file descriptors, or queue capacity; increased latency for legitimate administrative actions or device control operations; failed device check-ins, delayed telemetry processing, or missed control commands; and health checks failing on application routes while lower-level network connectivity remains available.
+
+With Context Answer:
+During a DDoS_HTTP incident, it is crucial to monitor these service health indicators: high CPU usage on web servers, API gateways, reverse proxies, or application backends.  Also, be aware of exhausted worker pools, connection pools, database sessions, memory, file descriptors, or queue capacity.
+
+Incident Only Answer:
+During a DDoS_HTTP incident, monitor the health of web servers (e.g., HTTP status codes, response times), network bandwidth utilization, and device connection status to assess the impact on services. Track error logs for clues about specific attack vectors and affected applications.  Also, monitor firewall logs for blocked requests and potential anomalies.
+
+====================================================================================================
+Case: DDoS_HTTP
+Model: gemma2:9b
+QA Index: 4
+Planner Dominant Attack: DDoS_HTTP
+Retry Used: False
+Initial Retrieval Query: DDoS_HTTP How should rate limiting and throttling be applied during DDoS HTTP mitigation?
+Retry Retrieval Query: 
+
+Question:
+How should rate limiting and throttling be applied during DDoS HTTP mitigation?
+
+Reference Answer:
+The administrator should apply per-source, per-subnet, per-token, per-device, and per-route rate limits where supported. Lower thresholds should be used for login, token refresh, password reset, search, configuration, and firmware download routes. Adaptive throttling should be applied when error rates, backend latency, or queue depth exceed normal thresholds. Abusive clients should receive lightweight error responses rather than being allowed to reach expensive application logic.
+
+With Context Answer:
+Apply per-source, per-subnet, per-token, per-device, and per-route rate limits where supported. Use lower thresholds for login, token refresh, password reset, search, configuration, and firmware download routes. Apply adaptive throttling when error rates, backend latency, or queue depth exceed normal thresholds. Return lightweight error responses for abusive clients rather than allowing requests to reach expensive application logic.
+
+Incident Only Answer:
+Apply rate limiting and throttling to the affected endpoint pair (192.168.0.128 → 192.168.0.170) identified as experiencing the dominant DDoS_HTTP attack. Configure these measures based on observed traffic patterns to restrict request rates and overall volume from this source to mitigate the volumetric denial-of-service impact.
+
+====================================================================================================
+Case: DDoS_HTTP
+Model: gemma2:9b
+QA Index: 5
+Planner Dominant Attack: DDoS_HTTP
+Retry Used: False
+Initial Retrieval Query: DDoS_HTTP What request-reduction and caching actions can reduce backend load during a DDoS HTTP event?
+Retry Retrieval Query: 
+
+Question:
+What request-reduction and caching actions can reduce backend load during a DDoS HTTP event?
+
+Reference Answer:
+The administrator should cache static assets, documentation pages, firmware metadata, status pages, and repeated read-only responses. Static or degraded-mode pages can be served for dashboards when backend systems are overloaded. Nonessential expensive operations such as broad search, heavy reports, bulk export, or historical queries should be disabled or deferred. Connection reuse and upstream keep-alive settings should be used to reduce backend connection churn.
+
+With Context Answer:
+To reduce backend load during a DDoS HTTP event, you can  cache static assets, documentation pages, firmware metadata, status pages, and repeated read-only responses. Additionally, serve static or degraded-mode pages for dashboards when backend systems are overloaded. Lastly, disable or defer nonessential expensive operations such as broad search, heavy reports, bulk export, or historical queries.
+
+Incident Only Answer:
+To mitigate the DDoS_HTTP attack, implement rate limiting on incoming HTTP requests to your web servers.  Additionally, leverage content caching strategies such as CDNs (Content Delivery Networks) to store frequently accessed static content closer to users, reducing the load on origin servers.
+
+====================================================================================================
+Case: DDoS_HTTP
+Model: gemma2:9b
+QA Index: 6
+Planner Dominant Attack: DDoS_HTTP
+Retry Used: False
+Initial Retrieval Query: DDoS_HTTP What web application firewall controls are appropriate for DDoS HTTP mitigation in IoT services?
+Retry Retrieval Query: 
+
+Question:
+What web application firewall controls are appropriate for DDoS HTTP mitigation in IoT services?
+
+Reference Answer:
+The administrator should block malformed HTTP methods, invalid headers, suspicious payloads, and request patterns that do not match the service design. Sensitive management routes should use allowlists when those routes should only be reachable from known administrative networks. Bot-management or challenge mechanisms may be applied only when they do not interfere with legitimate device clients.
+
+With Context Answer:
+Use allowlists for sensitive management routes when those routes should only be reachable from known administrative networks.  Apply bot-management or challenge mechanisms only when they do not interfere with legitimate device clients. 
+
+
+Block malformed HTTP methods, invalid headers, suspicious payloads, and request patterns that do not match the service design.
+
+Incident Only Answer:
+Given the high percentage of DDoS_HTTP attacks (83.69%) observed, implement rate limiting at the web application firewall (WAF) level to restrict the number of HTTP requests allowed from a single source within a specific timeframe. Additionally, configure WAF rules to identify and block known malicious botnet IP addresses and traffic patterns commonly associated with DDoS attacks.
+
+====================================================================================================
+Case: DDoS_HTTP
+Model: gemma2:9b
+QA Index: 7
+Planner Dominant Attack: DDoS_HTTP
+Retry Used: True
+Initial Retrieval Query: DDoS_HTTP Which infrastructure controls help prevent an HTTP flood from exhausting shared IoT management resources?
+Retry Retrieval Query: DDoS_HTTP Which infrastructure controls help prevent an HTTP flood from exhausting shared IoT management resources? 
+ **in a managed environment**
+
+Question:
+Which infrastructure controls help prevent an HTTP flood from exhausting shared IoT management resources?
+
+Reference Answer:
+The administrator should use edge protection, CDN services, managed DDoS protection, or upstream filtering for public-facing services. Public web traffic should be separated from device control channels and internal management networks. Reverse proxies and API gateways should be placed in front of device management applications. Connection limits, request body limits, header size limits, idle timeouts, backend timeout policies, queue limits, and circuit breakers should be configured. Backend databases, message brokers, and authentication services should have their own limits and monitoring.
+
+With Context Answer:
+Infrastructure controls such as rate limits at the closest effective control point (load balancer, reverse proxy, API gateway, web application firewall, or edge firewall),  separation of public web traffic from device control channels and internal management networks, and use of upstream filtering for public-facing services can help prevent an HTTP flood from exhausting shared IoT management resources.
+
+Incident Only Answer:
+Implementing rate limiting on the IoT management platform can help prevent an HTTP flood from overwhelming shared resources. Additionally, deploying a Web Application Firewall (WAF) configured to filter out malicious HTTP traffic patterns common in DDoS attacks can mitigate the impact of such floods.  Further, ensuring all devices have up-to-date firmware and security patches can reduce the likelihood of exploitation that could lead to an HTTP flood originating from within your IoT network.
+
+====================================================================================================
+Case: DDoS_HTTP
+Model: gemma2:9b
+QA Index: 8
+Planner Dominant Attack: DDoS_HTTP
+Retry Used: True
+Initial Retrieval Query: DDoS_HTTP What investigation workflow should be followed after DDoS HTTP activity is detected?
+Retry Retrieval Query: DDoS_HTTP What investigation workflow should be followed after DDoS HTTP activity is detected?
+
+Question:
+What investigation workflow should be followed after DDoS HTTP activity is detected?
+
+Reference Answer:
+The administrator should review web server, reverse proxy, load balancer, API gateway, firewall, DNS, and application logs for the attack window. The review should identify top requested paths, methods, response codes, user agents, request sizes, and error rates. Suspicious sources should be compared with legitimate device traffic to avoid blocking required device communications. The administrator should determine whether the attack uses many external sources, a small number of local devices, compromised internal endpoints, or spoofed-looking headers, and check whether backend failures were caused by authentication, database queries, firmware downloads, API polling, or application worker exhaustion.
+
+With Context Answer:
+To address the DDoS_HTTP attack, administrators should immediately stabilize the situation by identifying the affected service (e.g., management portal), route, application endpoint, or gateway under load. Determine if the traffic originates from public-facing sources, internal networks, devices, or passes through a gateway/proxy.  Next, enable emergency rate limits at control points like load balancers, reverse proxies, API gateways, web application firewalls, or edge firewalls. Temporarily restrict administrative access to trusted management networks or VPN users. Finally, apply request filtering for abusive paths, repeated payloads, invalid methods, and malformed headers.
+
+Incident Only Answer:
+First, isolate the affected endpoint (192.168.0.128) from the network to prevent further amplification of the DDoS attack. Next, investigate firewall logs and intrusion detection system (IDS) alerts for any suspicious traffic patterns or connections associated with the attack source (192.168.0.170).  Analyze the HTTP request payloads to identify malicious intent or potential vulnerabilities being exploited. Examine server logs for any signs of service disruption or denial-of-service conditions. Finally, strengthen security controls by implementing rate limiting on incoming HTTP requests and deploying a DDoS mitigation solution to protect against future attacks.
+
+====================================================================================================
+Case: DDoS_HTTP
+Model: gemma2:9b
+QA Index: 9
+Planner Dominant Attack: DDoS_HTTP
+Retry Used: False
+Initial Retrieval Query: DDoS_HTTP How should normal service be restored after a DDoS HTTP incident stabilizes?
+Retry Retrieval Query: 
+
+Question:
+How should normal service be restored after a DDoS HTTP incident stabilizes?
+
+Reference Answer:
+Recovery should be performed after service health stabilizes. The administrator should confirm that legitimate administrators and devices can reach required services, review whether rate limits blocked legitimate devices, and adjust thresholds if needed. Overloaded queues, failed jobs, stuck sessions, and delayed telemetry pipelines should be flushed or repaired. Authentication, device enrollment, configuration updates, and telemetry ingestion should be validated, while logs and traffic summaries should be retained for post-incident tuning and reporting.
+
+With Context Answer:
+Recovery should be performed after service health stabilizes. Administrators should restore normal access gradually,  monitor for renewed traffic, and keep emergency controls available in case the flood resumes.
+
+Incident Only Answer:
+After the DDoS_HTTP incident stabilizes, focus on restoring normal service by prioritizing security measures. Begin with reviewing and patching any affected systems for known vulnerabilities that might have been exploited during the attack. Implement robust rate limiting and traffic filtering rules on your network infrastructure to prevent future DDoS attacks. Additionally, consider leveraging a web application firewall (WAF) to protect against malicious HTTP traffic and enforce security policies.  Monitor network traffic closely for any suspicious activity and maintain vigilance to detect and respond to potential ongoing threats.
+
+====================================================================================================
+Case: DDoS_HTTP
+Model: gemma2:9b
+QA Index: 10
+Planner Dominant Attack: DDoS_HTTP
+Retry Used: True
+Initial Retrieval Query: DDoS_HTTP What long-term hardening actions should be taken after DDoS HTTP mitigation?
+Retry Retrieval Query: DDoS_HTTP What long-term hardening actions should be taken after DDoS HTTP mitigation?
+
+Question:
+What long-term hardening actions should be taken after DDoS HTTP mitigation?
+
+Reference Answer:
+All public-facing IoT web services should be placed behind a reverse proxy, API gateway, web application firewall, or managed edge protection layer. Normal request baselines should be defined for each route, with alerts on sudden deviations. Route-specific rate limits should be used instead of one global limit. Device data ingestion, administrator dashboards, firmware distribution, and authentication should be separated into independently protected services where feasible. The administrator should reduce the cost of unauthenticated requests, design degraded modes that preserve critical device control, test DDoS playbooks, and document controls that can be activated without vendor approval.
+
+With Context Answer:
+After mitigating a DDoS_HTTP attack, long-term hardening should include enforcing unique credentials per device and disabling default accounts before deployment. You should also use multi-factor authentication for management portals where supported, place IoT devices in segmented networks with strict east-west traffic controls, restrict management access to a small set of trusted administrative hosts, maintain a device inventory with firmware versions, approved services, expected destinations, and ownership, and enable signed firmware validation and periodic configuration integrity checks where supported.
+
+Incident Only Answer:
+Focus on securing the endpoints involved in the attack (192.168.0.128 and 192.168.0.170).  This includes updating firmware to the latest versions, implementing strong passwords with multi-factor authentication, disabling unnecessary services and ports, configuring firewalls with strict rules, and monitoring network traffic for suspicious activity. Additionally, consider using intrusion detection/prevention systems (IDS/IPS) and conducting regular security assessments to proactively identify vulnerabilities.
+

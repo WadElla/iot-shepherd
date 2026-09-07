@@ -1,0 +1,62 @@
+IoT Shepherd ADM Incident Summary: Ransomware
+
+Traffic Summary
+- Total samples analyzed: 11030
+- Normal samples: 0
+- Anomalous samples: 11030
+- Anomaly percentage: 100%
+- Dominant attack: Ransomware
+- Dominant attack count: 8043
+- Dominant attack share of anomalies: 72.92%
+
+Detected Attack Distribution
+- Ransomware: 8043 samples; 72.92% of anomalies; category: Malware Deployment; severity: Critical.
+- Backdoor: 1650 samples; 14.96% of anomalies; category: Persistent Access; severity: Critical.
+- Port Scanning: 1238 samples; 11.22% of anomalies; category: Service Discovery; severity: Low.
+- DDoS_HTTP: 61 samples; 0.55% of anomalies; category: Volumetric Denial-of-Service; severity: High.
+- DDoS_TCP: 11 samples; 0.1% of anomalies; category: Connection Flooding; severity: High.
+- MITM: 10 samples; 0.09% of anomalies; category: Interception / Impersonation; severity: High.
+- Vul Scanner: 7 samples; 0.06% of anomalies; category: Exploit Scanning; severity: Medium.
+- SQL Injection: 6 samples; 0.05% of anomalies; category: Injection Exploits; severity: High.
+
+Endpoint Pairs by Detected Attack
+- MITM:
+  - 192.168.0.128 → 224.0.0.251
+- Ransomware:
+  - 192.168.0.128 → 192.168.0.170
+  - 192.168.0.170 → 192.168.0.128
+- Uploading:
+  - 192.168.0.128 → 192.168.0.170
+- SQL Injection:
+  - 192.168.0.128 → 192.168.0.1
+- DDoS_HTTP:
+  - 192.168.0.128 → 160.119.238.171
+  - 192.168.0.128 → 192.168.0.1
+  - 192.168.0.128 → 192.168.0.170
+  - 192.168.0.128 → 193.106.144.6
+  - 192.168.0.128 → 41.220.128.73
+  - 192.168.0.170 → 192.168.0.128
+  - 193.106.144.6 → 192.168.0.128
+- DDoS_TCP:
+  - 192.168.0.101 → 192.168.0.255
+- Password:
+  - 192.168.0.128 → 192.168.0.1
+- Port Scanning:
+  - 0.0.0.0 → 224.0.0.1
+  - 192.168.0.128 → 192.168.0.1
+  - 192.168.0.128 → 224.0.0.251
+  - 192.168.0.128 → 224.0.0.252
+- Vul Scanner:
+  - 192.168.0.128 → 192.168.0.1
+  - 192.168.0.128 → 192.168.0.170
+  - 192.168.0.128 → 193.106.144.6
+  - 192.168.0.128 → 196.192.32.7
+- Backdoor:
+  - 192.168.0.1 → 192.168.0.128
+  - 192.168.0.128 → 192.168.0.1
+  - 192.168.0.128 → 192.168.0.101
+  - 192.168.0.128 → 192.168.0.170
+  - 192.168.0.170 → 192.168.0.128
+  - 193.106.144.6 → 192.168.0.128
+- DDoS_UDP:
+  - 192.168.0.128 → 192.168.0.170

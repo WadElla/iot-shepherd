@@ -1,0 +1,44 @@
+{
+  "models": [
+    "llama3.1:8b",
+    "llava:7b",
+    "gemma2:9b",
+    "mistral:7b"
+  ],
+  "cases": [
+    "Backdoor",
+    "DDoS_HTTP",
+    "Ransomware"
+  ],
+  "case_id_definition": "File organization label only; not supplied to the LLM as the attack type.",
+  "chroma_path": "chroma",
+  "eval_root": "Shepherd_Eval",
+  "qa_dir": "Shepherd_Eval/qa",
+  "incident_dir": "Shepherd_Eval/incident_summaries",
+  "top_k": 5,
+  "max_retries": 1,
+  "retrieval_policy": "Unfiltered Chroma retrieval over the full shared database. The LLM identifies the dominant attack and ambiguity. Clear questions use the original question grounded by the dominant attack; rephrasing is allowed only when the planner marks the question ambiguous. One bounded retry is allowed if retrieved chunks are insufficient.",
+  "incident_only_policy": "No planning and no retrieval; direct LLM answer from incident summary and question.",
+  "resource_metrics": "Not measured. This script records timing only, plus response size/token counts outside timing.",
+  "score_scale_for_summaries": 100.0,
+  "bertscore_requested": true,
+  "bertscore_available": true,
+  "bertscore_computed": true,
+  "tokenizer": "whitespace",
+  "warmup_enabled": true,
+  "warmup_policy": "One short unmeasured Ollama call per model before timed evaluation; not included in quality or latency metrics.",
+  "chroma_sources": [
+    "data/Backdoor_Mitigation_Guide.pdf",
+    "data/DDoS_HTTP_Mitigation_Guide.pdf",
+    "data/Ransomware_Mitigation_Guide.pdf"
+  ],
+  "timing_policy": {
+    "total_time_s": "Full per-answer agent latency excluding quality scoring, token counting, CSV writing, and summary aggregation.",
+    "query_planning_time_s": "LLM call that creates the first retrieval query for with-context mode; zero for incident-only.",
+    "initial_retrieval_time_s": "First Chroma retrieval time for with-context mode; zero for incident-only.",
+    "chunk_review_time_s": "LLM call that judges retrieved chunk sufficiency and optionally writes one revised query; zero for incident-only.",
+    "retry_retrieval_time_s": "Second Chroma retrieval time only when the reviewer requests a retry.",
+    "generation_time_s": "Final LLM answer-generation call."
+  },
+  "started_at": "20260520_202103"
+}

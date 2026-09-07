@@ -1,0 +1,16 @@
+model_label,original_label,class_name
+0,0,Normal
+1,1,MITM
+2,2,Fingerprinting
+3,3,Ransomware
+4,4,Uploading
+5,5,SQL_injection
+6,6,DDoS_HTTP
+7,7,DDoS_TCP
+8,8,Password
+9,9,Port_Scanning
+10,10,Vulnerability_scanner
+11,11,Backdoor
+12,12,XSS
+13,13,DDoS_UDP
+14,14,DDoS_ICMP

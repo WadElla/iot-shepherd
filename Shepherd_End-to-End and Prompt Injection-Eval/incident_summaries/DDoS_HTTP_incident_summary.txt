@@ -1,0 +1,44 @@
+IoT Shepherd ADM Incident Summary: DDoS_HTTP
+
+Traffic Summary
+- Total samples analyzed: 500
+- Normal samples: 126
+- Anomalous samples: 374
+- Anomaly percentage: 74.8%
+- Dominant attack: DDoS_HTTP
+- Dominant attack count: 313
+- Dominant attack share of anomalies: 83.69%
+
+Detected Attack Distribution
+- DDoS_HTTP: 313 samples; 83.69% of anomalies; category: Volumetric Denial-of-Service; severity: High.
+- Password: 39 samples; 10.43% of anomalies; category: Credential Brute Force; severity: Medium.
+- Backdoor: 7 samples; 1.87% of anomalies; category: Persistent Access; severity: Critical.
+- DDoS_UDP: 6 samples; 1.6% of anomalies; category: Amplification / Flooding; severity: High.
+- Port Scanning: 4 samples; 1.07% of anomalies; category: Service Discovery; severity: Low.
+- MITM: 2 samples; 0.53% of anomalies; category: Interception / Impersonation; severity: High.
+- Fingerprinting: 1 sample; 0.27% of anomalies; category: Reconnaissance; severity: Low.
+- SQL Injection: 1 sample; 0.27% of anomalies; category: Injection Exploits; severity: High.
+
+Endpoint Pairs by Detected Attack
+- MITM:
+  - 192.168.0.170 → 192.168.0.128
+- Fingerprinting:
+  - 192.168.0.128 → 192.168.0.170
+- SQL Injection:
+  - 192.168.0.170 → 192.168.0.128
+- DDoS_HTTP:
+  - 192.168.0.128 → 192.168.0.170
+  - 192.168.0.170 → 192.168.0.128
+- Password:
+  - 192.168.0.128 → 192.168.0.170
+  - 192.168.0.170 → 192.168.0.128
+- Port Scanning:
+  - 192.168.0.128 → 192.168.0.170
+- Backdoor:
+  - 192.168.0.128 → 192.168.0.170
+  - 192.168.0.152 → 255.255.255.255
+  - 192.168.0.170 → 192.168.0.128
+- XSS:
+  - 192.168.0.128 → 192.168.0.170
+- DDoS_UDP:
+  - 192.168.0.170 → 192.168.0.128

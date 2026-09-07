@@ -1,0 +1,224 @@
+====================================================================================================
+Case: Ransomware
+Model: gemma2:9b
+QA Index: 1
+Planner Dominant Attack: Ransomware
+Retry Used: True
+Initial Retrieval Query: Ransomware Given an IoT incident dominated by Ransomware activity, what immediate containment actions should the administrator take?
+Retry Retrieval Query: Ransomware Given an IoT incident dominated by Ransomware activity, what immediate containment actions should the administrator take?
+
+Question:
+Given an IoT incident dominated by Ransomware activity, what immediate containment actions should the administrator take?
+
+Reference Answer:
+The administrator should isolate affected endpoints from the network using switch port shutdown, quarantine VLANs, firewall rules, or endpoint isolation where available. Backup repositories should be disconnected or protected immediately to prevent ransomware from reaching online backups, snapshots, file shares, and archive systems. Compromised credentials, administrative accounts, service accounts, API tokens, and remote access sessions should be disabled. Suspicious command-and-control, file-transfer, remote-administration, and lateral-movement traffic should be blocked. Nonessential automation jobs that copy data between devices, gateways, storage systems, and cloud services should be stopped, and volatile evidence should be preserved where feasible.
+
+With Context Answer:
+To immediately contain the ransomware attack, isolate affected endpoints from the network.  You can use methods such as switch port shutdown, quarantine VLANs, firewall rules, or endpoint isolation where available. Additionally, disconnect or protect backup repositories to prevent the ransomware from reaching online backups, snapshots, file shares, and archive systems.
+
+Incident Only Answer:
+Immediately isolate all affected endpoints identified in the summary, including 192.168.0.128 and 192.168.0.170, to prevent further spread of the ransomware. Disable network connectivity to these devices and any other suspicious IPs involved in the attack, such as those listed under DDoS_HTTP and Backdoor. Review logs on affected endpoints for indicators of compromise (IOCs) and potential lateral movement attempts.  Engage with a cybersecurity incident response team for guidance on data recovery and further mitigation strategies.
+
+====================================================================================================
+Case: Ransomware
+Model: gemma2:9b
+QA Index: 2
+Planner Dominant Attack: Ransomware
+Retry Used: False
+Initial Retrieval Query: Ransomware What early-stage indicators should be reviewed when ransomware is suspected in an IoT environment?
+Retry Retrieval Query: 
+
+Question:
+What early-stage indicators should be reviewed when ransomware is suspected in an IoT environment?
+
+Reference Answer:
+The administrator should review unexpected authentication from unusual sources, service accounts, or administrative systems; lateral movement between devices, gateways, file shares, backup servers, or management systems; and enumeration of shares, credentials, device inventories, configuration repositories, or backup locations. Additional early-stage indicators include mass file access, unusual file rename activity, abnormal write rates, unexpected compression activity, security tool tampering, disabled logging, stopped backup jobs, and failed monitoring agents.
+
+With Context Answer:
+Early-stage indicators of ransomware in an IoT environment include unexpected authentication from unusual sources, service accounts, or administrative systems.  Additionally, look for lateral movement between devices, gateways, file shares, backup servers, or management systems. 
+Be on the lookout for enumeration of shares, credentials, device inventories, configuration repositories, or backup locations. Lastly, monitor for mass file access, unusual file rename activity, abnormal write rates, or unexpected compression activity.
+
+Incident Only Answer:
+Review a significant increase in anomalous traffic, particularly unusual outbound connections from IoT devices to unknown or suspicious IP addresses. Focus on endpoint pairs showing  communication patterns consistent with malware deployment and persistent access, such as 192.168.0.128 → 192.168.0.170 identified in the incident summary. Additionally, monitor for signs of lateral movement within your network, using tools like port scanners (192.168.0.128 → 224.0.0.251) and unexpected file uploads (192.168.0.128 → 192.168.0.170) to uncover potential backdoor installations.
+
+====================================================================================================
+Case: Ransomware
+Model: gemma2:9b
+QA Index: 3
+Planner Dominant Attack: Ransomware
+Retry Used: True
+Initial Retrieval Query: Ransomware What active ransomware indicators suggest that encryption or destructive activity is underway?
+Retry Retrieval Query: Ransomware What active ransomware indicators suggest that encryption or destructive activity is underway? **including file system changes**
+
+Question:
+What active ransomware indicators suggest that encryption or destructive activity is underway?
+
+Reference Answer:
+Active ransomware indicators include rapid encryption, deletion, or renaming of files on gateways, edge servers, or shared storage; ransom notes, locked interfaces, changed file extensions, or inaccessible device-management data; and sudden failures in dashboards, telemetry ingestion, firmware repositories, configuration databases, or automation services. Administrators should also look for high CPU, disk, or network usage on systems that store logs, backups, video, telemetry, or configurations, and outbound data transfer that may suggest exfiltration before encryption.
+
+With Context Answer:
+Active ransomware indicators include rapid encryption, deletion, or renaming of files on gateways, edge servers, or shared storage. Other signs are ransom notes, locked interfaces, changed file extensions, or inaccessible device-management data.
+
+Incident Only Answer:
+The summary indicates the dominant attack is Ransomware with 8043 samples, categorized as Malware Deployment with a Critical severity level.  Endpoint pairs 192.168.0.128 → 192.168.0.170 and 192.168.0.170 → 192.168.0.128 also show a potential data transfer consistent with ransomware encryption.
+
+====================================================================================================
+Case: Ransomware
+Model: gemma2:9b
+QA Index: 4
+Planner Dominant Attack: Ransomware
+Retry Used: True
+Initial Retrieval Query: Ransomware How should assets be triaged and prioritized during a ransomware incident affecting IoT operations?
+Retry Retrieval Query: Ransomware How should assets be triaged and prioritized during a ransomware incident affecting IoT operations specifically for critical infrastructure?
+
+Question:
+How should assets be triaged and prioritized during a ransomware incident affecting IoT operations?
+
+Reference Answer:
+Administrators should classify affected assets by operational importance, spread risk, and recovery dependency. Highest priority assets include identity systems, backup servers, management consoles, gateway controllers, telemetry pipelines, firmware repositories, and systems controlling physical processes. Second priority assets include file shares, log servers, dashboards, edge analytics systems, and application servers that support administration. Lower priority assets are isolated endpoints that do not provide credentials, shared storage, control-plane access, or lateral movement paths. Triage should identify which systems are encrypted, which are suspicious but not yet encrypted, which backups remain safe, and which credentials could allow continued attacker access.
+
+With Context Answer:
+During triage, administrators should prioritize assets based on their potential impact.  Highest priority assets include identity systems, backup servers, management consoles, gateway controllers, telemetry pipelines, firmware repositories, and systems controlling physical processes. Second priority assets include file shares, log servers, dashboards, edge analytics systems, and application servers that support administration. Lower priority assets include isolated endpoints that do not provide credentials, shared storage, control-plane access, or lateral movement paths.
+
+Incident Only Answer:
+Prioritize triage based on the affected endpoint pairs highlighted in the summary, focusing first on  assets involved in 'Ransomware' (192.168.0.128 <-> 192.168.0.170) and 'Backdoor' (various endpoints linked to 192.168.0.128).  Disrupting these connections is critical to stopping ransomware spread and persistent access attempts. Secondary focus should be on devices involved in DDoS attacks (multiple instances involving 192.168.0.128) to mitigate service disruption, followed by 'Port Scanning' targets for vulnerability assessments.
+
+====================================================================================================
+Case: Ransomware
+Model: gemma2:9b
+QA Index: 5
+Planner Dominant Attack: Ransomware
+Retry Used: True
+Initial Retrieval Query: Ransomware What should the administrator investigate to determine the initial ransomware access path?
+Retry Retrieval Query: Ransomware What should the administrator investigate to determine the initial ransomware access path **and techniques used**?
+
+Question:
+What should the administrator investigate to determine the initial ransomware access path?
+
+Reference Answer:
+The administrator should review VPN, remote desktop, SSH, web portal, cloud dashboard, and management-console authentication records. The investigation should check for exploitation of unpatched services, exposed management interfaces, weak passwords, or reused credentials. Recent administrative actions, software installations, firmware updates, and configuration changes should also be inspected to determine how the attacker entered the environment.
+
+With Context Answer:
+To determine the initial ransomware access path, the administrator should review VPN, remote desktop, SSH, web portal, cloud dashboard, and management-console authentication records. Additionally, they should check for exploitation of unpatched services, exposed management interfaces, weak passwords, or reused credentials. Finally, the administrator should inspect recent administrative actions, software installations, firmware updates, and configuration changes.
+
+Incident Only Answer:
+The administrator should investigate the endpoint pairs involved in the "Ransomware" and "Backdoor" attacks, focusing on the initial communication between 192.168.0.128 and  192.168.0.170, as well as any connections to external IPs like 193.106.144.6. Log analysis of these endpoints will provide insights into the initial access vector used by the ransomware.
+
+====================================================================================================
+Case: Ransomware
+Model: gemma2:9b
+QA Index: 6
+Planner Dominant Attack: Ransomware
+Retry Used: True
+Initial Retrieval Query: Ransomware How should spread, impact, and backup integrity be investigated after ransomware detection?
+Retry Retrieval Query: Ransomware How should spread, impact, and backup integrity be investigated after ransomware detection? **impact**
+
+Question:
+How should spread, impact, and backup integrity be investigated after ransomware detection?
+
+Reference Answer:
+The administrator should identify all encrypted systems, systems with suspicious file activity, and systems contacted by affected endpoints. Logs from gateways, switches, firewalls, DNS servers, identity systems, backup platforms, and storage services should be reviewed. The administrator should check whether backups, snapshots, logs, firmware repositories, or configuration stores were modified or deleted, and look for staging directories, archive files, unusual outbound transfer, or connections to unapproved storage services.
+
+With Context Answer:
+Follow these steps to investigate spread, impact, and backup integrity after ransomware detection:
+
+1. **Isolate affected endpoints:** Immediately isolate any compromised systems from the network using methods like switch port shutdown, quarantine VLANs, firewall rules, or endpoint isolation where available. [Retrieved Chunk 2 | Source: Ransomware_Mitigation_Guide.pdf | Page: 1]
+
+2. **Disconnect or protect backup repositories:** Prevent the ransomware from accessing online backups, snapshots, file shares, and archive systems by disconnecting them or implementing robust protection measures.  [Retrieved Chunk 2 | Source: Ransomware_Mitigation_Guide.pdf | Page: 1]
+
+
+3.  **Disable compromised credentials:** Disable compromised accounts, including administrative accounts, service accounts, API tokens, and remote access sessions that might be involved. [Retrieved Chunk 2 | Source: Ransomware_Mitigation_Guide.pdf | Page: 1]
+
+4. **Document the event**: Record all actions taken, including timestamps, affected systems, and containment measures implemented. This documentation is crucial for future analysis and incident response planning.
+
+Incident Only Answer:
+Given that the dominant attack is ransomware (72.92% of anomalies) with significant communication between 192.168.0.128 and other endpoints, investigation should focus on:
+
+* **Spread:**  Analyzing network traffic logs and endpoint event logs between 192.168.0.128 and all affected endpoints (listed in the summary) to identify patterns of file sharing or malicious communication that indicate ransomware spread.
+* **Impact:** Assessing which files have been encrypted on each affected endpoint, prioritizing recovery of critical systems and data. Reviewing system logs for performance degradation, application failures, or unusual processes that might indicate the extent of impact.
+* **Backup Integrity:** Verifying the integrity of backups taken before the detected ransomware attack. Ensure they are accessible, complete, and haven't been compromised by the ransomware itself.
+
+====================================================================================================
+Case: Ransomware
+Model: gemma2:9b
+QA Index: 7
+Planner Dominant Attack: Ransomware
+Retry Used: True
+Initial Retrieval Query: Ransomware What persistence and credential-exposure checks should be performed during ransomware response?
+Retry Retrieval Query: Ransomware What persistence and credential-exposure checks should be performed during ransomware response
+
+Question:
+What persistence and credential-exposure checks should be performed during ransomware response?
+
+Reference Answer:
+The administrator should search for new users, new keys, scheduled tasks, startup services, altered group memberships, and remote access tools. Credentials for accounts used on affected systems and accounts that share privileges across the IoT environment should be rotated. Service accounts used by backup jobs, device-management platforms, telemetry collectors, and firmware update systems should be reviewed because exposed credentials can allow continued attacker access or reinfection after restoration.
+
+With Context Answer:
+During a ransomware response, you should search for new users, new keys, scheduled tasks, startup services, altered group memberships, and remote access tools. Additionally, rotate credentials for accounts used on affected systems and accounts that share privileges across the IoT environment. Finally, review service accounts used by backup jobs, device-management platforms, telemetry collectors, and firmware update systems.
+
+Incident Only Answer:
+Given the incident summary, focus on identifying potential backdoor activity on endpoints 192.168.0.1, 192.168.0.128, and 192.168.0.170.  Review system logs, process lists, and running services for suspicious entries connected to these IPs. Additionally, investigate any unusual network traffic patterns, especially connections to external IP addresses identified in the "DDoS_HTTP" and "Backdoor" sections of the summary, as they might indicate credential theft or further backdoor installations.
+
+====================================================================================================
+Case: Ransomware
+Model: gemma2:9b
+QA Index: 8
+Planner Dominant Attack: Ransomware
+Retry Used: True
+Initial Retrieval Query: Ransomware What eradication steps should be completed before ransomware-affected systems are returned to production?
+Retry Retrieval Query: Ransomware What eradication steps should be completed before ransomware-affected systems are returned to production?
+
+Question:
+What eradication steps should be completed before ransomware-affected systems are returned to production?
+
+Reference Answer:
+The administrator should remove or rebuild compromised systems from trusted installation media or verified firmware images, patch exploited services, and disable unnecessary remote access. Unauthorized accounts, remote tools, scheduled tasks, malicious services, and suspicious scripts should be removed. Administrator credentials, service account secrets, API keys, certificates, VPN credentials, and cloud tokens should be rotated. Firewall and segmentation rules should be reconfigured to prevent unnecessary device-to-device and device-to-storage access. Backup platforms and storage systems should be verified as uncompromised before they are used for restoration.
+
+With Context Answer:
+Systems should not be returned to production simply because encryption has stopped. Eradication removes the ransomware, the initial access path, persistence mechanisms, and exposed credentials.  Remove or rebuild compromised systems from trusted installation media or verified firmware images. Patch exploited services and disable unnecessary remote access.
+
+Incident Only Answer:
+Given the high percentage of Ransomware activity (72.92%) and confirmed connections between 192.168.0.128 and 192.168.0.170,  it's crucial to perform a full system restore on both endpoints from verified backups before returning them to production. Ensure all infected files are removed and replaced with clean copies. Additionally, conduct a thorough security audit of the affected systems and network, including checking for backdoors (identified between 192.168.0.1 and 192.168.0.128) and updating all software to the latest patched versions.
+
+====================================================================================================
+Case: Ransomware
+Model: gemma2:9b
+QA Index: 9
+Planner Dominant Attack: Ransomware
+Retry Used: True
+Initial Retrieval Query: Ransomware How should recovery be performed after ransomware containment and eradication?
+Retry Retrieval Query: Ransomware How should recovery be performed after ransomware containment and eradication **including specific actions**
+
+Question:
+How should recovery be performed after ransomware containment and eradication?
+
+Reference Answer:
+Recovery should prioritize trusted restoration over rapid restoration. Backups should be validated before restoration to confirm that backup copies predate the compromise and can be restored without malicious files or altered configurations. Identity, management, backup, and monitoring services should be restored before dependent device services. Gateways, controllers, dashboards, telemetry services, and storage should be restored in a controlled order. Devices should be reconnected gradually and monitored for renewed encryption, suspicious authentication, or abnormal file activity. Device functions, automation rules, telemetry collection, logging, and administrative access should be verified after restoration.
+
+With Context Answer:
+Recovery should be staged rather than immediate. Administrators should restore the endpoint only after confirming that suspicious listeners, unauthorized accounts, and command channels are gone. The recovered device should first operate in a monitored segment before being returned to production.  Verify that only approved services are listening on the device. Confirm that outbound traffic matches the expected device profile and approved destinations. Run a controlled reboot and verify that no suspicious process, service, or connection returns. Monitor authentication attempts and management activity after credentials are rotated. Validate that the device performs its operational function without unexpected peer communication. Keep enhanced logging enabled for a defined observation period after restoration.
+
+Incident Only Answer:
+Recovery from a ransomware attack should prioritize data integrity and security. Begin by verifying the complete eradication of the ransomware from all affected endpoints (192.168.0.128, 192.168.0.170, etc.) using trusted anti-malware solutions and system scans.  Restore systems from verified backups that are known to be free from infection. If possible, implement a clean install of the operating system on affected endpoints to ensure a secure starting point. Once systems are restored, review and strengthen security measures, including updating software, configuring firewalls, and implementing multi-factor authentication. Finally, monitor network traffic closely for any suspicious activity and conduct a thorough post-incident analysis to identify vulnerabilities exploited during the attack.
+
+====================================================================================================
+Case: Ransomware
+Model: gemma2:9b
+QA Index: 10
+Planner Dominant Attack: Ransomware
+Retry Used: True
+Initial Retrieval Query: Ransomware What backup and long-term hardening practices improve resilience against future ransomware incidents?
+Retry Retrieval Query: Ransomware What backup and long-term hardening practices improve resilience against future ransomware incidents. include mitigation
+
+Question:
+What backup and long-term hardening practices improve resilience against future ransomware incidents?
+
+Reference Answer:
+The environment should maintain offline or immutable backups for critical configurations, logs, firmware images, device inventories, and management systems. Backup credentials should be separated from production administrator credentials, restoration should be tested regularly, and backup consoles should be protected with multi-factor authentication and strict administrative access. Long-term hardening should segment IoT devices, management systems, storage, backup networks, and user workstations; apply least-privilege access; require multi-factor authentication for VPN, cloud dashboards, management portals, and backup platforms; patch gateways and management services promptly; disable unused services and direct internet exposure; centralize logs; and monitor mass file operations, abnormal credential use, disabled security controls, and rapid data transfer.
+
+With Context Answer:
+To improve resilience against future ransomware incidents,  maintain offline or immutable backups for critical configurations, logs, firmware images, device inventories, and management systems. Separate backup credentials from production administrator credentials. Test restoration regularly and document recovery time for critical IoT services. Protect backup consoles with multi-factor authentication and strict administrative access. Monitor backup deletion, failed backup jobs, unusual snapshot activity, and changes to retention policies. Store known-good firmware and configuration baselines in a location that ransomware cannot modify. Additionally, segment IoT devices, management systems, storage, backup networks, and user workstations.
+
+Incident Only Answer:
+Given the critical severity of the detected Ransomware attack and its dominance (72.92% of anomalies), implementing robust backup and hardening practices is crucial for resilience. Regularly create backups of all sensitive data, ensuring they are stored securely offsite and disconnected from the network to prevent compromise.  Implement strong access controls, multi-factor authentication, and regularly update firmware and software on all IoT devices to patch vulnerabilities. Conduct vulnerability scans and penetration testing to identify weaknesses in your infrastructure and implement appropriate security measures.
+

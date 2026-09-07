@@ -1,0 +1,220 @@
+====================================================================================================
+Case: Backdoor
+Model: gemma2:9b
+QA Index: 1
+Review Dominant Attack: Backdoor
+Retry Used: True
+Initial Retrieval Query: Given an IoT security incident where Backdoor is the dominant attack, what immediate containment actions should the administrator take first?
+Retry Retrieval Query: Given an IoT security incident where Backdoor is the dominant attack, what immediate containment actions should the administrator take first regarding backdoors?
+Final Retrieved Sources: Backdoor_Mitigation_Guide.pdf; Backdoor_Mitigation_Guide.pdf; DDoS_HTTP_Mitigation_Guide.pdf; Backdoor_Mitigation_Guide.pdf; Backdoor_Mitigation_Guide.pdf
+
+Question:
+Given an IoT security incident where Backdoor is the dominant attack, what immediate containment actions should the administrator take first?
+
+Reference Answer:
+The administrator should identify the affected endpoint or endpoints and confirm their operational role, then move affected endpoints into a quarantine VLAN or restricted network segment. Suspicious inbound and outbound connections should be blocked at the firewall, router, access control list, or software-defined network policy layer. Exposed management services that are not required for investigation should be disabled, and any necessary remote administration should be restricted to a trusted management workstation. Automation rules, cloud integrations, and device-to-device control paths that could allow the compromised endpoint to influence other devices should be suspended. Logs, configuration snapshots, packet captures, device state, and file hashes should be preserved before major remediation changes.
+
+With Context Answer:
+Treat backdoor activity as a compromise of trust in the affected endpoint and investigate persistence, credentials, configuration integrity, and lateral movement.
+
+Incident Only Answer:
+Immediately isolate the affected endpoint pair 192.168.0.128 and 192.168.0.101 from the network to prevent further lateral movement of the backdoor. Additionally, disconnect any other endpoints identified in communication with 192.168.0.128 (e.g., 192.168.0.170) as a precautionary measure.
+
+====================================================================================================
+Case: Backdoor
+Model: gemma2:9b
+QA Index: 2
+Review Dominant Attack: Backdoor
+Retry Used: True
+Initial Retrieval Query: For a suspected Backdoor compromise in an IoT environment, which network-level indicators should the administrator review?
+Retry Retrieval Query: For a suspected Backdoor compromise in an IoT environment, what network traffic characteristics should the administrator review?
+Final Retrieved Sources: DDoS_HTTP_Mitigation_Guide.pdf; DDoS_HTTP_Mitigation_Guide.pdf; DDoS_HTTP_Mitigation_Guide.pdf; DDoS_HTTP_Mitigation_Guide.pdf; Backdoor_Mitigation_Guide.pdf
+
+Question:
+For a suspected Backdoor compromise in an IoT environment, which network-level indicators should the administrator review?
+
+Reference Answer:
+The administrator should review repeated bidirectional communication between a device and an endpoint that is not part of the approved service inventory, unexpected inbound management traffic to a device that should not accept administrative connections from that source, and connections to unusual ports, newly opened listeners, or services not documented for the device role. The administrator should also look for periodic beaconing patterns, device traffic occurring at unusual hours or outside normal operational cycles, and name resolution requests for suspicious, newly observed, or policy-violating destinations.
+
+With Context Answer:
+For a suspected Backdoor compromise in an IoT environment, the administrator should review  connections to unusual ports, newly opened listeners, or services not documented for the device role.  Additionally, they should look for periodic beaconing patterns, especially when small packets occur at regular intervals without user activity.
+
+Incident Only Answer:
+The administrator should review unusual inbound and outbound traffic from endpoint 192.168.0.128, particularly to IPs 192.168.0.101 and 192.168.0.170, as these are identified in the Backdoor attack distribution.  Additionally, they should monitor for persistent connections originating from these endpoints and unexpected data transfers to unknown destinations.  Focusing on network traffic associated with 192.168.0.128 will allow the administrator to identify potential malicious activity related to the suspected Backdoor compromise.
+
+====================================================================================================
+Case: Backdoor
+Model: gemma2:9b
+QA Index: 3
+Review Dominant Attack: Backdoor
+Retry Used: False
+Initial Retrieval Query: What device-level signs should be checked when validating whether Backdoor activity has changed the state of an IoT endpoint?
+Retry Retrieval Query: 
+Final Retrieved Sources: Backdoor_Mitigation_Guide.pdf; Backdoor_Mitigation_Guide.pdf; DDoS_HTTP_Mitigation_Guide.pdf; Backdoor_Mitigation_Guide.pdf; Backdoor_Mitigation_Guide.pdf
+
+Question:
+What device-level signs should be checked when validating whether Backdoor activity has changed the state of an IoT endpoint?
+
+Reference Answer:
+The administrator should check for new users, changed passwords, newly added SSH keys, altered API tokens, and unexpected privilege escalation. The device should also be inspected for new startup services, unknown binaries, changed firmware version, modified boot scripts, or unexpected scheduled tasks. Additional signs include disabled logging, rotated logs outside policy, missing audit records, gaps in management activity, unexplained CPU, memory, storage, or network usage on a device that should be idle, and configuration drift from the approved device baseline.
+
+With Context Answer:
+Administrators should check for new users, changed passwords, newly added SSH keys, altered API tokens, or unexpected privilege escalation.  Additionally they should look for new startup services, unknown binaries, changed firmware version, modified boot scripts, or unexpected scheduled tasks on the device.
+
+Incident Only Answer:
+Check for unauthorized modifications to device configurations, including network settings (e.g., added firewall rules, port forwarding), account credentials (e.g., new user accounts, compromised existing ones), and installed software (e.g., unknown applications or suspicious processes).  Additionally, monitor for unusual device behavior such as excessive data transfers, unexpected connectivity patterns, and unresponsive communication.
+
+====================================================================================================
+Case: Backdoor
+Model: gemma2:9b
+QA Index: 4
+Review Dominant Attack: Backdoor
+Retry Used: False
+Initial Retrieval Query: During Backdoor investigation, how should the administrator confirm the affected trust boundary?
+Retry Retrieval Query: 
+Final Retrieved Sources: Backdoor_Mitigation_Guide.pdf; Backdoor_Mitigation_Guide.pdf; Backdoor_Mitigation_Guide.pdf; Ransomware_Mitigation_Guide.pdf; Backdoor_Mitigation_Guide.pdf
+
+Question:
+During Backdoor investigation, how should the administrator confirm the affected trust boundary?
+
+Reference Answer:
+The administrator should list the device identity, device class, firmware version, management interface, network segment, and normal communication partners. The administrator should check whether the device communicates with a local gateway, a vendor cloud service, peer devices, or a local broker. The suspicious traffic should be classified as inbound control, outbound beaconing, peer-to-peer movement, or management-plane activity so that remediation can focus on the correct trust boundary rather than a single observed connection.
+
+With Context Answer:
+Confirm the affected trust boundary by listing the device identity, device class, firmware version, management interface, network segment, and normal communication partners.
+
+Incident Only Answer:
+The administrator should focus on analyzing the endpoint pairs identified in relation to the "Backdoor" attack. Specifically, examine the communication between 192.168.0.128 and 192.168.0.101, as well as 192.168.0.128 and 192.168.0.170, to determine the affected trust boundary.  Reviewing network logs, firewall rules, and device configurations associated with these endpoints will help pinpoint the compromised systems and their potential connections to malicious external entities.
+
+====================================================================================================
+Case: Backdoor
+Model: gemma2:9b
+QA Index: 5
+Review Dominant Attack: Backdoor
+Retry Used: False
+Initial Retrieval Query: What authentication and management activity should be reviewed after a Backdoor detection?
+Retry Retrieval Query: 
+Final Retrieved Sources: Backdoor_Mitigation_Guide.pdf; Backdoor_Mitigation_Guide.pdf; Ransomware_Mitigation_Guide.pdf; Backdoor_Mitigation_Guide.pdf; Ransomware_Mitigation_Guide.pdf
+
+Question:
+What authentication and management activity should be reviewed after a Backdoor detection?
+
+Reference Answer:
+The administrator should inspect login records, API access records, failed authentication attempts, password changes, new users, and token creation events. The review should determine whether the same credential or key is used across multiple devices. The administrator should also look for access from unapproved administrative workstations, unexpected networks, or service accounts outside their normal scope, because backdoor activity often depends on misused credentials or unauthorized management access.
+
+With Context Answer:
+Monitor authentication attempts and management activity after credentials are rotated.
+
+Incident Only Answer:
+Review authentication logs for any unusual login attempts, failed logins, or account creations from the affected endpoint pairs (192.168.0.128 and 192.168.0.101, 192.168.0.170)  as well as any changes to user permissions or roles on these endpoints.  Additionally, examine management logs for unauthorized configuration changes, firmware updates, or device reboots originating from the affected IPs.
+
+====================================================================================================
+Case: Backdoor
+Model: gemma2:9b
+QA Index: 6
+Review Dominant Attack: Backdoor
+Retry Used: False
+Initial Retrieval Query: What persistence mechanisms should be inspected before concluding that a Backdoor has been removed?
+Retry Retrieval Query: 
+Final Retrieved Sources: Ransomware_Mitigation_Guide.pdf; Backdoor_Mitigation_Guide.pdf; Ransomware_Mitigation_Guide.pdf; Backdoor_Mitigation_Guide.pdf; Backdoor_Mitigation_Guide.pdf
+
+Question:
+What persistence mechanisms should be inspected before concluding that a Backdoor has been removed?
+
+Reference Answer:
+The administrator should review startup services, cron jobs, init scripts, systemd units, vendor extension hooks, plugin directories, and scheduled tasks. Firmware and configuration checksums should be compared against a trusted baseline or vendor image. The administrator should also search for unknown binaries, writable directories used for execution, modified web directories, added keys, and hidden configuration files. A backdoor should not be considered removed until persistence mechanisms and compromised credentials are addressed.
+
+With Context Answer:
+A backdoor should not be considered removed until persistence mechanisms and compromised credentials are addressed. Simply killing a process or blocking one connection is not sufficient because the attacker may regain access through the same weakness.
+
+Incident Only Answer:
+Given the detected "Backdoor" attack with high prevalence (92% of anomalies) and the affected endpoint pairs, inspect for persistence mechanisms such as scheduled tasks,  registry entries, compromised startup scripts, and firewall rules configured to allow backdoor communication on endpoints 192.168.0.128 and 192.168.0.170.  Additionally, review any unusual processes or services running on these endpoints that could indicate continued malicious activity.
+
+====================================================================================================
+Case: Backdoor
+Model: gemma2:9b
+QA Index: 7
+Review Dominant Attack: Backdoor
+Retry Used: True
+Initial Retrieval Query: What eradication steps should be performed for Backdoor activity in IoT devices or gateways?
+Retry Retrieval Query: What steps should be taken to remove backdoors from IoT devices or gateways?
+Final Retrieved Sources: Backdoor_Mitigation_Guide.pdf; Backdoor_Mitigation_Guide.pdf; Backdoor_Mitigation_Guide.pdf; Backdoor_Mitigation_Guide.pdf; Backdoor_Mitigation_Guide.pdf
+
+Question:
+What eradication steps should be performed for Backdoor activity in IoT devices or gateways?
+
+Reference Answer:
+The administrator should remove unauthorized users, keys, tokens, scheduled jobs, startup services, and unknown binaries. Credentials for the affected device, associated service accounts, local gateways, and shared administrative accounts should be reset. API keys, cloud tokens, MQTT credentials, certificates, and automation credentials that may have been exposed should be rotated. The administrator should apply vendor firmware updates or reinstall a trusted firmware image when device integrity cannot be verified, disable unnecessary services, close unused ports, reapply hardened configuration from a known-good baseline, and scan peer devices that share credentials, firmware, or network access with the affected endpoint.
+
+With Context Answer:
+A backdoor should not be considered removed until persistence mechanisms and compromised credentials are addressed. Simply killing a process or blocking one connection is not sufficient because the attacker may regain access through the same weakness.  You should search for unknown binaries, writable directories used for execution, modified web directories, added keys, or hidden configuration files. Assess lateral movement by checking whether the affected endpoint communicated with other IoT devices, gateways, brokers, or controllers during the suspicious window and review whether those peer devices show similar authentication, service exposure, or configuration changes. Prioritize devices sharing credentials, firmware, network segment, automation policy, or cloud account linkage.
+
+Incident Only Answer:
+Given the high volume of backdoor activity detected, primarily originating from and targeting 192.168.0.128 and its associated endpoints like 192.168.0.170 and 192.168.0.101,  focus eradication efforts on these devices. This involves isolating them from the network, resetting factory defaults if possible, and updating firmware to the latest version from trusted sources. Thoroughly scan affected devices for malicious code using reputable antivirus and anti-malware tools. Consider implementing a network intrusion detection system (NIDS) and firewalls with strict rules to prevent future backdoor intrusions. Finally, review device configurations and security policies to identify vulnerabilities and implement multi-factor authentication where applicable.
+
+====================================================================================================
+Case: Backdoor
+Model: gemma2:9b
+QA Index: 8
+Review Dominant Attack: Backdoor
+Retry Used: False
+Initial Retrieval Query: How should recovered IoT endpoints be validated after Backdoor remediation?
+Retry Retrieval Query: 
+Final Retrieved Sources: Backdoor_Mitigation_Guide.pdf; Ransomware_Mitigation_Guide.pdf; Backdoor_Mitigation_Guide.pdf; Backdoor_Mitigation_Guide.pdf; DDoS_HTTP_Mitigation_Guide.pdf
+
+Question:
+How should recovered IoT endpoints be validated after Backdoor remediation?
+
+Reference Answer:
+Recovery should be staged rather than immediate. The administrator should verify that only approved services are listening on the device and confirm that outbound traffic matches the expected device profile and approved destinations. A controlled reboot should be performed to verify that no suspicious process, service, or connection returns. Authentication attempts and management activity should be monitored after credentials are rotated. The administrator should validate that the device performs its operational function without unexpected peer communication and keep enhanced logging enabled for a defined observation period after restoration.
+
+With Context Answer:
+Recovered devices should first operate in a monitored segment before being returned to production. Verify that only approved services are listening on the device. Confirm that outbound traffic matches the expected device profile and approved destinations. Run a controlled reboot and verify that no suspicious process, service, or connection returns. Monitor authentication attempts and management activity after credentials are rotated. Validate that the device performs its operational function without unexpected peer communication. Keep enhanced logging enabled for a defined observation period after restoration.
+
+Incident Only Answer:
+Validate recovered IoT endpoints by resetting all passwords to strong, unique credentials.  Conduct full system scans using updated antivirus and malware detection software. Review logs for suspicious activity and block any unauthorized access attempts. For high-risk devices, consider a factory reset and reconfiguration from trusted sources.
+
+====================================================================================================
+Case: Backdoor
+Model: gemma2:9b
+QA Index: 9
+Review Dominant Attack: Backdoor
+Retry Used: False
+Initial Retrieval Query: What long-term hardening steps reduce the likelihood of future Backdoor compromise in IoT environments?
+Retry Retrieval Query: 
+Final Retrieved Sources: Backdoor_Mitigation_Guide.pdf; Backdoor_Mitigation_Guide.pdf; Ransomware_Mitigation_Guide.pdf; DDoS_HTTP_Mitigation_Guide.pdf; Ransomware_Mitigation_Guide.pdf
+
+Question:
+What long-term hardening steps reduce the likelihood of future Backdoor compromise in IoT environments?
+
+Reference Answer:
+The administrator should enforce unique credentials per device, disable default accounts before deployment, use multi-factor authentication for management portals where supported, and place IoT devices in segmented networks with strict east-west traffic controls. Management access should be restricted to trusted administrative hosts. The environment should maintain a device inventory with firmware versions, approved services, expected destinations, and ownership. Signed firmware validation, periodic configuration integrity checks, centralized logging, alerts for new listeners and unusual destinations, removal of unused vendor services and legacy protocols, and periodic credential rotation should also be implemented.
+
+With Context Answer:
+To reduce the likelihood of future backdoor compromises, enforce unique credentials per device and disable default accounts before deployment. Use multi-factor authentication for management portals where supported. Place IoT devices in segmented networks with strict east-west traffic controls. Restrict management access to a small set of trusted administrative hosts. Maintain a device inventory with firmware versions, approved services, expected destinations, and ownership. Enable signed firmware validation and periodic configuration integrity checks where supported.
+
+Incident Only Answer:
+Implement strong access controls with multi-factor authentication for all devices and network segments, enforce regular firmware updates to patch vulnerabilities,  disable unnecessary services and ports on IoT devices, segment your network to isolate critical systems, and utilize intrusion detection and prevention systems (IDS/IPS) to monitor for suspicious activity.  Additionally, consider employing a secure boot process to verify the integrity of device software at startup.
+
+====================================================================================================
+Case: Backdoor
+Model: gemma2:9b
+QA Index: 10
+Review Dominant Attack: Backdoor
+Retry Used: False
+Initial Retrieval Query: Before closing a Backdoor incident, what operational questions should the administrator be able to answer?
+Retry Retrieval Query: 
+Final Retrieved Sources: Backdoor_Mitigation_Guide.pdf; DDoS_HTTP_Mitigation_Guide.pdf; Backdoor_Mitigation_Guide.pdf; DDoS_HTTP_Mitigation_Guide.pdf; DDoS_HTTP_Mitigation_Guide.pdf
+
+Question:
+Before closing a Backdoor incident, what operational questions should the administrator be able to answer?
+
+Reference Answer:
+Before closure, the administrator should identify which endpoint was affected and what operational role it serves, what network paths allowed the attacker to control or communicate with the device, and which accounts, keys, tokens, or certificates may have been exposed. The administrator should document what persistence mechanism was identified and removed, whether peer devices were checked for lateral movement or shared compromise conditions, whether the device was restored from a trusted firmware or configuration baseline, and whether post-recovery monitoring was performed long enough to detect recurring beaconing or unauthorized access.
+
+With Context Answer:
+A complete backdoor response should answer the following operational questions before the incident is closed:  Which endpoint was affected, and what operational role does it serve? What network paths allowed the attacker to control or communicate with the device? Which accounts, keys, tokens, or certificates may have been exposed? What persistence mechanism was identified and removed? Were peer devices checked for lateral movement or shared compromise conditions? Was the device restored from a trusted firmware or configuration baseline? Was post-recovery monitoring performed long enough to detect recurring beaconing or unauthorized access?
+
+Incident Only Answer:
+The administrator should be able to answer:  What actions were taken to remove the backdoor from affected devices (192.168.0.128 and 192.168.0.101, 192.168.0.170)? Were all affected systems patched or updated?  Has a vulnerability assessment been conducted to identify any remaining weaknesses that could be exploited?  Have access controls and network segmentation measures been reviewed and strengthened? Has multi-factor authentication been implemented where applicable? Have security logs been reviewed to determine the scope of the attack and potential indicators of compromise (IOCs) for future detection?
+

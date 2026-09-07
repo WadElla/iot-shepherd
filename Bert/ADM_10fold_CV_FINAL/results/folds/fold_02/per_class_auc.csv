@@ -1,0 +1,16 @@
+fold,model_label,class_name,auc_ovr
+2,0,Normal,0.9999946073236428
+2,1,MITM,1.0
+2,2,Fingerprinting,1.0
+2,3,Ransomware,0.9999999999999999
+2,4,Uploading,1.0
+2,5,SQL_injection,1.0
+2,6,DDoS_HTTP,1.0
+2,7,DDoS_TCP,1.0
+2,8,Password,0.999490255426931
+2,9,Port_Scanning,1.0
+2,10,Vulnerability_scanner,0.9999999999999999
+2,11,Backdoor,0.9998968850029775
+2,12,XSS,1.0
+2,13,DDoS_UDP,1.0
+2,14,DDoS_ICMP,1.0

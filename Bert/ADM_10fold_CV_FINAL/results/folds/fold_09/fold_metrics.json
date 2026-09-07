@@ -1,0 +1,23 @@
+{
+  "fold": 9,
+  "training_seed": 42,
+  "validation_split_seed": 51,
+  "n_fit": 127818,
+  "n_validation": 14202,
+  "n_test": 15780,
+  "accuracy": 0.9996831432192649,
+  "balanced_accuracy": 0.9997464545136961,
+  "precision_weighted": 0.9996834106912492,
+  "recall_weighted": 0.9996831432192649,
+  "f1_weighted": 0.9996831656416214,
+  "precision_macro": 0.9997191578081526,
+  "recall_macro": 0.9997464545136961,
+  "f1_macro": 0.9997326988362559,
+  "auc_macro_ovr": 0.9999834408772886,
+  "auc_weighted_ovr": 0.9999807612634669,
+  "train_runtime_s": 5434.0641,
+  "test_runtime_s": 125.6753,
+  "test_samples_per_second": 125.56166565745218,
+  "best_validation_loss": 0.0030877357348799706,
+  "best_epoch": 3.0
+}

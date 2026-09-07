@@ -1,0 +1,5 @@
+model,status,elapsed_s,response_preview
+gemma2:9b,ok,2.7164779882878065,OK
+llama3.1:8b,ok,5.100935136899352,OK
+mistral:7b,ok,7.320085868239403,OK
+llava:7b,ok,1.5665458552539349,OK.

@@ -1,0 +1,21 @@
+IoT Shepherd ADM: stratified 10-fold cross-validation summary
+============================================================
+
+Fold-level mean ± SD (95% CI across folds):
+accuracy: 0.998859 ± 0.001592 (95% CI 0.997720 to 0.999998)
+precision_weighted: 0.998874 ± 0.001561 (95% CI 0.997758 to 0.999991)
+recall_weighted: 0.998859 ± 0.001592 (95% CI 0.997720 to 0.999998)
+f1_weighted: 0.998850 ± 0.001612 (95% CI 0.997697 to 1.000003)
+f1_macro: 0.997674 ± 0.004091 (95% CI 0.994747 to 1.000601)
+auc_macro_ovr: 0.999877 ± 0.000193 (95% CI 0.999739 to 1.000016)
+auc_weighted_ovr: 0.999959 ± 0.000030 (95% CI 0.999937 to 0.999980)
+
+Pooled out-of-fold metrics (each sample predicted only in its outer test fold):
+accuracy: 0.998859
+precision_weighted: 0.998863
+recall_weighted: 0.998859
+f1_weighted: 0.998858
+f1_macro: 0.997753
+auc_macro_ovr: 0.999899
+auc_weighted_ovr: 0.999951
+
